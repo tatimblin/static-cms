@@ -1,0 +1,24 @@
+/*
+ * General Container Elements
+ *
+ * This file contains the site top-level and general wrapper elements.
+ *
+ *****************************************************************************/
+
+
+.site {
+
+}
+
+.texture {
+    background-image: url('../images/ui/texture.png');
+}
+
+
+.content-block {
+
+    .two-col {
+        display: flex;
+        margin: $spacing*2 0;
+    }
+}

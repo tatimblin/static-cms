@@ -1,0 +1,77 @@
+/*
+ * Typography
+ *
+ * This file collects some basic typography styles for copy text.
+ *
+ *****************************************************************************/
+
+
+body {
+    @include responsive-font-size(16);
+
+    font-size: 100%;
+    color: $text-color;
+	font-family: $font-body;
+    font-weight: $font-regular-weight;
+	letter-spacing: $kerning50;
+    line-height: $line-height-lg;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-heading;
+    font-weight: $font-bold-weight;
+    line-height: 1.2;
+    margin: 0 0 1rem;
+}
+
+h1 {
+    @include responsive-font-size(type-scale(size8));
+}
+
+h2 {
+    @include responsive-font-size(type-scale(size7));
+}
+
+h3 {
+    @include responsive-font-size(type-scale(size6));
+}
+
+h4 {
+    @include responsive-font-size(type-scale(size5));
+}
+
+h5 {
+    @include responsive-font-size(type-scale(size4));
+}
+
+h6 {
+    @include responsive-font-size(type-scale(size3));
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+.btn {
+    a {
+        font-family: $font-btn;
+        @include responsive-font-size(type-scale(size-1));
+        color: $text-color;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+    }
+}
+
+a {
+    color: $black;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+    @include on-event {
+        color: lighten($black, 50%);
+    }
+}

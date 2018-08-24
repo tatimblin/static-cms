@@ -1,0 +1,20 @@
+.intro {
+
+    &-copy {
+        background-color: $brand-eggshell;
+
+        &-mark {
+            position: relative;
+            text-align: right;
+
+            img {
+                position: absolute;
+                height: 35px;
+                transform-origin: center center;
+            }
+        }
+    }
+    &-collage {
+        background-color: $white;
+    }
+}

@@ -1,0 +1,74 @@
+/*
+ * Helper Classes
+ *
+ * This file contains CSS helper classes.
+ *
+ *****************************************************************************/
+
+
+// Clear inner floats
+.clearfix::after {
+  clear: both;
+  content: '';
+  display: table;
+}
+
+
+// Hide text, commonly used to show an image instead
+.hide-text {
+    overflow: hidden;
+    text-indent: 101%;
+    white-space: nowrap;
+}
+
+
+// Hide element while making it readable for screen readers
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+
+// Text alignment helpers
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+
+// Vertically center content
+// div.content-center > div.content-center-inner
+.content-center {
+	display: table;
+	height: 100%;
+	width: 100%;
+}
+
+.content-center-inner {
+	display: table-cell;
+	height: 100%;
+	width: 100%;
+	vertical-align: middle;
+}
+
+
+// Two-Column List
+.list-2-col {
+    @include breakpoint($medium-width) {
+        column-count: 2;
+        column-gap: 30px;
+    }
+}

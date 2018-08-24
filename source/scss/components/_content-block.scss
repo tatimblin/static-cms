@@ -1,0 +1,13 @@
+/*
+ * General Content Block
+ *
+ * This file styles general content blocks that are nested within a container.
+ *
+ *****************************************************************************/
+
+.content-block {
+    @include grid-column(12, $grid);
+    @include grid-media($grid-small) {
+        @include grid-column(12);
+    }
+}
