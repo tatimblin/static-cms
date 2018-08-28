@@ -2,5 +2,53 @@
     
     &-main {
         background-color: $light-gray;
+
+        h1 {
+            margin-bottom: 6rem;
+        }
+        p {
+            width: 100%;
+
+            @include grid-media($grid-small) {
+                width: 50%;
+            }
+
+            span {
+                font-weight: $font-bold-weight;
+            }
+        }
+    }
+    &-sub {
+
+        .container {
+
+            .content-block {
+                width: 100%;
+                margin-top: $spacing;
+
+                .location-sub-item {
+                    @include grid-media($grid-small) {
+                        width: 50%;
+                        &:first-child {
+                            padding-right:$spacing;
+                            border-right: 1px solid $brand-charcoal;
+                        }
+                        &:last-child {
+                            padding-left:$spacing;
+                        }
+                    }
+                }
+            }
+        }
+        ul {
+            margin-left: 0px;
+            padding-left: 0px;
+            list-style: none;
+            list-style-position: inside;
+
+            span {
+                font-weight: $font-bold-weight;
+            }
+        }
     }
 }

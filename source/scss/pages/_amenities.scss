@@ -1,5 +1,30 @@
 .amenities {
-    .container {
-        background-color: $brand-gold;
+    &-main {
+
+        .container {
+            background-color: $brand-gold;
+        }
+        .row {
+            display: flex;
+        }
+        &-list {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            padding: inherit $spacing;
+            color: $white;
+
+            ul {
+                margin: $spacing*2 0;
+                padding: 0;
+                list-style: none;
+            }
+        }
+        &-image {
+            width: 50%; min-height: 550px;
+            margin-left: 0;
+            background-color: grey;
+        }
     }
 }

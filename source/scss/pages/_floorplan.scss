@@ -1,3 +1,62 @@
 .floorplan {
     background-color: $light-gray;
 }
+
+.fp-app {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    @include grid-media($grid-small) {
+        flex-direction: row;
+    }
+
+    &-sidebar {
+        display: inline;
+        margin: 0 $spacing/2;
+        border-top: 1px solid $brand-charcoal;
+
+        &-item {
+            padding: $spacing/2 $spacing;
+            border-left: 1px solid $brand-charcoal;
+            border-right: 1px solid $brand-charcoal;
+            border-bottom: 1px solid $brand-charcoal;
+            transition: all 300ms ease;
+
+            &:hover, &:focus {
+                background-color: lighten($light-gray, 10%);
+            }
+
+            h6 {
+                margin: 0;
+            }
+        }
+        a {
+            color: $brand-charcoal;
+        }
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        padding: $spacing*3 $spacing $spacing $spacing;
+        background-color: $white;
+
+        @include grid-media($grid-large) {
+            flex-direction: row;
+            padding: $spacing*3 0 $spacing $spacing*3;
+        }
+
+        &-floorplan {
+            min-width: 100%;
+
+            @include grid-media($grid-large) {
+                min-width: 600px;
+            }
+        }
+        &-copy {
+            a {
+                color: $brand-gold;
+            }
+        }
+    }
+}

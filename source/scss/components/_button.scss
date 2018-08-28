@@ -6,6 +6,12 @@
  *****************************************************************************/
 
 
-.btn {
-
+ .btn {
+    a {
+        font-family: $font-btn;
+        @include responsive-font-size(type-scale(size-1));
+        color: $text-color;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+    }
 }

@@ -8,4 +8,70 @@
 
 .hero {
     background-color: $brand-charcoal;
+    color: $white;
+
+    nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: $spacing 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+
+        .nav-item {
+
+            padding: $spacing/4 $spacing;
+
+            &.nav-logo {
+                margin-right: auto;
+                img {width: 100px;}
+            }
+            &.nav-solid {
+                background-color: $brand-gold;
+            }
+        }
+    }
+
+    &-content {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.hero-content-slider {
+    &-cell {
+
+        img {
+            height: 350px;
+            object-fit: cover;
+            object-position: center center;
+        }
+    }
+    &-ctrl {
+        display: flex;
+        justify-content: space-around;
+        
+        div {
+            padding: $spacing $spacing/2 0 $spacing/2;
+
+            &:hover {
+                color: $brand-gold;
+            }
+        }
+    }
+}
+
+// Transition Hero Slider
+.slide-change-enter-active {
+    transition: all .6s 0.3s ease;
+}
+.slide-change-leave-active {
+    transition: all .3s ease;
+}
+.slide-change-enter {
+    transform: rotate3D(0.75, 0.5, -0.25, 90deg) scale(0.5);
+    opacity: 0 !important;
+}
+.slide-change-leave-to {
+    transform: rotate3D(0.75, 0.5, -0.25, 90deg) scale(0.5);
+    opacity: 0 !important;
 }

@@ -3,6 +3,16 @@
     &-copy {
         background-color: $brand-eggshell;
 
+        h5 {
+            position: relative;
+            z-index: 5;
+        }
+        &-stamp {
+            position: absolute;
+            width: 60px;
+            transform: translate($spacing, -$spacing*1.33);
+            z-index: 0;
+        }
         &-mark {
             position: relative;
             text-align: right;
@@ -10,7 +20,7 @@
             img {
                 position: absolute;
                 height: 35px;
-                transform-origin: center center;
+                transform: translateY(-50%);
             }
         }
     }

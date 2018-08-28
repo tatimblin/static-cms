@@ -19,6 +19,12 @@
 
     .two-col {
         display: flex;
+        flex-direction: column;
         margin: $spacing*2 0;
+
+        @include grid-media($grid-small) {
+            flex-direction: row;
+            justify-content: center;
+        }
     }
 }

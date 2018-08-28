@@ -12,6 +12,7 @@
 
     <title>Site Title</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -29,12 +30,55 @@
         <!-- .site-header -->
 
         <div class="hero texture content-container">
+
+            <nav class="container large-width">
+
+                <div class="nav-item nav-logo">
+                    <a href="#"><img src="images/ui/otto-logo.svg" alt="Otto Home"></a>
+                </div>
+
+                <div class="nav-item link-item">
+                    <a href="#floorplan">Floorplan</a>
+                </div>
+
+                <div class="nav-item link-item">
+                    <a href="#story">Story</a>
+                </div>
+
+                <div class="nav-item link-item">
+                    <a href="#neighborhood">Neighborhood</a>
+                </div>
+
+                <div class="nav-item link-item">
+                    <a href="#contact">Contact</a>
+                </div>
+
+                <div class="nav-item nav-solid link-item">
+                    <a href="#tour">Schedule A Tour</a>
+                </div>
+
+            </nav>
             
-            <div class="container large-width intro-text">
+            <div class="hero-content container large-width intro-text">
+
+                <div id="hero-content-slider" class="hero-content-slider content-block">
+
+                    <div class="hero-content-slider-cell">
+                        <transition name="slide-change" mode="out-in">
+                            <img :key="index" :src="slides[index]" alt="The Brewerytown Neighborhood">
+                        </transition>
+                    </div>
+
+                    <div class="hero-content-slider-ctrl">
+                        <div class="slider-ctrl-prev link-item" @click="prevSlide">prev</div>
+                        <div class="slider-ctrl-next link-item" @click="nextSlide">next</div>
+                    </div>
+
+                </div>
 
                 <div class="content-block">
 
-                    Hero
+                    <h1>Own A Home Stay In The City</h1>
 
                 </div>
 
@@ -52,18 +96,19 @@
 
                     <div class="content-block">
 
-                            <h5 class="text-center">OTTO is a new condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.</h5>
-                            <div class="two-col">
-                                <div>
-                                        <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
-                                </div>
-                                <div>
-                                        <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
-                                </div>
+                        <img class="intro-copy-stamp" src="images/ui/otto-stamp.svg" alt="">
+                        <h5 class="text-center">OTTO is a new condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.</h5>
+                        <div class="two-col">
+                            <div>
+                                    <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
                             </div>
-                            <div class="btn text-center">
-                                <a href="#">Schedule a Tour</a>
+                            <div>
+                                    <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
                             </div>
+                        </div>
+                        <div class="btn text-center">
+                            <a href="#">Schedule a Tour</a>
+                        </div>
 
                     </div>
 
@@ -79,7 +124,7 @@
 
             <div class="intro-collage content-container">
 
-                <div class="container large-width intro-text">
+                <div class="container large-width">
 
                     <div class="content-block">
 
@@ -95,21 +140,83 @@
         </div>
         <!-- .intro content-container -->
 
-        <div class="amenities content-container">
+        <div class="amenities">
 
-            <div class="container large-width intro-text">
+            <div class="amenities-title content-container">
 
-                <div class="content-block">
+                <div class="container small-width intro-text text-center">
 
-                    Amenities
+                    <div class="content-block">
+
+                        <h1>The Space</h1>
+                        <p>Come home to beautiful interiors, timeless finishes, and spacious layouts. OTTO is thoughtfully designed by ISA Architects and built using top-of-the-line materials.</p>
+
+                    </div>
 
                 </div>
+                <!-- .container -->
 
             </div>
-            <!-- .container -->
+
+            <div class="amenities-main">
+
+                    <div class="container">
+                        
+                        <div class="row">
+                            <div class="amenities-main-list text-center intro-text">
+                                <div>
+                                    <h6>Unit Features</h6>
+                                    <ul>
+                                        <li>Modern Design</li>
+                                        <li>Private Balconies</li>
+                                        <li>Stainless Steel Appliances</li>
+                                        <li>Chef's Kitchen</li>
+                                        <li>Hardwood Floors</li>
+                                        <li>Natural Light</li>
+                                        <li>Large Bedrooms</li>
+                                        <li>In-unit Washer & Dryer</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                            <div class="amenities-main-image">
+
+                                bye
+
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="amenities-main-image">
+
+                                bye
+
+                            </div>
+                            <div class="amenities-main-list text-center intro-text">
+
+                                <div>
+                                    <h6>Building Amenities</h6>
+                                    <ul>
+                                        <li>Rooftop</li>
+                                        <li>Common Space</li>
+                                        <li>Parking</li>
+                                        <li>Pet Friendly</li>
+                                    </ul>
+                                    <div class="btn">
+                                        <a href="">Schedule a Tour</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+    
+                    </div>
+                    <!-- .container -->
+    
+                </div>
 
         </div>
-        <!-- .amenities content-container -->
+        <!-- .amenities -->
 
         <div class="floorplan texture content-container">
 
@@ -117,12 +224,39 @@
 
                 <div class="content-block">
 
-                    Floorplan
+                    <h1 class="text-center">The Floorplans</h1>
 
                 </div>
 
             </div>
             <!-- .container -->
+
+            <div class="container xlarge-width">
+
+                <div id="fp-app" class="fp-app">
+                    <div class="fp-app-sidebar text-center">
+                        <div class="fp-app-sidebar-item" @click="index = 0"><h6>Studio</h6></div>
+                        <div class="fp-app-sidebar-item" @click="index = 1"><h6>1-Bedroom</h6></div>
+                        <div class="fp-app-sidebar-item" @click="index = 2"><h6>2-Bedroom</h6></div>
+                        <div class="fp-app-sidebar-item" @click="index = 3"><h6>Penthouse</h6></div>
+                        <a class="link-item" href="">Download all floorplans</a>
+                    </div>
+                    <div class="fp-app-content">
+                        <div class="fp-app-content-copy">
+                            <h3>{{ units[index].title }}</h3>
+                            <p>{{ units[index].desc }}</p>
+                            <br>
+                            <p>Starting at:</p>
+                            <h4>{{ units[index].price }}</h4>
+                            <a class="link-item" href="">+ Options And Finishes</a>
+                        </div>
+                        <div class="fp-app-content-floorplan">
+                            <img :src="units[index].floorplan" alt="Floorplan at Otto Brewerytown">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
 
         </div>
         <!-- .floorplan content-container -->
@@ -131,10 +265,34 @@
 
             <div class="container large-width intro-text">
 
-                <div class="content-block">
+                <div class="content-block text-center">
 
-                    Story
+                    <h1>The Story</h1>
 
+                </div>
+
+                <div class="story-row content-block">
+                    <div class="story-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog" alt="">
+                    </div>
+                    <div class="story-entry">
+                        <img src="http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg" alt="put img here">
+                        <h6>Brick by brick – it all started with an architect by the name of Otto Wolf.</h6>
+                        <p>Brick by brick—it all started with an architect by the name of Otto Wolf. From breweries to bottling houses, storage facilities, and more, Wolf’s innovative designs transformed a neighborhood into an icon. Today, while much of his work has fallen, Otto Wolf’s legacy continues to inspire those living in and building up Brewerytown.</p>
+                    </div>
+                </div>
+
+                <div class="story-row content-block">
+                    <div class="story-img">
+                        <div class="story-img-wrap">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog" alt="">
+                        </div>
+                    </div>
+                    <div class="story-entry">
+                        <img src="http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg" alt="put img here">
+                        <h6>A building by Equinox</h6>
+                        <p>OTTO is a flagship project of Equinox, a fully integrated real estate development, property management, general contracting, and property maintenance company. Equinox is committed to creating positive change in our built environment and contributing to the communities where we live and work.</p>
+                    </div>
                 </div>
 
             </div>
@@ -151,12 +309,18 @@
 
                     <div class="content-block">
 
-                        Location
+                        <h1>Brewerytown, Pennsylvania</h1>
+                        <p>The right place, the right time, the right people—nothing happens by coincidence. It was the collective vision of brewers, immigrants, and architects that turned a neighborhood into an icon.</p>
+                        <p>Today, that history is inspiring a new wave of growth. But it’s not about revitalizing what already exists. This is about writing the next chapter of an already remarkable story. <span>This is about Brewerytown.</span></p>
 
                     </div>
 
                 </div>
                 <!-- .container -->
+
+                <div class="container large-width">
+                    Slider #2
+                </div>
 
             </div>
 
@@ -166,7 +330,29 @@
 
                     <div class="content-block">
 
-                        Location Sub
+                        <div class="two-col">
+
+                            <div class="location-sub-item">
+
+                                <h6>31<span>st</span> Street</h6>
+                                <p>Once lined with the brick facades of prominent breweries, 31st Street is now a hotbed for development. Fairmount Park, Center City, highways, parkways—the corridor is in the midst of becoming Philadelphia’s most sought after residential area, and OTTO is your chance to be part of it.</p>
+
+                            </div>
+
+                            <div class="location-sub-item">
+
+                                <h6>Proximity</h6>
+                                <ul>
+                                    <li><span>5 min</span> walk to Fairmont Park</li>
+                                    <li><span>7 min</span> drive to University City</li>
+                                    <li><span>15 min</span> bike ride to Kelly Drive</li>
+                                    <li><span>25 min</span> bus & <span>20 min</span> bike to Center City</li>
+                                    <li><span>11 min</span> drive to Schuylkill Expressway</li>
+                                </ul>
+
+                            </div>
+
+                        </div>
 
                     </div>
 

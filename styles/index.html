@@ -12,6 +12,7 @@
 
     <title>Site Title</title>
 
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 
@@ -47,6 +48,12 @@
 
                 </div>
 
+                <div class="content-block">
+                        <div id="app">
+                            {{ message }}
+                        </div>
+                </div>
+
             </div>
             <!-- .container -->
 
@@ -62,11 +69,9 @@
 
     </div>
     <!-- .page-content -->
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/scripts.js"></script>
+    
+    <script src="../js/plugins.js"></script>
+    <script src="../js/scripts.js"></script>
 
 </body>
 
