@@ -28,3 +28,73 @@
         }
     }
 }
+
+/* ###
+#
+# VUE TRANSITIONS
+#
+### */
+
+// Image Slider
+.slide-change-enter-active {
+    transition: all .6s ease;
+}
+.slide-change-leave-active {
+    transition: all .3s ease;
+}
+.slide-change-enter {
+    transform: translateX(-$spacing);
+    opacity: 0 !important;
+}
+.slide-change-leave-to {
+    transform: translateX($spacing);
+    opacity: 0 !important;
+}
+
+
+// Text Slider
+.text-change-enter-active {
+    transition: all $dur*2 $dur ease;
+}
+.text-change-leave-active {
+    transition: all $dur $dur/2 ease;
+}
+.text-change-enter {
+    transform: translateY($spacing);
+    opacity: 0 !important;
+}
+.text-change-leave-to {
+    transform: translateY(-$spacing);
+    opacity: 0 !important;
+}
+
+
+// Brewerytown Slider
+.slide-brew-enter-active, .slide-brew-leave-active {
+    position: relative;
+    transition: all $dur $ease;
+
+    &:before {
+        content: '';
+        position: absolute;
+        width: 0%; height: 100%;
+        background-color: $brand-gold;
+        transition: all .6s ease;
+    }
+}
+.slide-brew-leave-active {
+    transition: all $dur $dur $ease;
+}
+
+.slide-brew-enter {
+    &:before {
+        right: 0;
+        width: 100%;
+    }
+}
+.slide-brew-leave-to {
+    &:before {
+        right: 0;
+        width: 100%;
+    }
+}

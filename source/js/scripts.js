@@ -59,3 +59,85 @@ var FloorplanApp = new Vue({
         ]
     }
 })
+
+var planSlider = new Vue({
+    el: '#plan-slider',
+    data: {
+        index: 0,
+        slides: [  
+            {
+                title: 'Fairmount Park Penn Praxis',
+                image: 'http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg',
+                desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+            },
+            {
+                title: 'Park Penn Praxis',
+                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog',
+                desc: 'The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+            }
+        ]
+    },
+    methods: {
+        nextSlide() {
+            if(this.index >= this.slides.length - 1){
+                this.index = 0;
+            } else{
+                ++this.index
+            }
+            
+
+
+        },
+        prevSlide() {
+            if(this.index <= 0){
+                this.index = this.slides.length - 1;
+            } else{
+                --this.index
+            }
+
+        }
+        
+    }
+})
+
+
+var locationSlider = new Vue({
+    el: '#location-slider',
+    data: {
+        index: 0,
+        slides: [  
+            'http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg',
+            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog',
+        ]
+    },
+    computed: {
+        upNext: function() {
+            if(this.index >= this.slides.length - 1){
+                return 0;
+            } else{
+                return this.index + 1
+            }
+        }
+    },
+    methods: {
+        nextSlide() {
+            if(this.index >= this.slides.length - 1){
+                this.index = 0;
+            } else{
+                ++this.index
+            }
+            
+
+
+        },
+        prevSlide() {
+            if(this.index <= 0){
+                this.index = this.slides.length - 1;
+            } else{
+                --this.index
+            }
+
+        }
+        
+    }
+})

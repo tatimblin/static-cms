@@ -1,6 +1,94 @@
 .plan {
     
+    &-title {
+        position: relative;
+        z-index: -1;
+        
+        h1 {
+            color: $light-gray;
+            font-size: 9vw;
+            margin-bottom: -2.143vw;
+        }
+    }
     &-main {
         background-color: $brand-charcoal;
+        color: $white;
+    }
+}
+
+.plan-slider {
+    &-title {
+        position: relative;
+        width: 50%; height: 3.33em;
+        color: $brand-gold;
+        z-index: 10;
+    }
+    &-content {
+
+        & > div {
+            position: relative;
+            min-height: $spacing*3;
+
+            @include grid-media($grid-small) {
+                height: 300px;
+            }
+        }
+        &-count {
+            @include grid-column(12);
+
+            @include grid-media($grid-small) {
+                @include grid-column(1);
+            }
+
+            h6 {
+                position: absolute;
+                bottom: 0;
+            }
+        }
+        &-img {
+            @include grid-column(12);
+            @include grid-media($grid-small) {
+                @include grid-column(7);
+            }
+
+            img {
+                width: 100%;
+                object-fit: cover;
+                object-position: center center;
+            }
+        }
+        &-copy {
+            @include grid-column(12);
+
+            position: relative;
+
+            @include grid-media($grid-small) {
+                @include grid-column(4);
+            }
+
+            div {
+                position: absolute;
+                display: inline-block;
+                bottom: -$spacing;
+
+                @include grid-media($grid-small) {
+                    bottom: 0;
+                }
+
+                span {
+                    margin-right: $spacing/2;
+                    padding: 5px;
+                    cursor: pointer;
+
+                    &:last-child img {
+                        transform: rotate(180deg);
+                    }
+
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+        }
     }
 }

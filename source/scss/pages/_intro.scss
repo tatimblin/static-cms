@@ -3,7 +3,7 @@
     &-copy {
         background-color: $brand-eggshell;
 
-        h5 {
+        h4 {
             position: relative;
             z-index: 5;
         }
@@ -15,16 +15,60 @@
         }
         &-mark {
             position: relative;
-            text-align: right;
+            width: 100%;
+            text-align: center;
+
+            @include grid-media($grid-small) {
+                text-align: right;
+            }
 
             img {
                 position: absolute;
-                height: 35px;
-                transform: translateY(-50%);
+                width: 32px;
+                transform: translate(-16px, -50%);
             }
         }
     }
     &-collage {
         background-color: $white;
+        margin-top: $spacing*2;
+
+        @include grid-media($grid-small) {
+            margin: 0;
+        }
+
+        &-row {
+            display: block;
+            @include grid-media($grid-small) {
+                margin: $spacing*2 0 $spacing*2 0;
+            }
+
+            img {
+                min-width: 340px; // If an img is too small
+            }
+        }
+        &-img {
+            @include grid-column(12, $grid);
+            @include grid-media($grid-small) {
+                @include grid-column(6);
+            }
+
+            #intro-1 {@include grid-media($grid-small) {transform:translate(-$spacing, -$spacing*4);}}
+            #intro-2 {
+                @include grid-media($grid-small) {
+                    transform-origin: left bottom;
+                    transform: scale(1.25);
+                }
+            }
+            .image-breakout-alt-wrap {
+                &:before {
+                    @include grid-media($grid-small) {
+                        left: 0;
+                        transform: translate(-$spacing, $spacing);
+                    }
+                }
+            }
+        }
+        #intro-3 {@include grid-media($grid-small) {transform: translate($spacing*4, 0);}}
     }
 }

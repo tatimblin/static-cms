@@ -7,13 +7,25 @@
     flex-direction: column;
     width: 100%;
 
-    @include grid-media($grid-small) {
+    @include grid-media($grid-large) {
         flex-direction: row;
     }
 
     &-sidebar {
+        @include grid-column(12, $grid);
+        @include grid-media($grid-small) {
+            @include grid-column(6);
+            @include grid-push(3);
+        }
+        @include grid-media($grid-large) {
+            @include grid-column(5);
+        }
+        @include grid-media($grid-xlarge) {
+            @include grid-column(3);
+        }
+
         display: inline;
-        margin: 0 $spacing/2;
+        margin: 0 $spacing $spacing*2 $spacing;
         border-top: 1px solid $brand-charcoal;
 
         &-item {
@@ -27,7 +39,7 @@
                 background-color: lighten($light-gray, 10%);
             }
 
-            h6 {
+            h5 {
                 margin: 0;
             }
         }
@@ -38,22 +50,25 @@
     &-content {
         display: flex;
         flex-direction: column;
-        padding: $spacing*3 $spacing $spacing $spacing;
+        padding: $spacing*2 0 $spacing 0;
         background-color: $white;
 
-        @include grid-media($grid-large) {
+        @include grid-media($grid-medium) {
             flex-direction: row;
-            padding: $spacing*3 0 $spacing $spacing*3;
         }
 
         &-floorplan {
-            min-width: 100%;
-
-            @include grid-media($grid-large) {
-                min-width: 600px;
+            @include grid-column(12, $grid);
+            @include grid-media($grid-medium) {
+                @include grid-column(6, $grid);
             }
         }
         &-copy {
+            @include grid-column(12, $grid);
+            @include grid-media($grid-medium) {
+                @include grid-column(6, $grid);
+            }
+
             a {
                 color: $brand-gold;
             }

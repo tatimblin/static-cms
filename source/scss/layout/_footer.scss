@@ -9,3 +9,84 @@
 .site-footer {
 
 }
+
+.pre-footer {
+    background-color: $brand-blue;
+    background-image: url('../images/ui/otto-pattern.svg');
+    background-size: 10vw;
+
+    &-content {
+        background-color: $brand-blue;
+
+        img {
+            padding: $spacing*2 $spacing;
+        }
+    }
+}
+
+.footer {
+    background-color: $brand-charcoal;
+    color: $white;
+
+    .container {
+        .content-block {
+            @include grid-column(12, $grid);
+            @include grid-media($grid-small) {
+                @include grid-column(6);
+            }
+            @include grid-media($grid-large) {
+                @include grid-column(4);
+            }
+
+            &:first-child {
+                @include grid-media($grid-small) {
+                    @include grid-column(12);
+                }
+                @include grid-media($grid-large) {
+                    @include grid-column(4);
+                }
+
+                margin-bottom: $spacing;
+
+                img {
+                    max-width: 260px;
+                    margin-bottom: $spacing;
+                }
+            }
+            &:last-child {
+                .btn {
+                    position: relative;
+                    margin-bottom: $spacing/2;
+
+                    &:before {
+                        content: '';
+                        position: absolute;
+                        width: 33%; height: 1px;
+                        bottom: 0;
+                        background-color: $white;
+                    }
+                }
+            }
+
+            .btn {
+                a {
+                    color: $white;
+                }
+            }
+            .footer-social {
+                margin: $spacing 0;
+                font-family: $font-btn;
+                a {
+                    @include responsive-font-size(type-scale(size-2));
+
+                    color: $white;
+                    letter-spacing: 0.15em;
+                    text-transform: uppercase;
+                }
+            }
+            svg {
+                width: 140px;
+            }
+        }
+    }
+}

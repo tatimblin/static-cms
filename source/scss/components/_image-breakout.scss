@@ -1,0 +1,45 @@
+.image-breakout {
+    @include grid-media($grid-small) {
+
+        &:before {
+            content:'';
+            position: absolute;
+            width: 180px; height: 180px;
+            background-color: $brand-green;
+            background-image: url('../images/ui/texture.png');
+            transform: translate(-$spacing, -$spacing);
+        }
+
+        img {
+            position: relative;
+            width: 70%;
+            z-index: 10;
+        }
+    }
+}
+
+.image-breakout-alt {
+    @include grid-media($grid-small) {
+
+        &-wrap {
+            position: relative;
+            text-align: right;
+            line-height: 0;
+
+            &:before {
+                content:'';
+                position: absolute;
+                width: 180px; height: 180px;
+                bottom: 0; right: 0;
+                background-color: $brand-green;
+                background-image: url('../images/ui/texture.png');
+                transform: translate($spacing, $spacing);
+            }
+
+            img {
+                position: relative;
+                z-index: 10;
+            }
+        }
+    }
+}

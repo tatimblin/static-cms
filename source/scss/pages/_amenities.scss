@@ -6,14 +6,27 @@
         }
         .row {
             display: flex;
+            flex-direction: column;
+
+            &:first-child {
+                flex-direction: column-reverse;
+            }
+
+            @include grid-media($grid-small) {
+                flex-direction: row !important;
+            }
         }
         &-list {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            width: 50%;
+            width: 100%;
             padding: inherit $spacing;
             color: $white;
+
+            @include grid-media($grid-small) {
+                width: 50%;
+            }
 
             ul {
                 margin: $spacing*2 0;
@@ -22,9 +35,21 @@
             }
         }
         &-image {
-            width: 50%; min-height: 550px;
+            width: 100%; min-height: 550px;
             margin-left: 0;
-            background-color: grey;
+            background-position: center center;
+            background-size: cover;
+
+            @include grid-media($grid-small) {
+                width: 50%;
+            }
+
+            &#amenity-image-1 {
+                background-image: url('../images/assets/otto-amenity-bed.jpg');
+            }
+            &#amenity-image-2 {
+                background-image: url('../images/assets/otto-amenity-bed.jpg');
+            }
         }
     }
 }

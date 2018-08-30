@@ -3,14 +3,36 @@
     &-main {
         background-color: $light-gray;
 
-        h1 {
-            margin-bottom: 6rem;
+        .content-block {
+            position: relative;
+
+            h2 {
+                position: relative;
+                z-index: 10;
+
+                @include grid-media($grid-small) {
+                    margin-bottom: 6rem;
+                }
+            }
+            img {
+
+                @include grid-media($grid-small) {
+                    @include grid-column(6, $grid);
+                    @include grid-push(6);
+
+                    position: absolute;
+                    top: 0;
+                }
+            }
         }
-        p {
-            width: 100%;
+        &-body {
+            @include grid-column(12, $grid);
+
+            position: relative;
+            z-index: 10;
 
             @include grid-media($grid-small) {
-                width: 50%;
+                @include grid-column(6);
             }
 
             span {
@@ -22,23 +44,14 @@
 
         .container {
 
-            .content-block {
-                width: 100%;
-                margin-top: $spacing;
-
                 .location-sub-item {
+                    @include grid-column(12, $grid);
                     @include grid-media($grid-small) {
-                        width: 50%;
-                        &:first-child {
-                            padding-right:$spacing;
-                            border-right: 1px solid $brand-charcoal;
-                        }
-                        &:last-child {
-                            padding-left:$spacing;
-                        }
+                        @include grid-column(6);
                     }
+
+                    margin-top: $spacing;
                 }
-            }
         }
         ul {
             margin-left: 0px;
@@ -49,6 +62,30 @@
             span {
                 font-weight: $font-bold-weight;
             }
+        }
+    }
+
+    &-slider{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        overflow: hidden;
+
+        &-cell {
+            height: 450px;
+            background-position: center center;
+            background-size: cover;
+
+            &:first-child {
+                width: 1000px;
+            }
+            &:last-child {
+                width: 200px;
+            }
+        }
+        &-controls {
+            padding: 0 $spacing;
         }
     }
 }

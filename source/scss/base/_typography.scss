@@ -35,23 +35,23 @@ h1 {
 }
 
 h2 {
-    @include responsive-font-size(type-scale(size7));
-}
-
-h3 {
     @include responsive-font-size(type-scale(size6));
 }
 
-h4 {
-    @include responsive-font-size(type-scale(size5));
-}
-
-h5 {
+h3 {
     @include responsive-font-size(type-scale(size4));
 }
 
-h6 {
+h4 {
+    @include responsive-font-size(type-scale(size3));
+}
+
+h5 {
     @include responsive-font-size(type-scale(size1));
+}
+
+h6 {
+    @include responsive-font-size(type-scale(size-1));
 }
 
 p {
