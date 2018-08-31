@@ -59,3 +59,8 @@
         }
     }
 }
+
+a[ id= "floorplan" ]:target ~ .page-content div.section {
+    -webkit-transform: translateY( 0px);
+    transform: translateY( 0px );
+}
