@@ -3,8 +3,9 @@ var heroSlider = new Vue({
     data: {
         index: 0,
         slides: [  
-            'http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg', 
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog'
+            'images/assets/otto-hero-commute.jpg', 
+            'images/assets/otto-hero-nature.jpg',
+            'images/assets/otto-hero-community.jpg'
         ]
     },
     methods: {
