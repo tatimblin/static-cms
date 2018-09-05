@@ -26,9 +26,9 @@
                 img {width: 100px;}
             }
             &.nav-solid {
-                transition: .2s all ease-in-out;
+                transition: .4s all $ease;
                 // background-color: $brand-gold;
-                border: 1px solid rgba(0,0,0,0);
+                border: 1px solid $brand-gold;
                 box-shadow: inset 200px 0px $brand-gold;
 
 
@@ -36,12 +36,10 @@
 
                 &:hover{
                     // background-color: rgba(0,0,0,0);
-                    border: 1px solid $white;
+
                     box-shadow: inset 0px 0px $brand-gold;
                     
-                    a{
-                        color: $brand-gold;
-                    }
+
                 }
 
             }
@@ -54,12 +52,16 @@
     }
 }
 
-.link-item a{
-    transition: all .3s ease-out;
+.link-item:not(.nav-solid) a{
+    transition: all .3s $ease;
     //other styling in typography.scss
     &:hover {
         color: $brand-gold;
     }
+}
+
+.nav-solid a {
+    color: white;
 }
 
 .hero-content-slider {

@@ -58,13 +58,7 @@
                     position: relative;
                     margin-bottom: $spacing/2;
 
-                    &:after {
-                        content: '';
-                        position: absolute;
-                        width: 33%; height: 1px;
-                        bottom: 0;
-                        background-color: $white;
-                    }
+            //moved this styling to be global for all buttons in footer.scss
                 }
             }
 

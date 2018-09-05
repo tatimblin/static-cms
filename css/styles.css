@@ -1132,22 +1132,22 @@ a {
         .hero nav .nav-item.nav-logo img {
           width: 100px; }
       .hero nav .nav-item.nav-solid {
-        transition: .2s all ease-in-out;
-        border: 1px solid transparent;
+        transition: 0.4s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
+        border: 1px solid #c3a777;
         box-shadow: inset 200px 0px #c3a777; }
         .hero nav .nav-item.nav-solid:hover {
-          border: 1px solid #fff;
           box-shadow: inset 0px 0px #c3a777; }
-          .hero nav .nav-item.nav-solid:hover a {
-            color: #c3a777; }
   .hero-content {
     display: flex;
     align-items: center; }
 
-.link-item a {
-  transition: all .3s ease-out; }
-  .link-item a:hover {
+.link-item:not(.nav-solid) a {
+  transition: all 0.3s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+  .link-item:not(.nav-solid) a:hover {
     color: #c3a777; }
+
+.nav-solid a {
+  color: white; }
 
 .hero-content-slider-cell img {
   height: 350px;
@@ -1216,13 +1216,6 @@ a[id="floorplan"]:target ~ .page-content div.section {
     .footer .container .content-block:last-child .btn {
       position: relative;
       margin-bottom: 15px; }
-      .footer .container .content-block:last-child .btn:after {
-        content: '';
-        position: absolute;
-        width: 33%;
-        height: 1px;
-        bottom: 0;
-        background-color: #fff; }
     .footer .container .content-block .btn a {
       color: #fff; }
     .footer .container .content-block .footer-social {
@@ -1266,6 +1259,31 @@ a[id="floorplan"]:target ~ .page-content div.section {
       .btn a:hover:before {
         opacity: 0;
         transform: translate(0px); }
+
+.intro .btn.text-center:after {
+  content: '';
+  position: absolute;
+  width: 8%;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -4%; }
+
+.amenities .btn:after {
+  content: '';
+  position: absolute;
+  width: 10%;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -5%; }
+
+.footer .btn:after {
+  content: '';
+  position: absolute;
+  width: 33%;
+  height: 1px;
+  background-color: #fff; }
 
 @media only screen and (min-width: 40em) {
   .image-breakout:before {

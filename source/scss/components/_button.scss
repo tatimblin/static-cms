@@ -37,4 +37,54 @@
             }
         }
     }
+
+}
+
+.intro{
+    .btn.text-center {
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 8%; height: 1px;
+
+            background-color: $brand-charcoal;
+            left: 50%;
+            margin-left: -4%;
+        }
+    
+    }
+}
+
+
+.amenities{
+    .btn {
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 10%; height: 1px;
+
+            background-color: $brand-charcoal;
+            left: 50%;
+            margin-left: -5%;
+        }
+    
+    }
+}
+
+.footer{
+    .btn {
+
+        &:after {
+            content: '';
+            position: absolute;
+            width: 33%; height: 1px;
+
+            background-color: $white;
+
+        }
+    
+    }
+
 }
