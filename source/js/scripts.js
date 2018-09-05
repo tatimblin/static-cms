@@ -59,6 +59,7 @@ var FloorplanApp = new Vue({
             }
         ]
     }
+    
 })
 
 var planSlider = new Vue({

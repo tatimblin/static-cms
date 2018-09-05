@@ -1512,6 +1512,8 @@ a[id="floorplan"]:target ~ .page-content div.section {
         width: calc(25% - 6.25%);
         float: left;
         margin-left: 5%; } }
+    .fp-app-sidebar .active {
+      background-color: white !important; }
     .fp-app-sidebar-item {
       padding: 15px 30px;
       border-left: 1px solid #565656;
@@ -1520,7 +1522,7 @@ a[id="floorplan"]:target ~ .page-content div.section {
       transition: all 300ms ease;
       cursor: pointer; }
       .fp-app-sidebar-item:hover, .fp-app-sidebar-item:focus {
-        background-color: white; }
+        background-color: #f2f2f2; }
       .fp-app-sidebar-item h5 {
         margin: 0; }
     .fp-app-sidebar a {
