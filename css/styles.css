@@ -1260,30 +1260,65 @@ a[id="floorplan"]:target ~ .page-content div.section {
         opacity: 0;
         transform: translate(0px); }
 
-.intro .btn.text-center:after {
+.btn:after {
   content: '';
   position: absolute;
-  width: 8%;
-  height: 1px;
-  background-color: #565656;
-  left: 50%;
-  margin-left: -4%; }
-
-.amenities .btn:after {
-  content: '';
-  position: absolute;
-  width: 10%;
-  height: 1px;
-  background-color: #565656;
-  left: 50%;
-  margin-left: -5%; }
-
-.footer .btn:after {
-  content: '';
-  position: absolute;
-  width: 33%;
+  width: 75px;
   height: 1px;
   background-color: #fff; }
+
+.story .btn:after {
+  background-color: #565656; }
+
+.text-center .btn a {
+  transform: translate(0px); }
+  .text-center .btn a:before {
+    transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+
+.text-center .btn:after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -37.5px;
+  transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+
+.text-center .btn:hover:after {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -37.5px;
+  transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s; }
+
+.btn.text-center a {
+  transform: translate(0px); }
+  .btn.text-center a:before {
+    transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335); }
+
+.btn.text-center:after {
+  content: '';
+  position: absolute;
+  width: 0px;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -37.5px;
+  transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+
+.btn.text-center:hover:after {
+  content: '';
+  position: absolute;
+  width: 75px;
+  height: 1px;
+  background-color: #565656;
+  left: 50%;
+  margin-left: -37.5px;
+  transition: 0.3s all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s; }
 
 @media only screen and (min-width: 40em) {
   .image-breakout:before {

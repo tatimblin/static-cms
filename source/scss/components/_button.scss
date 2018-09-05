@@ -40,51 +40,90 @@
 
 }
 
-.intro{
-    .btn.text-center {
 
+
+.btn {
+    &:after {
+        content: '';
+        position: absolute;
+        width: 75px; height: 1px;
+        background-color: $white;
+    }
+}
+
+.story{
+    .btn{
+        &:after {
+            background-color: $brand-charcoal;
+        } 
+    }
+}
+
+
+
+.text-center{
+    .btn{
+        a{
+            transform: translate(0px);
+
+            &:before {
+                transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            }
+        }
         &:after {
             content: '';
             position: absolute;
-            width: 8%; height: 1px;
-
+            width: 0px; height: 1px;
             background-color: $brand-charcoal;
             left: 50%;
-            margin-left: -4%;
+            margin-left: -37.5px;
+            transition: .3s all $ease;
         }
-    
+        &:hover{
+            &:after {
+                content: '';
+                position: absolute;
+                width: 75px; height: 1px;
+                background-color: $brand-charcoal;
+                left: 50%;
+                margin-left: -37.5px;
+                transition: .3s all $ease .5s;
+            }
+        }
+
     }
+
 }
 
+.btn.text-center{
 
-.amenities{
-    .btn {
-
+        a{
+            transform: translate(0px);
+            &:before {
+                transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
+            }
+        }
         &:after {
             content: '';
             position: absolute;
-            width: 10%; height: 1px;
-
+            width: 0px; height: 1px;
             background-color: $brand-charcoal;
             left: 50%;
-            margin-left: -5%;
+            margin-left: -37.5px;
+            transition: .3s all $ease;
         }
-    
-    }
+        &:hover{
+            &:after {
+                content: '';
+                position: absolute;
+                width: 75px; height: 1px;
+                background-color: $brand-charcoal;
+                left: 50%;
+                margin-left: -37.5px;
+                transition: .3s all $ease .5s;
+            }
+        }
+
+
 }
 
-.footer{
-    .btn {
-
-        &:after {
-            content: '';
-            position: absolute;
-            width: 33%; height: 1px;
-
-            background-color: $white;
-
-        }
-    
-    }
-
-}
