@@ -1700,6 +1700,34 @@ a[id="floorplan"]:target ~ .page-content div.section {
       .plan-slider-content-copy div span img {
         width: 20px; }
 
+.map-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px; }
+  .map-nav-menu a {
+    font-size: 0.694rem;
+    padding: 10px 15px;
+    border-top: 1px solid #565656;
+    border-bottom: 1px solid #565656;
+    border-left: 1px solid #565656;
+    color: #565656;
+    font-family: "univers-lt-black", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.04em; }
+    .map-nav-menu a:first-child {
+      display: none; }
+    .map-nav-menu a:last-child {
+      border-right: 1px solid #565656; }
+
+.map-content {
+  display: flex;
+  flex-direction: column; }
+  @media only screen and (min-width: 40em) {
+    .map-content {
+      flex-direction: row; } }
+  @media only screen and (min-width: 40em) {
+    .map-content-list {
+      width: 33%; } }
+
 /*
  * Homepage
  *

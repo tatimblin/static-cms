@@ -1,0 +1,44 @@
+.map {
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: $spacing*2;
+
+        &-menu {
+
+            a {
+                @include responsive-font-size(type-scale(size-2));
+                padding: $spacing/3 $spacing/2;
+                border-top: 1px solid $text-color;
+                border-bottom: 1px solid $text-color;
+                border-left: 1px solid $text-color;
+                color: $text-color;
+                font-family: $font-heading;
+                letter-spacing: 0.04em;
+
+                &:first-child {
+                    display: none;
+                }
+                &:last-child {
+                    border-right: 1px solid $text-color;
+                }
+            }
+        }
+    }
+    &-content {
+        display: flex;
+        flex-direction: column;
+        @include grid-media($grid-small) {
+            flex-direction: row;
+        }
+
+        &-list {
+            @include grid-media($grid-small) {
+                width: 33%;
+            }
+        }
+        #mapbox {
+            
+        }
+    }
+}

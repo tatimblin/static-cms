@@ -85,8 +85,6 @@ var planSlider = new Vue({
             } else{
                 ++this.index
             }
-            
-
 
         },
         prevSlide() {
@@ -177,3 +175,59 @@ var StoryImg = new Vue ({
         clearInterval(this.$options.interval)
     }
 })
+
+
+// Neighborhood Map
+// AMENITY MAP
+mapboxgl.accessToken = 'pk.eyJ1IjoidGF0aW1ibGluIiwiYSI6ImNqM2RkZzNqNDAwMGMzM281dTdqMnNuNnYifQ.f-78RB94egBVWUwbVNYAig';
+var bounds = [
+    [-75.218, 39.957], // Southwest coordinates
+    [-75.142, 40]  // Northeast coordinates
+];
+var map = new mapboxgl.Map({
+    container: 'mapbox',
+    style: 'mapbox://styles/tatimblin/cjlpdu49w3q6s2rrqjeqff1uh',
+    zoom: 12,
+    maxBounds: bounds,
+    center: [-75.185378, 39.979700],
+});
+
+var toggleableLayerIds = [ 'otto', 'food-drink', 'nature-travel', '31st-street-then', '31st-street-now' ];
+
+for (var i = 0; i < toggleableLayerIds.length; i++) {
+    var id = toggleableLayerIds[i];
+
+    var link = document.createElement('a');
+    link.href = '#';
+    if ( i < 3 || i > 5) {
+        link.className = 'active';
+    }
+    else {
+        link.className = '';
+    }
+    link.idName = id;
+    link.textContent = id;
+
+    link.onclick = function (e) {
+
+        var clickedLayer = this.textContent;
+        e.preventDefault();
+        e.stopPropagation();
+
+        var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+        if (visibility === 'visible') {
+            map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+            this.className = '';
+            //console.log(clickedLayer);
+        } else {
+            this.className = 'active';
+            map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+            //console.log(i);
+        }
+    };
+    map.scrollZoom.disable();
+
+    var layers = document.getElementById('menu');
+    layers.appendChild(link);
+}
