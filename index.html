@@ -287,30 +287,43 @@
                 </div>
 
                 <div class="story-row content-block">
-                    <div class="story-img image-breakout">
-                        <img src="images/assets/otto-story-hist-ext.png" alt="Otto Wolf Historic Building Exterior">
+                    <div id="story-img-app" class="story-img image-breakout">
+
+                        <transition name="fade" mode="out-in">
+                            
+                            <img :key="index" :src="images[index]" alt="Otto Wolf Historic Building Exterior">
+
+                        </transition>
+
                     </div>
                     <div class="story-entry">
+
                         <img src="images/assets/otto-story-hist-int.png" alt="Otto Wolf Historic Building Interior">
                         <h5>Brick by brick – it all started with an architect by the name of Otto Wolf.</h5>
                         <p>Brick by brick—it all started with an architect by the name of Otto Wolf. From breweries to bottling houses, storage facilities, and more, Wolf’s innovative designs transformed a neighborhood into an icon. Today, while much of his work has fallen, Otto Wolf’s legacy continues to inspire those living in and building up Brewerytown.</p>
                         <img class="story-entry-logo" src="images/ui/otto-sig.svg" alt="Equinox MC Logo">
+
                     </div>
                 </div>
 
                 <div class="story-row content-block">
                     <div class="story-img image-breakout-alt">
                         <div class="image-breakout-alt-wrap">
+                                
                             <img src="images/assets/otto-story-ext.jpg" alt="New Otto Brewerytown Building">
+                        
                         </div>
                     </div>
                     <div class="story-entry">
+
                         <h5>A building by Equinox</h5>
                         <p>OTTO is a flagship project of Equinox, a fully integrated real estate development, property management, general contracting, and property maintenance company. Equinox is committed to creating positive change in our built environment and contributing to the communities where we live and work.</p>
                         <img class="story-entry-logo" src="images/ui/equinox-logo.svg" alt="Equinox MC Logo">
+                        
                         <div class="btn">
                             <a href="">Schedule a Tour</a>
                         </div>
+
                     </div>
                 </div>
 
