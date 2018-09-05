@@ -26,7 +26,24 @@
                 img {width: 100px;}
             }
             &.nav-solid {
-                background-color: $brand-gold;
+                transition: .2s all ease-in-out;
+                // background-color: $brand-gold;
+                border: 1px solid rgba(0,0,0,0);
+                box-shadow: inset 200px 0px $brand-gold;
+
+
+                
+
+                &:hover{
+                    // background-color: rgba(0,0,0,0);
+                    border: 1px solid $white;
+                    box-shadow: inset 0px 0px $brand-gold;
+                    
+                    a{
+                        color: $brand-gold;
+                    }
+                }
+
             }
         }
     }
@@ -34,6 +51,14 @@
     &-content {
         display: flex;
         align-items: center;
+    }
+}
+
+.link-item a{
+    transition: all .3s ease-out;
+    //other styling in typography.scss
+    &:hover {
+        color: $brand-gold;
     }
 }
 
