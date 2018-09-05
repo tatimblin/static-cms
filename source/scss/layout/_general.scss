@@ -76,29 +76,33 @@
 // Brewerytown Slider
 .slide-brew-enter-active, .slide-brew-leave-active {
     position: relative;
-    transition: all $dur $ease;
+    transition: all $dur $dur $ease;
 
     &:before {
         content: '';
         position: absolute;
-        width: 0%; height: 100%;
+        width: 100%; height: 100%;
         background-color: $brand-gold;
-        transition: all .6s ease;
+        transition: transform .6s ease;
+        transform-origin: 0 0;
+        transform: scale(0, 1);
     }
 }
 .slide-brew-leave-active {
     transition: all $dur $dur $ease;
+
+    &:before {
+        transform-origin: 100% 0;
+    }
 }
 
 .slide-brew-enter {
     &:before {
-        right: 0;
-        width: 100%;
+        transform: scale(1, 1);
     }
 }
 .slide-brew-leave-to {
     &:before {
-        right: 0;
-        width: 100%;
+        transform: scale(1, 1);
     }
 }

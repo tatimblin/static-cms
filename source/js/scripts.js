@@ -98,6 +98,11 @@ var planSlider = new Vue({
 
         }
         
+    },
+    watch: {
+        price: function(this.slides[index].price) {
+
+        }
     }
 })
 
