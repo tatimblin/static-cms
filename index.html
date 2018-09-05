@@ -253,10 +253,10 @@
 
                 <div id="fp-app" class="fp-app">
                     <div class="fp-app-sidebar text-center">
-                        <div class="fp-app-sidebar-item" @click="index = 0"><h5>Studio</h5></div>
-                        <div class="fp-app-sidebar-item" @click="index = 1"><h5>1-Bedroom</h5></div>
-                        <div class="fp-app-sidebar-item" @click="index = 2"><h5>2-Bedroom</h5></div>
-                        <div class="fp-app-sidebar-item" @click="index = 3"><h5>Penthouse</h5></div>
+                        <div v-bind:class="{ active: index===0 }" class="fp-app-sidebar-item" @click="index = 0"><h5>Studio</h5></div>
+                        <div v-bind:class="{ active: index===1 }" class="fp-app-sidebar-item" @click="index = 1"><h5>1-Bedroom</h5></div>
+                        <div v-bind:class="{ active: index===2 }" class="fp-app-sidebar-item" @click="index = 2"><h5>2-Bedroom</h5></div>
+                        <div v-bind:class="{ active: index===3 }" class="fp-app-sidebar-item" @click="index = 3"><h5>Penthouse</h5></div>
                         <a class="link-item" href="">Download all floorplans</a>
                     </div>
                     <div class="fp-app-content">

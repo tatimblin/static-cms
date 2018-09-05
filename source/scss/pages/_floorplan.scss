@@ -28,6 +28,10 @@
         margin: 0 $spacing $spacing*2 $spacing;
         border-top: 1px solid $brand-charcoal;
 
+        .active{
+            background-color: lighten($light-gray, 10%) !important;
+        }
+
         &-item {
             padding: $spacing/2 $spacing;
             border-left: 1px solid $brand-charcoal;
@@ -36,9 +40,10 @@
             transition: all 300ms ease;
             cursor: pointer;
 
-            &:hover, &:focus {
-                background-color: lighten($light-gray, 10%);
+            &:hover, &:focus{
+                background-color: lighten($light-gray, 5%);
             }
+  
 
             h5 {
                 margin: 0;
