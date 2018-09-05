@@ -100,9 +100,7 @@ var planSlider = new Vue({
         
     },
     watch: {
-        price: function(this.slides[index].price) {
-
-        }
+        
     }
 })
 
@@ -145,5 +143,37 @@ var locationSlider = new Vue({
 
         }
         
+    }
+})
+
+var StoryImg = new Vue ({
+    el: '#story-img-app',
+    data: function() {
+        return {
+            images: [
+                'images/assets/otto-story-hist-ext.png',
+                'images/assets/otto-story-hist-int.png',
+                'images/assets/otto-story-ext.jpg'
+            ],
+            ticks: 0,
+            index: 0
+        }
+    },
+    methods: {
+        tick () {
+            this.ticks++
+
+            if (this.index === this.images.length - 1) {
+                this.index = 0
+            } else {
+                this.index++
+            }
+        }
+    },
+    created () {
+        this.$options.interval = setInterval(this.tick, 6000)
+    },
+    beforeDestroy () {
+        clearInterval(this.$options.interval)
     }
 })

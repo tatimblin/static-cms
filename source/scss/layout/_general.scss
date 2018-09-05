@@ -56,6 +56,27 @@
 }
 
 
+// fade
+.fade-enter-active {
+    transform-origin: left 10%;
+    opacity: 1;
+    transition: all $dur $ease;
+}
+
+.fade-leave-active {
+    opacity: 1;
+    transition: all $dur $ease;
+}
+.fade-enter {
+    transform: rotate(5deg) translateY($spacing);
+    opacity: 0 !important;
+}
+.fade-leave-to {
+    transform: rotate(-2.5deg) translateY(-$spacing);
+    opacity: 0 !important;
+}
+
+
 // Text Slider
 .text-change-enter-active {
     transition: all $dur*2 $dur ease;
