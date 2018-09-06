@@ -1747,13 +1747,14 @@ a[id="floorplan"]:target ~ .page-content div.section {
     border-top: 1px solid #565656;
     border-bottom: 1px solid #565656;
     border-left: 1px solid #565656;
-    color: #565656;
+    color: #d6d5d5;
     font-family: "univers-lt-black", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    text-transform: uppercase;
     letter-spacing: 0.04em; }
-    .map-nav-menu a:first-child {
-      display: none; }
     .map-nav-menu a:last-child {
       border-right: 1px solid #565656; }
+    .map-nav-menu a.active {
+      color: #565656; }
 
 .map-content {
   display: flex;

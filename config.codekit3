@@ -9,6 +9,16 @@
 	],
 "creatorBuild": "26148",
 "files": {
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/images\/assets\/otto-amenity-bed.jpg": {
 		"ft": 16384,
 		"iS": 426423,
@@ -579,6 +589,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/components\/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/components\/_content-block.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -605,6 +628,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/layout\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/layout\/_general.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -619,6 +655,19 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/layout\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,

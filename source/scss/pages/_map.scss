@@ -12,15 +12,17 @@
                 border-top: 1px solid $text-color;
                 border-bottom: 1px solid $text-color;
                 border-left: 1px solid $text-color;
-                color: $text-color;
+                color: lighten($text-color, 50%);
                 font-family: $font-heading;
+                text-transform: uppercase;
                 letter-spacing: 0.04em;
 
-                &:first-child {
-                    display: none;
-                }
                 &:last-child {
                     border-right: 1px solid $text-color;
+                }
+
+                &.active {
+                    color: $text-color;
                 }
             }
         }
