@@ -112,7 +112,10 @@
     &-copy {
         padding: $spacing*2 $spacing 0 $spacing;
 
-        @include grid-media($grid-large) { width: 50%; }
+        @include grid-media($grid-large) { 
+            width: 50%;
+            padding: 0 $spacing;
+        }
     }
 }
 

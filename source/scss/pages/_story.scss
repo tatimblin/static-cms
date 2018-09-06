@@ -42,8 +42,15 @@
 
 #story-img-app {
     position: relative;
+    display: none;
+
+    @include grid-media($grid-small) {
+        display: block;
+    }
     
     img {
         position: absolute;
+        min-height: 450px;
+        object-fit: cover;
     }
 }

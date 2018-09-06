@@ -58,6 +58,17 @@ p {
     margin-bottom: 1rem;
 }
 
+li {
+    @include responsive-font-size(type-scale(size-1));
+
+    font-family: $font-body;
+    letter-spacing: $kerning50;
+
+    &:before {
+        @include responsive-font-size(type-scale(size3));
+    }
+}
+
 .link-item {
     @include responsive-font-size(type-scale(size-2));
 

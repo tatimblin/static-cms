@@ -901,6 +901,17 @@ h6 {
 p {
   margin-bottom: 1rem; }
 
+li {
+  font-size: 0.833rem;
+  font-family: "univers-lt", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.0625rem; }
+  li:before,
+  .disable-responsive-font-size li:before, li:before.disable-responsive-font-size {
+    font-size: 1.728rem; }
+  @media (max-width: 90em) {
+    li:before {
+      font-size: calc(1.1456rem + 0.6471111111vw) ; } }
+
 .link-item {
   font-size: 0.694rem;
   font-family: "galano_grotesque_demobold", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
@@ -1185,7 +1196,8 @@ a {
     padding: 60px 30px 0 30px; }
     @media only screen and (min-width: 62em) {
       .hero-content-copy {
-        width: 50%; } }
+        width: 50%;
+        padding: 0 30px; } }
 
 a[id="floorplan"]:target ~ .page-content div.section {
   -webkit-transform: translateY(0px);
@@ -1614,9 +1626,15 @@ a[id="floorplan"]:target ~ .page-content div.section {
     margin: 30px 0; }
 
 #story-img-app {
-  position: relative; }
+  position: relative;
+  display: none; }
+  @media only screen and (min-width: 40em) {
+    #story-img-app {
+      display: block; } }
   #story-img-app img {
-    position: absolute; }
+    position: absolute;
+    min-height: 450px;
+    object-fit: cover; }
 
 .location-main {
   background-color: #e6e5e5; }
@@ -1806,6 +1824,15 @@ a[id="floorplan"]:target ~ .page-content div.section {
   @media only screen and (min-width: 48em) {
     .map-content-list {
       width: 33%; } }
+  .map-content-list ol {
+    padding: 0px;
+    list-style: none; }
+    .map-content-list ol li {
+      counter-increment: inst; }
+      .map-content-list ol li:before {
+        font-size: 0.579rem;
+        content: counter(inst) ".";
+        padding-right: 6px; }
 
 /*
  * Homepage

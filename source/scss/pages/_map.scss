@@ -54,6 +54,22 @@
             @include grid-media($grid-medium) {
                 width: 33%;
             }
+
+            ol {
+                padding: 0px;
+                list-style: none;
+
+                li {
+                    counter-increment: inst;
+
+                    &:before {
+                        @include responsive-font-size(type-scale(size-3));
+
+                        content: counter(inst) '.';
+                        padding-right: 6px;
+                    }
+                }
+            }
         }
         #mapbox {
             
