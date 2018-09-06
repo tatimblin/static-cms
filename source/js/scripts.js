@@ -1,20 +1,11 @@
 var heroSlider = new Vue({
-    el: '#hero-content',
+    el: '#hero-content-slider',
     data: {
         index: 0,
         slides: [  
-            {
-                callout: 'Own A Home Stay In The City', 
-                img: 'images/assets/otto-hero-commute.jpg'
-            }, 
-            {
-                callout: 'Own Two Homes Stay In The City', 
-                img: 'images/assets/otto-hero-nature.jpg'
-            },
-            {
-                callout: 'Own Three Homes Stay In The City', 
-                img: 'images/assets/otto-hero-community.jpg'
-            }
+            'images/assets/otto-hero-commute.jpg', 
+            'images/assets/otto-hero-nature.jpg',
+            'images/assets/otto-hero-community.jpg'
         ]
     },
     methods: {
@@ -24,6 +15,7 @@ var heroSlider = new Vue({
             } else {
                 ++this.index
             }
+            console.log('next');
         },
         prevSlide() {
             if (this.index === 0) {
@@ -31,6 +23,7 @@ var heroSlider = new Vue({
             } else {
                 --this.index
             }
+            console.log('next');
         }
     }
 })
@@ -220,6 +213,7 @@ var StoryImg = new Vue ({
 
 
 // Neighborhood Map
+// AMENITY MAP
 mapboxgl.accessToken = 'pk.eyJ1IjoidGF0aW1ibGluIiwiYSI6ImNqM2RkZzNqNDAwMGMzM281dTdqMnNuNnYifQ.f-78RB94egBVWUwbVNYAig';
 var bounds = [
     [-75.218, 39.957], // Southwest coordinates
@@ -233,7 +227,7 @@ var map = new mapboxgl.Map({
     center: [-75.185378, 39.979700],
 });
 
-var toggleableLayerIds = [ 'food-drink', 'nature-travel', '31st-street-then', '31st-street-now' ];
+var toggleableLayerIds = [ 'otto', 'food-drink', 'nature-travel', '31st-street-then', '31st-street-now' ];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
@@ -247,12 +241,11 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         link.className = '';
     }
     link.idName = id;
-    var prettyId = id.replace(new RegExp("\\-","g"),' ');
-    link.textContent = prettyId;
+    link.textContent = id;
 
     link.onclick = function (e) {
 
-        var clickedLayer = this.idName;
+        var clickedLayer = this.textContent;
         e.preventDefault();
         e.stopPropagation();
 

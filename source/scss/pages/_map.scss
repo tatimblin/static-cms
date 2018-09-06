@@ -1,44 +1,26 @@
 .map {
     &-nav {
         display: flex;
-        flex-direction: column;
         justify-content: space-between;
         margin-bottom: $spacing*2;
-
-        @include grid-media($grid-medium) {
-            flex-direction: row;
-        }
 
         &-menu {
 
             a {
                 @include responsive-font-size(type-scale(size-2));
-                display: block;
                 padding: $spacing/3 $spacing/2;
                 border-top: 1px solid $text-color;
+                border-bottom: 1px solid $text-color;
                 border-left: 1px solid $text-color;
-                border-right: 1px solid $text-color;
-                color: lighten($text-color, 50%);
+                color: $text-color;
                 font-family: $font-heading;
-                text-transform: uppercase;
                 letter-spacing: 0.04em;
 
-                @include grid-media($grid-large) {
-                    display: inline-block;
-                    border-bottom: 1px solid $text-color;
-                    border-right: none;
+                &:first-child {
+                    display: none;
                 }
-
                 &:last-child {
-                    border-bottom: 1px solid $text-color;
-
-                    @include grid-media($grid-large) {
-                        border-right: 1px solid $text-color;
-                    }
-                }
-
-                &.active {
-                    color: $text-color;
+                    border-right: 1px solid $text-color;
                 }
             }
         }
@@ -46,12 +28,12 @@
     &-content {
         display: flex;
         flex-direction: column;
-        @include grid-media($grid-medium) {
+        @include grid-media($grid-small) {
             flex-direction: row;
         }
 
         &-list {
-            @include grid-media($grid-medium) {
+            @include grid-media($grid-small) {
                 width: 33%;
             }
         }
