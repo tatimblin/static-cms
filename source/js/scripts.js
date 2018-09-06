@@ -31,36 +31,70 @@ var heroSlider = new Vue({
 var FloorplanApp = new Vue({
     el: '#fp-app',
     data: {
+        number: 0,
+        tweenedNumber: 100000,
         index: 0,
         units: [
             {
                 title: 'The Studio',
                 desc: 'The Studio is for those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
-                price: '100,000',
+                price: '100000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'Boden',
                 desc: 'The Boden floor plan features 1-bedroom condos that are ideally priced to start building your life from the ground up.',
-                price: '200,000',
+                price: '200000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'The Mitte',
                 desc: 'The Mitte floor plan features 2-bedroom condos—giving you a little extra space for out-of-town visitors or a growing family.',
-                price: '350,000',
+                price: '350000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'The Oben',
                 desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
-                price: '600,000',
+                price: '600000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             }
         ]
-    }
+    },
+    computed: {
+
+        animatedNumber: function() {
+   
+            let num = this.tweenedNumber
+            let result = Number(num.toFixed(0)).toLocaleString().split(/\s/).join(',')
+            console.log(result);
+            return result
+            
+        }
+
+      },
+      watch: {
+        number: function(newValue) {
+            
+          TweenLite.to(this.$data, 1, { tweenedNumber: newValue });
+        }
+      },
+      methods: {
+        countPrice: function(i) {
+
+            console.log(this.number);
+            this.index = i
+            this.number = this.units[i].price
+ 
+            
+
+
+        }
+      }
     
 })
+
+
 
 var planSlider = new Vue({
     el: '#plan-slider',

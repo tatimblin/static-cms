@@ -1553,6 +1553,9 @@ a[id="floorplan"]:target ~ .page-content div.section {
           width: calc(50% - 45px);
           float: left;
           margin-left: 30px; } }
+      .fp-app-content-copy-desc {
+        display: block;
+        min-height: 160px; }
       .fp-app-content-copy a {
         color: #c3a777; }
 
