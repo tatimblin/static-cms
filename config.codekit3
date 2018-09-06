@@ -7,11 +7,29 @@
 		"uuidString": "C2D3A365-1A8B-4BB1-A89D-78415E3D0C95"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26680",
 "files": {
+	"\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/.gitignore",
+		"oF": 0
+		},
+	"\/css\/styles.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/css\/styles-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"\/images\/assets\/otto-amenity-bed.jpg": {
 		"ft": 16384,
 		"iS": 426423,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-amenity-bed.jpg",
 		"oF": 0,
@@ -22,6 +40,7 @@
 	"\/images\/assets\/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 453761,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-hero-community.jpg",
 		"oF": 0,
@@ -32,6 +51,7 @@
 	"\/images\/assets\/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 625737,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-hero-commute.jpg",
 		"oF": 0,
@@ -42,6 +62,7 @@
 	"\/images\/assets\/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 728109,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-hero-nature.jpg",
 		"oF": 0,
@@ -52,6 +73,7 @@
 	"\/images\/assets\/otto-intro-dog.jpg": {
 		"ft": 16384,
 		"iS": 78315,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-intro-dog.jpg",
 		"oF": 0,
@@ -62,6 +84,7 @@
 	"\/images\/assets\/otto-intro-exterior.jpg": {
 		"ft": 16384,
 		"iS": 454250,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-intro-exterior.jpg",
 		"oF": 0,
@@ -72,6 +95,7 @@
 	"\/images\/assets\/otto-intro-interior.jpg": {
 		"ft": 16384,
 		"iS": 520947,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-intro-interior.jpg",
 		"oF": 0,
@@ -82,6 +106,7 @@
 	"\/images\/assets\/otto-intro-record.jpg": {
 		"ft": 16384,
 		"iS": 859402,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-intro-record.jpg",
 		"oF": 0,
@@ -92,6 +117,7 @@
 	"\/images\/assets\/otto-intro-style.jpg": {
 		"ft": 16384,
 		"iS": 531024,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-intro-style.jpg",
 		"oF": 0,
@@ -102,6 +128,7 @@
 	"\/images\/assets\/otto-story-ext.jpg": {
 		"ft": 16384,
 		"iS": 707184,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-story-ext.jpg",
 		"oF": 0,
@@ -134,6 +161,7 @@
 	"\/images\/share.jpg": {
 		"ft": 16384,
 		"iS": 117550,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/share.jpg",
 		"oF": 0,
@@ -271,7 +299,8 @@
 		},
 	"\/source\/images\/assets\/otto-amenity-bed.jpg": {
 		"ft": 16384,
-		"iS": 3187497,
+		"iS": 460558,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-amenity-bed.jpg",
 		"oF": 0,
@@ -282,6 +311,7 @@
 	"\/source\/images\/assets\/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 472044,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-hero-community.jpg",
 		"oF": 0,
@@ -292,6 +322,7 @@
 	"\/source\/images\/assets\/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 651607,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-hero-commute.jpg",
 		"oF": 0,
@@ -302,6 +333,7 @@
 	"\/source\/images\/assets\/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 783459,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-hero-nature.jpg",
 		"oF": 0,
@@ -312,6 +344,7 @@
 	"\/source\/images\/assets\/otto-intro-dog.jpg": {
 		"ft": 16384,
 		"iS": 115678,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-intro-dog.jpg",
 		"oF": 0,
@@ -321,7 +354,8 @@
 		},
 	"\/source\/images\/assets\/otto-intro-exterior.jpg": {
 		"ft": 16384,
-		"iS": 5784743,
+		"iS": 485277,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-intro-exterior.jpg",
 		"oF": 0,
@@ -331,7 +365,8 @@
 		},
 	"\/source\/images\/assets\/otto-intro-interior.jpg": {
 		"ft": 16384,
-		"iS": 1615118,
+		"iS": 551174,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-intro-interior.jpg",
 		"oF": 0,
@@ -342,6 +377,7 @@
 	"\/source\/images\/assets\/otto-intro-record.jpg": {
 		"ft": 16384,
 		"iS": 859402,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-intro-record.jpg",
 		"oF": 0,
@@ -351,7 +387,8 @@
 		},
 	"\/source\/images\/assets\/otto-intro-style.jpg": {
 		"ft": 16384,
-		"iS": 2332228,
+		"iS": 569724,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/assets\/otto-intro-style.jpg",
 		"oF": 0,
@@ -362,6 +399,7 @@
 	"\/source\/images\/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 453761,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/otto-hero-community.jpg",
 		"oF": 0,
@@ -372,6 +410,7 @@
 	"\/source\/images\/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 625737,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/otto-hero-commute.jpg",
 		"oF": 0,
@@ -382,6 +421,7 @@
 	"\/source\/images\/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 728109,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/otto-hero-nature.jpg",
 		"oF": 0,
@@ -392,6 +432,7 @@
 	"\/source\/images\/share.jpg": {
 		"ft": 16384,
 		"iS": 117943,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/source\/images\/share.jpg",
 		"oF": 0,
@@ -579,6 +620,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/components\/_button.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/components\/_content-block.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -605,6 +659,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/scss\/layout\/_footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/scss\/layout\/_general.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -619,6 +686,19 @@
 		"uL": 1
 		},
 	"\/source\/scss\/layout\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/css\/styles.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/scss\/layout\/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1144,7 +1224,8 @@
 	"creationDate": 557849600,
 	"displayValue": "otto-website",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-angryPicard"
+	"iconImageName": "meme-angryPicard",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1152,6 +1233,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1715,6 +1797,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2942,6 +3028,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
