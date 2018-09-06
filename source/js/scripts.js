@@ -1,11 +1,20 @@
 var heroSlider = new Vue({
-    el: '#hero-content-slider',
+    el: '#hero-content',
     data: {
         index: 0,
         slides: [  
-            'images/assets/otto-hero-commute.jpg', 
-            'images/assets/otto-hero-nature.jpg',
-            'images/assets/otto-hero-community.jpg'
+            {
+                callout: 'Own A Home Stay In The City', 
+                img: 'images/assets/otto-hero-commute.jpg'
+            }, 
+            {
+                callout: 'Own Two Homes Stay In The City', 
+                img: 'images/assets/otto-hero-nature.jpg'
+            },
+            {
+                callout: 'Own Three Homes Stay In The City', 
+                img: 'images/assets/otto-hero-community.jpg'
+            }
         ]
     },
     methods: {
@@ -15,7 +24,6 @@ var heroSlider = new Vue({
             } else {
                 ++this.index
             }
-            console.log('next');
         },
         prevSlide() {
             if (this.index === 0) {
@@ -23,7 +31,6 @@ var heroSlider = new Vue({
             } else {
                 --this.index
             }
-            console.log('next');
         }
     }
 })

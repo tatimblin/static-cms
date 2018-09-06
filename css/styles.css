@@ -1121,20 +1121,32 @@ a {
   color: #fff; }
   .hero nav {
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: center;
     padding: 30px 0;
     border-bottom: 1px solid rgba(255, 255, 255, 0.33); }
+    @media only screen and (min-width: 48em) {
+      .hero nav {
+        flex-direction: row; } }
     .hero nav .nav-item {
-      padding: 7.5px 30px; }
+      padding: 7.5px 15px; }
+      @media only screen and (min-width: 62em) {
+        .hero nav .nav-item {
+          padding: 7.5px 30px; } }
+      @media only screen and (min-width: 48em) {
+        .hero nav .nav-item:last-child {
+          margin-right: 15px; } }
       .hero nav .nav-item.nav-logo {
+        margin: auto;
         margin-right: auto; }
         .hero nav .nav-item.nav-logo img {
           width: 100px; }
       .hero nav .nav-item.nav-solid {
         transition: 0.4s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
         border: 1px solid #c3a777;
-        box-shadow: inset 200px 0px #c3a777; }
+        box-shadow: inset 200px 0px #c3a777;
+        text-align: center; }
         .hero nav .nav-item.nav-solid:hover {
           box-shadow: inset 0px 0px #c3a777; }
   .hero-content {
@@ -1149,18 +1161,31 @@ a {
 .nav-solid a {
   color: white; }
 
-.hero-content-slider-cell img {
-  height: 350px;
-  object-fit: cover;
-  object-position: center center; }
-
-.hero-content-slider-ctrl {
+.hero-content {
   display: flex;
-  justify-content: space-around; }
-  .hero-content-slider-ctrl div {
-    padding: 30px 15px 0 15px; }
-    .hero-content-slider-ctrl div:hover {
-      color: #c3a777; }
+  flex-direction: column; }
+  @media only screen and (min-width: 62em) {
+    .hero-content {
+      flex-direction: row; } }
+  @media only screen and (min-width: 62em) {
+    .hero-content-slider {
+      width: 50%; } }
+  .hero-content-slider-cell img {
+    height: 350px;
+    object-fit: cover;
+    object-position: center center; }
+  .hero-content-slider-ctrl {
+    display: flex;
+    justify-content: space-around; }
+    .hero-content-slider-ctrl div {
+      padding: 30px 15px 0 15px; }
+      .hero-content-slider-ctrl div:hover {
+        color: #c3a777; }
+  .hero-content-copy {
+    padding: 60px 30px 0 30px; }
+    @media only screen and (min-width: 62em) {
+      .hero-content-copy {
+        width: 50%; } }
 
 a[id="floorplan"]:target ~ .page-content div.section {
   -webkit-transform: translateY(0px);
@@ -1213,6 +1238,8 @@ a[id="floorplan"]:target ~ .page-content div.section {
       .footer .container .content-block:first-child img {
         max-width: 260px;
         margin-bottom: 30px; }
+    .footer .container .content-block:nth-child(2) {
+      margin-bottom: 30px; }
     .footer .container .content-block:last-child .btn {
       position: relative;
       margin-bottom: 15px; }

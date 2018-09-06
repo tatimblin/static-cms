@@ -12,16 +12,31 @@
 
     nav {
         display: flex;
+        flex-direction: column;
         justify-content: flex-end;
         align-items: center;
         padding: $spacing 0;
         border-bottom: 1px solid rgba(255, 255, 255, 0.33);
 
-        .nav-item {
+        @include grid-media($grid-medium) {
+            flex-direction: row;
+        }
 
-            padding: $spacing/4 $spacing;
+        .nav-item {
+            padding: $spacing/4 $spacing/2;
+
+            @include grid-media($grid-large) {
+                padding: $spacing/4 $spacing;
+            }
+
+            &:last-child {
+                @include grid-media($grid-medium) {
+                    margin-right: $spacing/2;
+                }
+            }
 
             &.nav-logo {
+                margin: auto;
                 margin-right: auto;
                 img {width: 100px;}
             }
@@ -30,9 +45,7 @@
                 // background-color: $brand-gold;
                 border: 1px solid $brand-gold;
                 box-shadow: inset 200px 0px $brand-gold;
-
-
-                
+                text-align: center;
 
                 &:hover{
                     // background-color: rgba(0,0,0,0);
@@ -64,26 +77,42 @@
     color: white;
 }
 
-.hero-content-slider {
-    &-cell {
+.hero-content {
+    display: flex;
+    flex-direction: column;
 
-        img {
-            height: 350px;
-            object-fit: cover;
-            object-position: center center;
-        }
+    @include grid-media($grid-large) {
+        flex-direction: row;
     }
-    &-ctrl {
-        display: flex;
-        justify-content: space-around;
-        
-        div {
-            padding: $spacing $spacing/2 0 $spacing/2;
 
-            &:hover {
-                color: $brand-gold;
+    &-slider {
+        @include grid-media($grid-large) { width: 50%; }
+
+        &-cell {
+
+            img {
+                height: 350px;
+                object-fit: cover;
+                object-position: center center;
             }
         }
+        &-ctrl {
+            display: flex;
+            justify-content: space-around;
+            
+            div {
+                padding: $spacing $spacing/2 0 $spacing/2;
+
+                &:hover {
+                    color: $brand-gold;
+                }
+            }
+        }
+    }
+    &-copy {
+        padding: $spacing*2 $spacing 0 $spacing;
+
+        @include grid-media($grid-large) { width: 50%; }
     }
 }
 
