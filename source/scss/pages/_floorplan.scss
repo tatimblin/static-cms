@@ -75,6 +75,10 @@
                 @include grid-column(6, $grid);
             }
 
+           &-desc {
+                display: block;
+                min-height: 160px;
+            }
             a {
                 color: $brand-gold;
             }

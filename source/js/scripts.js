@@ -1,20 +1,11 @@
 var heroSlider = new Vue({
-    el: '#hero-content',
+    el: '#hero-content-slider',
     data: {
         index: 0,
         slides: [  
-            {
-                callout: 'Own A Home Stay In The City', 
-                img: 'images/assets/otto-hero-commute.jpg'
-            }, 
-            {
-                callout: 'Own Two Homes Stay In The City', 
-                img: 'images/assets/otto-hero-nature.jpg'
-            },
-            {
-                callout: 'Own Three Homes Stay In The City', 
-                img: 'images/assets/otto-hero-community.jpg'
-            }
+            'images/assets/otto-hero-commute.jpg', 
+            'images/assets/otto-hero-nature.jpg',
+            'images/assets/otto-hero-community.jpg'
         ]
     },
     methods: {
@@ -24,6 +15,7 @@ var heroSlider = new Vue({
             } else {
                 ++this.index
             }
+            console.log('next');
         },
         prevSlide() {
             if (this.index === 0) {
@@ -31,6 +23,7 @@ var heroSlider = new Vue({
             } else {
                 --this.index
             }
+            console.log('next');
         }
     }
 })
@@ -38,36 +31,70 @@ var heroSlider = new Vue({
 var FloorplanApp = new Vue({
     el: '#fp-app',
     data: {
+        number: 0,
+        tweenedNumber: 100000,
         index: 0,
         units: [
             {
                 title: 'The Studio',
                 desc: 'The Studio is for those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
-                price: '100,000',
+                price: '100000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'Boden',
                 desc: 'The Boden floor plan features 1-bedroom condos that are ideally priced to start building your life from the ground up.',
-                price: '200,000',
+                price: '200000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'The Mitte',
                 desc: 'The Mitte floor plan features 2-bedroom condos—giving you a little extra space for out-of-town visitors or a growing family.',
-                price: '350,000',
+                price: '350000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             },
             {
                 title: 'The Oben',
                 desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
-                price: '600,000',
+                price: '600000',
                 floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
             }
         ]
-    }
+    },
+    computed: {
+
+        animatedNumber: function() {
+   
+            let num = this.tweenedNumber
+            let result = Number(num.toFixed(0)).toLocaleString().split(/\s/).join(',')
+            console.log(result);
+            return result
+            
+        }
+
+      },
+      watch: {
+        number: function(newValue) {
+            
+          TweenLite.to(this.$data, 1, { tweenedNumber: newValue });
+        }
+      },
+      methods: {
+        countPrice: function(i) {
+
+            console.log(this.number);
+            this.index = i
+            this.number = this.units[i].price
+ 
+            
+
+
+        }
+      }
     
 })
+
+
 
 var planSlider = new Vue({
     el: '#plan-slider',
@@ -186,6 +213,7 @@ var StoryImg = new Vue ({
 
 
 // Neighborhood Map
+// AMENITY MAP
 mapboxgl.accessToken = 'pk.eyJ1IjoidGF0aW1ibGluIiwiYSI6ImNqM2RkZzNqNDAwMGMzM281dTdqMnNuNnYifQ.f-78RB94egBVWUwbVNYAig';
 var bounds = [
     [-75.218, 39.957], // Southwest coordinates
@@ -199,7 +227,7 @@ var map = new mapboxgl.Map({
     center: [-75.185378, 39.979700],
 });
 
-var toggleableLayerIds = [ 'food-drink', 'nature-travel', '31st-street-then', '31st-street-now' ];
+var toggleableLayerIds = [ 'otto', 'food-drink', 'nature-travel', '31st-street-then', '31st-street-now' ];
 
 for (var i = 0; i < toggleableLayerIds.length; i++) {
     var id = toggleableLayerIds[i];
@@ -213,12 +241,11 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         link.className = '';
     }
     link.idName = id;
-    var prettyId = id.replace(new RegExp("\\-","g"),' ');
-    link.textContent = prettyId;
+    link.textContent = id;
 
     link.onclick = function (e) {
 
-        var clickedLayer = this.idName;
+        var clickedLayer = this.textContent;
         e.preventDefault();
         e.stopPropagation();
 
