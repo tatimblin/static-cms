@@ -86,6 +86,31 @@
         }
         &-controls {
             padding: 0 $spacing;
+
+            div{
+                width: 20px;
+                margin: 0 auto;
+                transition: all .4s $ease;
+                svg{
+                    .cls-1{
+                        fill: $brand-charcoal;
+                        transition: all .4s $ease;
+                    }
+                }
+            }
+            div:hover{
+                svg{
+                    .cls-1{
+                        fill: $brand-gold;
+                    }
+                }
+            }
+
+            div:nth-child(2){
+                transform: scaleX(-1);
+
+            }
+
         }
     }
 }

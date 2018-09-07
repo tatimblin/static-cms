@@ -28,9 +28,14 @@ preloadImages(
         // Story Flicker
         'images/assets/otto-story-ext.jpg',
         'images/assets/otto-story-hist-ext.png',
-        'images/assets/otto-story-hist-int.png'
+        'images/assets/otto-story-hist-int.png',
         // Brewerytown Slider
+        'images/assets/otto-brewerytown-storefront.jpg',
+        'images/assets/otto-brewerytown-philadelphia-skyline.jpg',
         // Plan Slider
+        'images/assets/otto-plan-fairmount-park.jpg',
+        'images/assets/otto-plan-glenwood-avenue.jpg',
+        'images/assets/otto-plan-septa.jpg',
     ]).then(function(imgs) {
     console.log('images loaded');
 }, function(errImg) {

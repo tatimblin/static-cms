@@ -113,12 +113,17 @@ var planSlider = new Vue({
         slides: [  
             {
                 title: 'Fairmount Park Penn Praxis',
-                image: 'http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg',
+                image: 'images/assets/otto-plan-fairmount-park.jpg',
                 desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
             },
             {
-                title: 'Park Penn Praxis',
-                image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog',
+                title: 'Septa',
+                image: 'images/assets/otto-plan-septa.jpg',
+                desc: 'The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+            },
+            {
+                title: 'Red Bell Brewing',
+                image: 'images/assets/otto-plan-glenwood-avenue.jpg',
                 desc: 'The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
             }
         ]
@@ -153,8 +158,8 @@ var locationSlider = new Vue({
     data: {
         index: 0,
         slides: [  
-            'http://www.agentlady.com/wp-content/gallery/brewerytown/Brewerytown-015915.jpg',
-            'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT53KX-Pkszzwa0MQmHMIqdT2S-k_7SsrSG--f5PrKlsUNaTaplog',
+            'images/assets/otto-brewerytown-storefront.jpg',
+            'images/assets/otto-brewerytown-philadelphia-skyline.jpg',
         ]
     },
     computed: {
