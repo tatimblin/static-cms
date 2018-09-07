@@ -117,6 +117,13 @@
             padding: 0 $spacing;
         }
     }
+    .content-block {
+        h1{
+            min-height: 420px;
+        }
+        
+
+    }
 }
 
 a[ id= "floorplan" ]:target ~ .page-content div.section {
