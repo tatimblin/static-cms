@@ -1706,6 +1706,17 @@ a[id="floorplan"]:target ~ .page-content div.section {
       width: 200px; }
   .location-slider-controls {
     padding: 0 30px; }
+    .location-slider-controls div {
+      width: 20px;
+      margin: 0 auto;
+      transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+      .location-slider-controls div svg .cls-1 {
+        fill: #565656;
+        transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+    .location-slider-controls div:hover svg .cls-1 {
+      fill: #c3a777; }
+    .location-slider-controls div:nth-child(2) {
+      transform: scaleX(-1); }
 
 .plan-title {
   position: relative;
