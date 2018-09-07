@@ -27,8 +27,8 @@ preloadImages(
         // Floorplan
         // Story Flicker
         'images/assets/otto-story-ext.jpg',
-        'images/assets/otto-story-hist-ext.jpg',
-        'images/assets/otto-story-hist-int.jpg'
+        'images/assets/otto-story-hist-ext.png',
+        'images/assets/otto-story-hist-int.png'
         // Brewerytown Slider
         // Plan Slider
     ]).then(function(imgs) {

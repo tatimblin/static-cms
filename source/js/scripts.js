@@ -37,6 +37,7 @@ var heroSlider = new Vue({
     }
 })
 
+
 var FloorplanApp = new Vue({
     el: '#fp-app',
     data: {
@@ -188,6 +189,7 @@ var locationSlider = new Vue({
     }
 })
 
+
 var StoryImg = new Vue ({
     el: '#story-img-app',
     data: function() {
@@ -275,3 +277,25 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 }
+
+
+// Intro Images
+ScrollReveal().reveal('.intro-copy-stamp', { container: '.smooth-scroll', delay: 400, distance: '10px', scale: 0.92 });
+ScrollReveal().reveal('.intro-collage-img img', { container: '.smooth-scroll', delay: 100, interval: 20, distance: '10px', scale: 0.96 });
+
+// Amenity List
+ScrollReveal().reveal('.amenities-main-list li', { container: '.smooth-scroll', delay: 20, interval: 50, distance: '10px'});
+
+// Floorplan
+ScrollReveal().reveal('.fp-app-content-floorplan img', { container: '.smooth-scroll', delay: 150, distance: '10px', scale: 0.96 });
+
+// Story images
+ScrollReveal().reveal('.story-entry img', { container: '.smooth-scroll', delay: 150, interval: 10, distance: '10px', scale: 0.96 });
+ScrollReveal().reveal('.story-entry-logo', { container: '.smooth-scroll', delay: 150, scale: 0.96 });
+ScrollReveal().reveal('.story-img', { container: '.smooth-scroll', delay: 150, distance: '10px', scale: 0.96 });
+
+// Brewerytown Drawn Map
+ScrollReveal().reveal('.location-main img', { container: '.smooth-scroll', delay: 200, distance: '10px', scale: 0.96 });
+
+// Footer
+ScrollReveal().reveal('.pre-footer-content', { container: '.smooth-scroll', distance: '30px', scale: 0.8 });
