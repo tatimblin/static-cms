@@ -1152,7 +1152,7 @@ a {
         margin: auto;
         margin-right: auto; }
         .hero nav .nav-item.nav-logo img {
-          width: 100px; }
+          width: 120px; }
       .hero nav .nav-item.nav-solid {
         transition: 0.4s all cubic-bezier(0.785, 0.135, 0.15, 0.86);
         border: 1px solid #c3a777;
@@ -1263,7 +1263,7 @@ a[id="floorplan"]:target ~ .page-content div.section {
           float: left;
           margin-left: 5%; } }
       .footer .container .content-block:first-child img {
-        max-width: 260px;
+        max-width: 120px;
         margin-bottom: 30px; }
     .footer .container .content-block:last-child .btn {
       position: relative;
@@ -1662,14 +1662,24 @@ a[id="floorplan"]:target ~ .page-content div.section {
       @media only screen and (min-width: 40em) {
         .location-main .content-block h2 {
           margin-bottom: 6rem; } }
-    @media only screen and (min-width: 40em) {
-      .location-main .content-block img {
-        width: calc(50% - 45px);
-        float: left;
-        margin-left: 30px;
-        margin-left: calc(50% - 7.5% + 10%);
-        position: absolute;
-        top: 0; } }
+    .location-main .content-block img {
+      transform: translateY(-3rem); }
+      @media only screen and (min-width: 48em) {
+        .location-main .content-block img {
+          width: calc(50% - 45px);
+          float: left;
+          margin-left: 30px;
+          margin-left: calc(50% - 7.5% + 10%);
+          position: absolute;
+          top: 9rem;
+          transform: translateY(0); } }
+      @media only screen and (min-width: 62em) {
+        .location-main .content-block img {
+          width: calc(75% - 52.5px);
+          float: left;
+          margin-left: 30px;
+          margin-left: calc(25% - 6.25% + 10%);
+          top: 0; } }
   .location-main-body {
     width: calc(100% - 60px);
     float: left;
@@ -1680,7 +1690,8 @@ a[id="floorplan"]:target ~ .page-content div.section {
       .location-main-body {
         width: calc(50% - 7.5%);
         float: left;
-        margin-left: 5%; } }
+        margin-left: 5%;
+        margin-bottom: 6rem; } }
     .location-main-body span {
       font-weight: 700; }
 
