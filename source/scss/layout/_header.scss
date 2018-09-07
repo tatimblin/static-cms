@@ -81,19 +81,33 @@
     display: flex;
     flex-direction: column;
 
-    @include grid-media($grid-large) {
+    @include grid-media($grid-medium) {
         flex-direction: row;
     }
 
+    &-slider, &-copy {
+        margin: $spacing/2;  
+        
+        @include grid-media($grid-medium) { 
+            width: 50%;
+            margin: $spacing*2 0;
+        }
+    }
     &-slider {
-        @include grid-media($grid-large) { width: 50%; }
 
         &-cell {
 
             img {
-                height: 350px;
+                height: 450px;
                 object-fit: cover;
                 object-position: center center;
+
+                @include grid-media($grid-small) {
+                    width: 100%;
+                }
+                @include grid-media($grid-medium) {
+                    height: 350px;
+                }
             }
         }
         &-ctrl {
@@ -110,19 +124,21 @@
         }
     }
     &-copy {
-        padding: $spacing*2 $spacing 0 $spacing;
+        padding: $spacing;
 
         @include grid-media($grid-large) { 
             width: 50%;
             padding: 0 $spacing;
         }
-    }
-    .content-block {
-        h1{
-            min-height: 420px;
-        }
-        
 
+        h1 {
+            padding: $spacing 0;
+
+            @include grid-media($grid-large) {
+                min-height: 420px;
+                padding: 0;
+            }
+        }
     }
 }
 
