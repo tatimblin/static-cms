@@ -20,8 +20,13 @@
     &-title {
         position: relative;
         width: 50%; height: 3.33em;
+        padding-left: $spacing/2;
         color: $brand-gold;
         z-index: 10;
+
+        @include grid-media($grid-medium) {
+            padding-left: 0;
+        }
     }
     &-content {
 
@@ -29,14 +34,14 @@
             position: relative;
             min-height: $spacing*3;
 
-            @include grid-media($grid-small) {
-                height: 300px;
+            @include grid-media($grid-medium) {
+                height: 340px;
             }
         }
         &-count {
             @include grid-column(12);
 
-            @include grid-media($grid-small) {
+            @include grid-media($grid-medium) {
                 @include grid-column(1);
             }
 
@@ -47,12 +52,12 @@
         }
         &-img {
             @include grid-column(12);
-            @include grid-media($grid-small) {
+            @include grid-media($grid-medium) {
                 @include grid-column(7);
             }
 
             img {
-                width: 100%;
+                width: 100%; height: 340px;
                 object-fit: cover;
                 object-position: center center;
             }
@@ -62,23 +67,21 @@
 
             position: relative;
 
-            @include grid-media($grid-small) {
+            @include grid-media($grid-medium) {
                 @include grid-column(4);
             }
 
             div {
                 position: absolute;
                 display: inline-block;
-                bottom: -$spacing;
 
-                @include grid-media($grid-small) {
+                @include grid-media($grid-medium) {
                     bottom: 0;
                 }
 
-                span {
+                button {
                     margin-right: $spacing/2;
                     padding: 5px;
-                    cursor: pointer;
 
                     &:last-child img {
                         transform: rotate(180deg);

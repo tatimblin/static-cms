@@ -752,8 +752,8 @@ button,
 [type='button'],
 [type='reset'],
 [type='submit'] {
-  background-color: #fff;
-  color: #000;
+  background-color: transparent;
+  border: none;
   cursor: pointer;
   display: inline-block;
   padding: 1rem;
@@ -1174,7 +1174,8 @@ a {
 
 .hero-content {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   @media only screen and (min-width: 48em) {
     .hero-content {
       flex-direction: row; } }
@@ -1197,9 +1198,9 @@ a {
   .hero-content-slider-ctrl {
     display: flex;
     justify-content: space-around; }
-    .hero-content-slider-ctrl div {
+    .hero-content-slider-ctrl button {
       padding: 30px 15px 0 15px; }
-      .hero-content-slider-ctrl div:hover {
+      .hero-content-slider-ctrl button:hover {
         color: #c3a777; }
   .hero-content-copy {
     padding: 30px; }
@@ -1262,6 +1263,11 @@ a[id="floorplan"]:target ~ .page-content div.section {
           width: calc(33.3333333333% - 6.6666666667%);
           float: left;
           margin-left: 5%; } }
+      .footer .container .content-block:first-child a {
+        color: #fff;
+        transition: color 300ms cubic-bezier(0.785, 0.135, 0.15, 0.86); }
+        .footer .container .content-block:first-child a:hover {
+          color: #b3b2b2; }
       .footer .container .content-block:first-child img {
         max-width: 120px;
         margin-bottom: 30px; }
@@ -1317,6 +1323,7 @@ a[id="floorplan"]:target ~ .page-content div.section {
   position: absolute;
   width: 75px;
   height: 1px;
+  bottom: -5px;
   background-color: #fff; }
 
 .story .btn:after {
@@ -1466,7 +1473,10 @@ a[id="floorplan"]:target ~ .page-content div.section {
         .intro-collage-row {
           margin: 60px 0 60px 0; } }
       .intro-collage-row img {
-        min-width: 340px; }
+        min-width: 100%; }
+        @media only screen and (min-width: 40em) {
+          .intro-collage-row img {
+            min-width: 300px; } }
     .intro-collage-img {
       width: calc(100% - 60px);
       float: left;
@@ -1547,6 +1557,7 @@ a[id="floorplan"]:target ~ .page-content div.section {
     float: left;
     margin-left: 30px;
     display: inline;
+    min-width: 200px;
     margin: 0 30px 60px 30px;
     border-top: 1px solid #565656; }
     @media only screen and (min-width: 40em) {
@@ -1758,21 +1769,25 @@ a[id="floorplan"]:target ~ .page-content div.section {
   position: relative;
   width: 50%;
   height: 3.33em;
+  padding-left: 15px;
   color: #c3a777;
   z-index: 10; }
+  @media only screen and (min-width: 48em) {
+    .plan-slider-title {
+      padding-left: 0; } }
 
 .plan-slider-content > div {
   position: relative;
   min-height: 90px; }
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 48em) {
     .plan-slider-content > div {
-      height: 300px; } }
+      height: 340px; } }
 
 .plan-slider-content-count {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px; }
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 48em) {
     .plan-slider-content-count {
       width: calc(8.3333333333% - 5.4166666667%);
       float: left;
@@ -1785,13 +1800,14 @@ a[id="floorplan"]:target ~ .page-content div.section {
   width: calc(100% - 40px);
   float: left;
   margin-left: 20px; }
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 48em) {
     .plan-slider-content-img {
       width: calc(58.3333333333% - 7.9166666667%);
       float: left;
       margin-left: 5%; } }
   .plan-slider-content-img img {
     width: 100%;
+    height: 340px;
     object-fit: cover;
     object-position: center center; }
 
@@ -1800,25 +1816,23 @@ a[id="floorplan"]:target ~ .page-content div.section {
   float: left;
   margin-left: 20px;
   position: relative; }
-  @media only screen and (min-width: 40em) {
+  @media only screen and (min-width: 48em) {
     .plan-slider-content-copy {
       width: calc(33.3333333333% - 6.6666666667%);
       float: left;
       margin-left: 5%; } }
   .plan-slider-content-copy div {
     position: absolute;
-    display: inline-block;
-    bottom: -30px; }
-    @media only screen and (min-width: 40em) {
+    display: inline-block; }
+    @media only screen and (min-width: 48em) {
       .plan-slider-content-copy div {
         bottom: 0; } }
-    .plan-slider-content-copy div span {
+    .plan-slider-content-copy div button {
       margin-right: 15px;
-      padding: 5px;
-      cursor: pointer; }
-      .plan-slider-content-copy div span:last-child img {
+      padding: 5px; }
+      .plan-slider-content-copy div button:last-child img {
         transform: rotate(180deg); }
-      .plan-slider-content-copy div span img {
+      .plan-slider-content-copy div button img {
         width: 20px; }
 
 .map-nav {

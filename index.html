@@ -77,8 +77,8 @@
                     </div>
 
                     <div class="hero-content-slider-ctrl">
-                        <div class="slider-ctrl-prev link-item" @click="prevSlide">prev</div>
-                        <div class="slider-ctrl-next link-item" @click="nextSlide">next</div>
+                        <button class="slider-ctrl-prev link-item" @click="prevSlide">prev</button>
+                        <button class="slider-ctrl-next link-item" @click="nextSlide">next</button>
                     </div>
 
                 </div>
@@ -108,13 +108,13 @@
                     <div class="content-block">
 
                         <img class="intro-copy-stamp" src="images/ui/otto-stamp.svg" alt="">
-                        <h4 class="text-center">OTTO is a new condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.</h4>
+                        <h4 class="text-center">Introducing OTTO, a revolutionary condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.</h4>
                         <div class="two-col">
                             <div>
                                     <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
                             </div>
                             <div>
-                                    <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
+                                    <p>OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. Here, it’s more than a home—it’s an chance to buy into the future of Brewerytown.</p>
                             </div>
                         </div>
                         <div class="btn text-center">
@@ -332,7 +332,7 @@
                     <div class="story-entry">
 
                         <h5>A building by Equinox</h5>
-                        <p>OTTO is a flagship project of Equinox, a fully integrated real estate development, property management, general contracting, and property maintenance company. Equinox is committed to creating positive change in our built environment and contributing to the communities where we live and work.</p>
+                        <p>OTTO is bringing bold architecture is back into the neighborhood. Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor, OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. Here, it’s more than a home—it’s an chance to buy into the future of Brewerytown.</p>
                         <img class="story-entry-logo" src="images/ui/equinox-logo.svg" alt="Equinox MC Logo">
                         
                         <div class="btn">
@@ -483,8 +483,8 @@
                                     <p :key="index">{{slides[index].desc}} </p>
                                 </transition>
                                 <div>
-                                    <span @click="prevSlide"><img src="images/ui/otto-arrow.svg" alt="Previous Slide"></span>
-                                    <span @click="nextSlide"><img src="images/ui/otto-arrow.svg" alt="Next Slide"></span>
+                                    <button @click="prevSlide"><img src="images/ui/otto-arrow.svg" alt="Previous Slide"></button>
+                                    <button @click="nextSlide"><img src="images/ui/otto-arrow.svg" alt="Next Slide"></button>
                                 </div>
                             </div>
                         </div>
@@ -558,9 +558,11 @@
                 <div class="container large-width intro-text">
 
                     <div class="content-block text-center">
-                        <img src="images/ui/otto-logo.svg" alt="Otto Brewerytown Logo">
-                        <h6>1501 N 31<span>st</span> street</h6>
-                        <h6>Philadelphia, PA</h6>
+                        <a href="https://www.google.com/maps/place/Otto+Brewerytown/@39.9796097,-75.187561,17z/data=!4m13!1m7!3m6!1s0x89c6c7bc4c299a31:0x62a82f64b460d413!2s1501+N+31st+St,+Philadelphia,+PA+19121!3b1!8m2!3d39.9796097!4d-75.1853723!3m4!1s0x89c6c73b9a3205c5:0x7763434fe6c0d841!8m2!3d39.9796097!4d-75.1853723" target="_blank">
+                            <img src="images/ui/otto-logo.svg" alt="Otto Brewerytown Logo">
+                            <h6>1501 N 31<span>st</span> street</h6>
+                            <h6>Philadelphia, PA</h6>
+                        </a>
                     </div>
 
                     <div class="content-block">
@@ -577,8 +579,8 @@
                             <a href="#">Sign up for the waitlist</a>
                         </div>
                         <div class="footer-social">
-                            <a href="">Facebook</a>
-                            <a href="">Twitter</a>
+                            <a href="https://www.facebook.com/EquinoxMC/" target="_blank">Facebook</a>
+                            <a href="" target="_blank">Twitter</a>
                         </div>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 101.17 16.6">
                             <defs>

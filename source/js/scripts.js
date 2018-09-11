@@ -4,15 +4,15 @@ var heroSlider = new Vue({
         index: 0,
         slides: [  
             {
-                callout: 'Own A Home Stay In The City', 
+                callout: 'Drive To Work Walk To Dinner', 
                 img: 'images/assets/otto-hero-commute.jpg'
             }, 
             {
-                callout: 'Own Two Homes Stay In The City', 
+                callout: 'Urban Living Close To Nature', 
                 img: 'images/assets/otto-hero-nature.jpg'
             },
             {
-                callout: 'Own Three Homes Stay In The City', 
+                callout: 'Own A Home Stay In The City', 
                 img: 'images/assets/otto-hero-community.jpg'
             }
         ]
@@ -114,17 +114,17 @@ var planSlider = new Vue({
             {
                 title: 'Fairmount Park Penn Praxis',
                 image: 'images/assets/otto-plan-fairmount-park.jpg',
-                desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+                desc: 'Philadelphia Parks & Recreation a partnering with Penn Praxis to more successfully connect East and West Fairmount Park. The result will create new recreational space, greater accessibility, and new or improved amenities throughout the park.',
             },
             {
-                title: 'Septa',
+                title: 'Septa BRT-Lite Plan',
                 image: 'images/assets/otto-plan-septa.jpg',
-                desc: 'The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+                desc: 'Septa’s proposed bus route offering one-seat rides through University City from Brewerytown and Fairmount. The buses will run every 15 minutes during rush hour and drastically simplify the commute for Brewerytown residents.',
             },
             {
                 title: 'Red Bell Brewing',
                 image: 'images/assets/otto-plan-glenwood-avenue.jpg',
-                desc: 'The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+                desc: 'Neighborhood icon and long-vacant Red Bell Brewing is being revived by MMPartners. When finished, the historic facade will house 147 apartments and ground floor retail space.',
             }
         ]
     },

@@ -48,6 +48,14 @@
 
                 margin-bottom: $spacing;
 
+                a {
+                    color: $white;
+                    transition: color $dur $ease;
+
+                    &:hover {
+                        color: darken($white, 30%);
+                    }
+                }
                 img {
                     max-width: 120px;
                     margin-bottom: $spacing;

@@ -45,7 +45,11 @@
             }
 
             img {
-                min-width: 340px; // If an img is too small
+                min-width: 100%;
+
+                @include grid-media($grid-small) {
+                    min-width: 300px; // If an img file is too small
+                }
             }
         }
         &-img {
