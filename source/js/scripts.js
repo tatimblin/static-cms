@@ -284,26 +284,26 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
 }
 
 
-var footer = new Vue ({
-    el: '#parallax',
-    data () {
-        return {
-            scrollPos: 0
-        }
-    },
-    methods: {
-        parallax () {
-            this.scrolled = window.scrollY
-            console.log(this.scrollPos)
-        }
-    },
-    created () {
-        window.addEventListener('scroll', this.parallax)
-    },
-    destroyed () {
-        window.removeEventListener('scroll', this.parallax)
-    }
-})
+// Pre Footer Parallax
+var preFooter = document.querySelector('.parallax-layer');
+
+function setParallax(yPos, el) {
+    el.style.transform = `translateY(${yPos}px)`;
+}
+
+window.addEventListener("DOMContentLoaded", scrollLoop, false);
+var yScrollPosition;
+
+function scrollLoop() {
+    var page = document.querySelector('.smooth-scroll');
+    var scrolled = page.scrollTop;
+    var height = document.querySelector('#page-content').offsetHeight;
+    yScrollPosition = scrolled - height;
+
+    setParallax(yScrollPosition * 0.2, preFooter);
+
+    requestAnimationFrame(scrollLoop);
+}
 
 
 // Intro Images
@@ -323,6 +323,3 @@ ScrollReveal().reveal('.story-img', { container: '.smooth-scroll', delay: 150, d
 
 // Brewerytown Drawn Map
 ScrollReveal().reveal('.location-main img', { container: '.smooth-scroll', delay: 200, distance: '10px', scale: 0.96 });
-
-// Footer
-ScrollReveal().reveal('.pre-footer-content', { container: '.smooth-scroll', distance: '30px', scale: 0.8 });

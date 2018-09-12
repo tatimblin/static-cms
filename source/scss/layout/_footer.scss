@@ -5,20 +5,26 @@
  *
  *****************************************************************************/
 
-
-#parallax {
-    position: absolute;
-    width: 100%; height: 100vh;
+#contact {
+    position: relative;
 }
 
 .pre-footer {
+    position: relative;
+    height: 12rem;
+    overflow: hidden;
 
-    &-content {
+    .parallax-layer {
+        position: absolute;
+        top: 0; bottom: 0; left: 0; right: 0;
+        height: 1000px;
+    }
+    
+    &-bg {
+        height: 100%;
         background-color: $brand-blue;
-
-        img {
-            padding: $spacing*2 $spacing;
-        }
+        background-image: url('../images/ui/otto-pattern.svg');
+        background-size: 10vw;
     }
 }
 
