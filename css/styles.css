@@ -1585,7 +1585,11 @@ a[id="floorplan"]:target ~ .page-content div.section {
       border-right: 1px solid #565656;
       border-bottom: 1px solid #565656;
       transition: all 300ms ease;
-      cursor: pointer; }
+      cursor: pointer;
+      overflow: hidden;
+      white-space: nowrap;
+      display: flex;
+      justify-content: center; }
       .fp-app-sidebar-item:hover, .fp-app-sidebar-item:focus {
         background-color: #f2f2f2; }
       .fp-app-sidebar-item h5 {
