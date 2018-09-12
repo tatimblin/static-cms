@@ -25,6 +25,10 @@ preloadImages(
         'images/assets/otto-hero-nature.jpg', 
         'images/assets/otto-hero-community.jpg',
         // Floorplan
+        'images/assets/otto-floorplan-studio.jpg', 
+        'images/assets/otto-floorplan-the-boden.jpg', 
+        'images/assets/otto-floorplan-the-mitte.jpg',
+        'images/assets/otto-floorplan-penthouse.jpg',
         // Story Flicker
         'images/assets/otto-story-ext.jpg',
         'images/assets/otto-story-hist-ext.png',

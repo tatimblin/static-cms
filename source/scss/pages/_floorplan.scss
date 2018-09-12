@@ -63,12 +63,16 @@
         flex-direction: column;
         padding: $spacing*2 0 $spacing 0;
         background-color: $white;
+        min-height: 600px;
 
         @include grid-media($grid-medium) {
             flex-direction: row;
         }
 
         &-floorplan {
+            img {
+                margin-top: $spacing;
+            }
             @include grid-column(12, $grid);
             @include grid-media($grid-medium) {
                 @include grid-column(6, $grid);

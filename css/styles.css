@@ -1600,7 +1600,8 @@ a[id="floorplan"]:target ~ .page-content div.section {
     display: flex;
     flex-direction: column;
     padding: 60px 0 30px 0;
-    background-color: #fff; }
+    background-color: #fff;
+    min-height: 600px; }
     @media only screen and (min-width: 48em) {
       .fp-app-content {
         flex-direction: row; } }
@@ -1608,6 +1609,8 @@ a[id="floorplan"]:target ~ .page-content div.section {
       width: calc(100% - 60px);
       float: left;
       margin-left: 30px; }
+      .fp-app-content-floorplan img {
+        margin-top: 30px; }
       @media only screen and (min-width: 48em) {
         .fp-app-content-floorplan {
           width: calc(50% - 45px);
