@@ -49,25 +49,25 @@ var FloorplanApp = new Vue({
                 title: 'The Studio',
                 desc: 'The Studio is for those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
                 price: '100000',
-                floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
+                floorplan: 'images/assets/otto-floorplan-studio.jpg'
             },
             {
                 title: 'Boden',
                 desc: 'The Boden floor plan features 1-bedroom condos that are ideally priced to start building your life from the ground up.',
                 price: '200000',
-                floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
+                floorplan: 'images/assets/otto-floorplan-the-boden.jpg'
             },
             {
                 title: 'The Mitte',
                 desc: 'The Mitte floor plan features 2-bedroom condos—giving you a little extra space for out-of-town visitors or a growing family.',
                 price: '350000',
-                floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
+                floorplan: 'images/assets/otto-floorplan-the-mitte.jpg'
             },
             {
                 title: 'The Oben',
                 desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
                 price: '600000',
-                floorplan: 'https://adair-homes.s3.us-west-2.amazonaws.com/website/models/1634/1634-whidbey-floorplan.png'
+                floorplan: 'images/assets/otto-floorplan-penthouse.jpg'
             }
         ]
     },

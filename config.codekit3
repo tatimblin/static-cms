@@ -66,6 +66,46 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/assets\/otto-floorplan-penthouse.jpg": {
+		"ft": 16384,
+		"iS": 164250,
+		"oA": 0,
+		"oAP": "\/images\/assets\/otto-floorplan-penthouse.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/otto-floorplan-studio.jpg": {
+		"ft": 16384,
+		"iS": 104492,
+		"oA": 0,
+		"oAP": "\/images\/assets\/otto-floorplan-studio.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/otto-floorplan-the-boden.jpg": {
+		"ft": 16384,
+		"iS": 148621,
+		"oA": 0,
+		"oAP": "\/images\/assets\/otto-floorplan-the-boden.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/otto-floorplan-the-mitte.jpg": {
+		"ft": 16384,
+		"iS": 194762,
+		"oA": 0,
+		"oAP": "\/images\/assets\/otto-floorplan-the-mitte.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/assets\/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 453761,
