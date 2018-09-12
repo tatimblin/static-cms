@@ -1225,14 +1225,15 @@ a[id="floorplan"]:target ~ .page-content div.section {
  * This file contains styles that are specific to the site footer.
  *
  *****************************************************************************/
-.pre-footer {
-  background-color: #566667;
-  background-image: url("../images/ui/otto-pattern.svg");
-  background-size: 10vw; }
-  .pre-footer-content {
-    background-color: #566667; }
-    .pre-footer-content img {
-      padding: 60px 30px; }
+#parallax {
+  position: absolute;
+  width: 100%;
+  height: 100vh; }
+
+.pre-footer-content {
+  background-color: #566667; }
+  .pre-footer-content img {
+    padding: 60px 30px; }
 
 .footer {
   background-color: #565656;

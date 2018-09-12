@@ -4,16 +4,16 @@ var heroSlider = new Vue({
         index: 0,
         slides: [  
             {
-                callout: 'Drive To Work Walk To Dinner', 
+                callout: 'Own A Home Stay In The City', 
+                img: 'images/assets/otto-hero-community.jpg'
+            },
+            {
+                callout: 'Drive To Work Bike To Dinner', 
                 img: 'images/assets/otto-hero-commute.jpg'
             }, 
             {
                 callout: 'Urban Living Close To Nature', 
                 img: 'images/assets/otto-hero-nature.jpg'
-            },
-            {
-                callout: 'Own A Home Stay In The City', 
-                img: 'images/assets/otto-hero-community.jpg'
             }
         ]
     },
@@ -282,6 +282,28 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
     var layers = document.getElementById('menu');
     layers.appendChild(link);
 }
+
+
+var footer = new Vue ({
+    el: '#parallax',
+    data () {
+        return {
+            scrollPos: 0
+        }
+    },
+    methods: {
+        parallax () {
+            this.scrolled = window.scrollY
+            console.log(this.scrollPos)
+        }
+    },
+    created () {
+        window.addEventListener('scroll', this.parallax)
+    },
+    destroyed () {
+        window.removeEventListener('scroll', this.parallax)
+    }
+})
 
 
 // Intro Images
