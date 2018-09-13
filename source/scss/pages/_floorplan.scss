@@ -88,14 +88,12 @@
 
                 position: absolute;
                 margin-top: $spacing;
-                min-width: auto;
             }
             @include grid-column(12, $grid);
             @include grid-media($grid-medium) {
                 @include grid-column(6, $grid);
                 img {
                     margin-top: $spacing;
-                    min-width: 450px;
                 }
             }
         }

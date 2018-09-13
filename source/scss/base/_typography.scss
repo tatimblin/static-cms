@@ -59,8 +59,7 @@ p {
 }
 
 li {
-    @include responsive-font-size(type-scale(size-1));
-
+    font-size: 16px;
     font-family: $font-body;
     letter-spacing: $kerning50;
 

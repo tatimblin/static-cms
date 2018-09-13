@@ -51,6 +51,9 @@
         }
 
         &-list {
+            height: 500px;
+            overflow: scroll;
+
             @include grid-media($grid-medium) {
                 width: 33%;
             }

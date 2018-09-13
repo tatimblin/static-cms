@@ -80,10 +80,11 @@
 .hero-content {
     display: flex;
     flex-direction: column;
-    align-items: center;
 
     @include grid-media($grid-medium) {
         flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
 
     &-slider, &-copy {
@@ -99,7 +100,7 @@
         &-cell {
 
             img {
-                height: 450px;
+                height: 600px;
                 object-fit: cover;
                 object-position: center center;
 
@@ -107,7 +108,7 @@
                     width: 100%;
                 }
                 @include grid-media($grid-medium) {
-                    height: 350px;
+                    height: 450px;
                 }
             }
         }
@@ -136,7 +137,7 @@
             padding: $spacing 0;
 
             @include grid-media($grid-large) {
-                min-height: 420px;
+                //min-height: 420px;
                 padding: 0;
             }
         }

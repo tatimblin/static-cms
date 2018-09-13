@@ -256,7 +256,11 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
         link.className = '';
     }
     link.idName = id;
-    var prettyId = id.replace(new RegExp("\\-","g"),' ');
+    if (i < 2) {
+        var prettyId = id.replace(new RegExp("\\-", "g"), ' & ')
+    } else {
+        var prettyId = id.replace(new RegExp("\\-","g"),' ');
+    }
     link.textContent = prettyId;
 
     link.onclick = function (e) {

@@ -63,13 +63,18 @@
                 }
         }
         ul {
+
             margin-left: 0px;
             padding-left: 0px;
             list-style: none;
             list-style-position: inside;
 
+            li {
+                
+            }
             span {
-                font-weight: $font-bold-weight;
+                font-weight: 900;
+                font-family: $font-heading;
             }
         }
     }
