@@ -9,7 +9,10 @@
 
 .container {
     @include grid-container;
-	margin: 0 auto;
+    margin: 0 auto;
+    &.xsmall-width {
+        max-width: $xsmall-width
+    }
     &.small-width {
         max-width: $small-width
     }

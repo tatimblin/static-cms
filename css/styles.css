@@ -1094,6 +1094,8 @@ a {
     clear: both;
     content: "";
     display: block; }
+  .container.xsmall-width {
+    max-width: 30em; }
   .container.small-width {
     max-width: 40em; }
   .container.medium-width {
@@ -1568,7 +1570,6 @@ a[id="floorplan"]:target ~ .page-content div.section {
     float: left;
     margin-left: 30px;
     display: inline;
-    min-width: 200px;
     margin: 0 30px 60px 30px;
     border-top: 1px solid #565656; }
     @media only screen and (min-width: 40em) {
@@ -1607,6 +1608,9 @@ a[id="floorplan"]:target ~ .page-content div.section {
     .fp-app-sidebar a {
       color: #565656; }
   .fp-app-content {
+    width: calc(100% - 60px);
+    float: left;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     padding: 60px 0 30px 0;
@@ -1616,10 +1620,25 @@ a[id="floorplan"]:target ~ .page-content div.section {
       .fp-app-content {
         flex-direction: row; } }
     .fp-app-content-floorplan {
+      position: relative;
+      min-height: 300px;
       width: calc(100% - 60px);
       float: left;
       margin-left: 30px; }
+      @media only screen and (min-width: 450px) {
+        .fp-app-content-floorplan {
+          min-height: 500px; } }
+      @media only screen and (min-width: 40em) {
+        .fp-app-content-floorplan {
+          min-height: 640px; } }
+      @media only screen and (min-width: 48em) {
+        .fp-app-content-floorplan {
+          min-height: none; } }
       .fp-app-content-floorplan img {
+        width: calc(100% - 60px);
+        float: left;
+        margin-left: 30px;
+        position: absolute;
         margin-top: 30px; }
       @media only screen and (min-width: 48em) {
         .fp-app-content-floorplan {

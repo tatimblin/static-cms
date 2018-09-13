@@ -25,7 +25,6 @@
         }
 
         display: inline;
-        min-width: 200px;
         margin: 0 $spacing $spacing*2 $spacing;
         border-top: 1px solid $brand-charcoal;
 
@@ -59,6 +58,7 @@
         }
     }
     &-content {
+        @include grid-column(12, $grid);
         display: flex;
         flex-direction: column;
         padding: $spacing*2 0 $spacing 0;
@@ -70,7 +70,23 @@
         }
 
         &-floorplan {
+            position: relative;
+            min-height: 300px;
+
+            @media only screen and (min-width: 450px) {
+                min-height: 500px;
+            }
+            @include grid-media($grid-small) {
+                min-height: 640px;
+            }
+            @include grid-media($grid-medium) {
+                min-height: none;
+            }
+
             img {
+                @include grid-column(12, $grid);
+
+                position: absolute;
                 margin-top: $spacing;
             }
             @include grid-column(12, $grid);

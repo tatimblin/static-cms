@@ -406,6 +406,16 @@
 		"sC": 0,
 		"tS": 1
 		},
+	"\/js\/vue.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/vue.min.js",
+		"oF": 0,
+		"sC": 0,
+		"tS": 1
+		},
 	"\/source\/images\/assets\/otto-amenity-bed.jpg": {
 		"ft": 16384,
 		"iS": 3187497,
