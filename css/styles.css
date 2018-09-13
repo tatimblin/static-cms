@@ -1635,16 +1635,24 @@ a[id="floorplan"]:target ~ .page-content div.section {
         .fp-app-content-floorplan {
           min-height: none; } }
       .fp-app-content-floorplan img {
+<<<<<<< HEAD
         width: calc(100% - 60px);
         float: left;
         margin-left: 30px;
         position: absolute;
         margin-top: 30px; }
+=======
+        margin-top: 30px;
+        min-width: auto; }
+>>>>>>> fd1a88af6b6d04f208e48b6804f6458b87525de8
       @media only screen and (min-width: 48em) {
         .fp-app-content-floorplan {
           width: calc(50% - 45px);
           float: left;
-          margin-left: 30px; } }
+          margin-left: 30px; }
+          .fp-app-content-floorplan img {
+            margin-top: 30px;
+            min-width: 450px; } }
     .fp-app-content-copy {
       width: calc(100% - 60px);
       float: left;
