@@ -63,7 +63,10 @@
                 list-style: none;
 
                 li {
+                    @include responsive-font-size(type-scale(size-1));
+                    padding: 0 0 $spacing/2 0;
                     counter-increment: inst;
+                    letter-spacing: 0.02em;
 
                     &:before {
                         @include responsive-font-size(type-scale(size-3));

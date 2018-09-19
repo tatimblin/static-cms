@@ -1,3 +1,15 @@
+var nav = new Vue({
+    el: '#nav',
+    data: {
+        isOpen: false
+    },
+    methods: {
+        toggleNav() {
+            this.isOpen = !this.isOpen
+        }
+    }
+})
+
 var heroSlider = new Vue({
     el: '#hero-content',
     data: {
@@ -47,25 +59,25 @@ var FloorplanApp = new Vue({
         units: [
             {
                 title: 'The Studio',
-                desc: 'The Studio is for those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
+                desc: 'For those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
                 price: '100000',
                 floorplan: 'images/assets/otto-floorplan-studio.jpg'
             },
             {
                 title: 'Boden',
-                desc: 'The Boden floor plan features 1-bedroom condos that are ideally priced to start building your life from the ground up.',
+                desc: '1-bedroom condos that are ideally priced to start building your life from the ground up.',
                 price: '200000',
                 floorplan: 'images/assets/otto-floorplan-the-boden.jpg'
             },
             {
                 title: 'The Mitte',
-                desc: 'The Mitte floor plan features 2-bedroom condos—giving you a little extra space for out-of-town visitors or a growing family.',
+                desc: '2-bedroom condos that offer a little extra space for out-of-town visitors or a growing family.',
                 price: '350000',
                 floorplan: 'images/assets/otto-floorplan-the-mitte.jpg'
             },
             {
                 title: 'The Oben',
-                desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floor plans and plenty of room to do your thing.',
+                desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floorplans and plenty of room to do your thing.',
                 price: '600000',
                 floorplan: 'images/assets/otto-floorplan-penthouse.jpg'
             }
@@ -114,7 +126,7 @@ var planSlider = new Vue({
             {
                 title: 'Fairmount Park Penn Praxis',
                 image: 'images/assets/otto-plan-fairmount-park.jpg',
-                desc: 'Philadelphia Parks & Recreation a partnering with Penn Praxis to more successfully connect East and West Fairmount Park. The result will create new recreational space, greater accessibility, and new or improved amenities throughout the park.',
+                desc: 'Philadelphia Parks & Recreation is partnering with Penn Praxis to more successfully connect East and West Fairmount Park. The result will create new recreational space, greater accessibility, and new or improved amenities throughout the park.',
             },
             {
                 title: 'Septa BRT-Lite Plan',
@@ -201,6 +213,7 @@ var StoryImg = new Vue ({
         return {
             images: [
                 'images/assets/otto-story-hist-ext.png',
+                'images/assets/otto-story-wolf.jpg',
                 'images/assets/otto-story-hist-int.png',
                 'images/assets/otto-story-ext.jpg'
             ],
@@ -280,6 +293,8 @@ for (var i = 0; i < toggleableLayerIds.length; i++) {
             map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
             //console.log(i);
         }
+
+        document.querySelectorAll(clickedLayer).style.visibility = 'none';
     };
     map.scrollZoom.disable();
 

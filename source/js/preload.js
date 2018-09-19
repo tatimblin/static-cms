@@ -30,6 +30,7 @@ preloadImages(
         'images/assets/otto-floorplan-the-mitte.jpg',
         'images/assets/otto-floorplan-penthouse.jpg',
         // Story Flicker
+        'images/assets/otto-story-wolf.jpg',
         'images/assets/otto-story-ext.jpg',
         'images/assets/otto-story-hist-ext.png',
         'images/assets/otto-story-hist-int.png',

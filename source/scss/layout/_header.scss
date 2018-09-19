@@ -38,14 +38,31 @@
             &.nav-logo {
                 margin: auto;
                 margin-right: auto;
+
+                @include grid-media($grid-medium) {
+                    position: relative;
+                    left: $spacing/2;
+                    margin-left: 0;
+                    padding-left: 0;
+                }
+
                 img {width: 120px;}
             }
             &.nav-solid {
+                position: fixed;
+                top: $spacing/2; right: $spacing/2;
                 transition: .4s all $ease;
                 // background-color: $brand-gold;
                 border: 1px solid $brand-gold;
                 box-shadow: inset 200px 0px $brand-gold;
                 text-align: center;
+                z-index: 3000;
+
+                @include grid-media($grid-medium) {
+                    position: relative;
+                    display: inline-block;
+                    top: auto; right: auto;
+                }
 
                 &:hover{
                     // background-color: rgba(0,0,0,0);
@@ -56,12 +73,64 @@
                 }
 
             }
+            &.nav-hamburger {
+                position: fixed;
+                width: 100%;
+                top: 0;
+                padding: $spacing/2;
+                background-color: $brand-charcoal;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.33);
+                z-index: 1000;
+
+                @include grid-media($grid-medium) {
+                    display: none;
+                }
+
+                .icon {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    width: 36px; height: 36px;
+                    z-index: 2000;
+
+                    .icon-bar {
+                        position: relative;
+                        width: 36px; height: 2px;
+                        background-color: $light-gray;
+                        border-radius: 1px;
+                        transition: all 300ms $ease;
+                        z-index: 3000;
+                    }
+                }
+            }
         }
     }
 
     &-content {
         display: flex;
         align-items: center;
+    }
+}
+
+.open {
+
+    .nav-hamburger {
+        .icon {
+            &-bar {
+                transform-origin: 0 50%;
+
+                &:first-child {
+                    transform: rotate(45deg);
+                }
+                &:nth-child(2) {
+                    opacity: 0;
+                }
+                &:last-child {
+                    transform: rotate(-45deg);
+                }
+            }
+        }
     }
 }
 
@@ -100,15 +169,15 @@
         &-cell {
 
             img {
-                height: 600px;
+                height: 400px;
                 object-fit: cover;
                 object-position: center center;
 
                 @include grid-media($grid-small) {
-                    width: 100%;
+                    width: 100%; height: 450px;
                 }
                 @include grid-media($grid-medium) {
-                    height: 450px;
+                    height: 550px;
                 }
             }
         }

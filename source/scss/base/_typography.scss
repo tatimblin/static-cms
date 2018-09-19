@@ -25,8 +25,9 @@ h5,
 h6 {
     font-family: $font-heading;
     font-weight: $font-bold-weight;
-    line-height: 1.2;
-    margin: 0 0 1rem;
+    line-height: 1.2em;
+    letter-spacing: 0.001em;
+    margin: 0 0 2rem;
     text-transform: uppercase;
 }
 
@@ -44,6 +45,7 @@ h3 {
 
 h4 {
     @include responsive-font-size(type-scale(size3));
+    line-height: 1.875em;
 }
 
 h5 {

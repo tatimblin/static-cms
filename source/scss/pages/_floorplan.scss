@@ -77,7 +77,7 @@
                 min-height: 500px;
             }
             @include grid-media($grid-small) {
-                min-height: 640px;
+                min-height: 550px;
             }
             @include grid-media($grid-medium) {
                 min-height: none;

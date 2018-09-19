@@ -248,6 +248,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/images\/assets\/otto-story-wolf.jpg": {
+		"ft": 16384,
+		"iS": 623773,
+		"oA": 0,
+		"oAP": "\/images\/assets\/otto-story-wolf.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/share.jpg": {
 		"ft": 16384,
 		"iS": 117550,
@@ -354,8 +364,8 @@
 		"oA": 0,
 		"oAP": "\/images\/ui\/texture.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -632,8 +642,8 @@
 		"oA": 0,
 		"oAP": "\/source\/images\/ui\/texture.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -3222,7 +3232,7 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "",
+		"autoOutputPathRelativePath": "..\/..\/images",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,

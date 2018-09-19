@@ -42,14 +42,22 @@
 
         <div class="hero texture content-container">
 
-            <nav class="container large-width">
+            <nav id="nav" class="container large-width" :class="{open: isOpen}">
+
+                <div class="nav-item nav-hamburger texture" @click="toggleNav()">
+                    <div class="icon">
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
+                        <div class="icon-bar"></div>
+                    </div>
+                </div>
 
                 <div class="nav-item nav-logo">
                     <a href="#"><img src="images/ui/otto-logo.svg" alt="Otto Home"></a>
                 </div>
 
                 <div class="nav-item link-item">
-                    <a href="#floorplan">Floorplan</a>
+                    <a href="#floorplan">Floorplans</a>
                 </div>
 
                 <div class="nav-item link-item">
@@ -115,10 +123,10 @@
                         <h4 class="text-center">Introducing OTTO, a revolutionary condo development named as a tribute to Brewerytown’s original architect, Otto Wolf.</h4>
                         <div class="two-col">
                             <div>
-                                    <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor,</p>
+                                    <p>Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking options. Built in Brewerytown’s 31st Street corridor,</p>
                             </div>
                             <div>
-                                    <p>OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. Here, it’s more than a home—it’s an chance to buy into the future of Brewerytown.</p>
+                                    <p>OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. This is more than a home—it’s an chance to buy into the future of Brewerytown.</p>
                             </div>
                         </div>
                         <div class="btn text-center">
@@ -206,8 +214,7 @@
                                         <li>Modern Design</li>
                                         <li>Private Balconies</li>
                                         <li>Stainless Steel Appliances</li>
-                                        <li>Chef's Kitchen</li>
-                                        <li>Hardwood Floors</li>
+                                        <li>Smart Home Features</li>
                                         <li>Natural Light</li>
                                         <li>Large Bedrooms</li>
                                         <li>In-unit Washer & Dryer</li>
@@ -215,7 +222,7 @@
                                 </div>
 
                             </div>
-                            <div id="amenity-image-2" class="amenities-main-image"></div>
+                            <div id="amenity-image-1" class="amenities-main-image"></div>
                         </div>
 
                         <div class="row">
@@ -227,7 +234,7 @@
                                     <ul>
                                         <li>Rooftop</li>
                                         <li>Common Space</li>
-                                        <li>Parking</li>
+                                        <li>Parking Add-on</li>
                                         <li>Pet Friendly</li>
                                     </ul>
                                     <div class="btn">
@@ -319,7 +326,7 @@
 
                         <img src="images/assets/otto-story-hist-int.png" alt="Otto Wolf Historic Building Interior">
                         <h5>Brick by brick – it all started with an architect by the name of Otto Wolf.</h5>
-                        <p>Brick by brick—it all started with an architect by the name of Otto Wolf. From breweries to bottling houses, storage facilities, and more, Wolf’s innovative designs transformed a neighborhood into an icon. Today, while much of his work has fallen, Otto Wolf’s legacy continues to inspire those living in and building up Brewerytown.</p>
+                        <p>From breweries to bottling houses, storage facilities, and more, Wolf’s innovative designs transformed a neighborhood into an icon. Today, while much of his work has fallen, Otto Wolf’s legacy continues to inspire those living in and building up Brewerytown.</p>
                         <img class="story-entry-logo" src="images/ui/otto-sig.svg" alt="Equinox MC Logo">
 
                     </div>
@@ -336,7 +343,7 @@
                     <div class="story-entry">
 
                         <h5>A building by Equinox</h5>
-                        <p>OTTO is bringing bold architecture is back into the neighborhood. Each studio, 1-bedroom, and 2-bedroom condo for sale is decked out with on-site amenities, modern design, and parking. Built in Brewerytown’s 31st Street corridor, OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. Here, it’s more than a home—it’s an chance to buy into the future of Brewerytown.</p>
+                        <p>OTTO is a flagship project of Equinox, a fully integrated real estate development, property management, general contracting, and property maintenance company. Equinox is committed to creating positive change in our built environment and contributing to the communities where we live and work.</p>
                         <img class="story-entry-logo" src="images/ui/equinox-logo.svg" alt="Equinox MC Logo">
                         
                         <div class="btn">
@@ -356,19 +363,29 @@
 
             <div class="location-main texture content-container">
 
-                <div class="container large-width intro-text">
+                <div class="container intro-text">
+
+                        <div class="content-block text-center">
+
+                            <h1>The Neighborhood</h1>
+        
+                        </div>
+
+                </div>
+
+                <div class="container large-width">
 
                     <div class="content-block">
 
                         <h2>Brewerytown, <br>
-                            Pennsylvania</h2>
+                            Philadelphia</h2>
                         <img src="images/ui/otto-map.svg">
 
                     </div>
                     <div class="location-main-body">
 
-                        <p>The right place, the right time, the right people—nothing happens by coincidence. It was the collective vision of brewers, immigrants, and architects that turned a neighborhood into an icon.</p>
-                        <p>Today, that history is inspiring a new wave of growth. But it’s not about revitalizing what already exists. This is about writing the next chapter of an already remarkable story. <span>This is about Brewerytown.</span></p>
+                        <p>The right place, the right time, the right people—nothing happens by coincidence. It was the collective vision of brewers, immigrants, and architects that built this neighborhood.</p>
+                        <p>Today, that history is inspiring a new wave of growth. But it’s not about revitalizing what already exists. This is about writing the next chapter of an already remarkable story. This is about Brewerytown.</p>
 
                     </div>
 
@@ -431,7 +448,7 @@
 
                             <h5>Proximity</h5>
                             <ul>
-                                <li><span>5 min</span> walk to Fairmont Park</li>
+                                <li><span>5 min</span> walk to Fairmount Park</li>
                                 <li><span>7 min</span> drive to University City</li>
                                 <li><span>15 min</span> bike ride to Kelly Drive</li>
                                 <li><span>25 min</span> bus & <span>20 min</span> bike to Center City</li>
@@ -448,13 +465,74 @@
         </div>
         <!-- .location content-container -->
 
+        <div id="map" class="map content-container">
+
+            <div class="container large-width intro-text">
+
+                <div class="map-nav content-block">
+
+                    <div class="map-nav-title"><h3>Map</h3></div>
+
+                    <div id="menu" class="map-nav-menu"></div>
+
+                </div>
+
+                <div class="map-content content-block">
+
+                    <div id="map-content-list" class="map-content-list">
+
+                        <ol>
+
+                            <li class="street-now">Red Bell Brewing</li>
+                            <li class="street-now">Pyramid Electric</li>
+                            <li class="street-now">31 Brewerytown</li>
+                            <li class="street-now">Brewerytown Square</li>
+                            <li class="street-now">Fairmount @ Brewerytown</li>
+                            <li class="street-now">Brewerytown Taproom</li>
+                            <li class="street-now">Equinox Headquarters</li>
+
+                            <li class="street-then">Bergner & Engel Brewing Company</li>
+                            <li class="street-then">F. A. Poth Brewing Company</li>
+                            <li class="street-then">H. Mueller Centennial Brewery</li>
+                            <li class="street-then">J. & P. Baltz Brewing Company</li>
+                            <li class="street-then">Arnholt & Schaefer Brewing Company</li>
+                            <li class="street-then">G. Keller's Brewery</li>
+                            <li class="street-then">J. Bentz' Brewery</li>
+                            <li class="street-then">Thomas Perot Brewery</li>
+                            <li class="street-then">Goldbeck & Eisele</li>
+
+                            <li class="food-drink">RyeBrew</li>
+                            <li class="food-drink">Pizza Dads</li>
+                            <li class="food-drink">The Monkey & The Elephant</li>
+                            <li class="food-drink">Crime and Punishment</li>
+
+                            <li class="nature-travel">Kelly Drive</li>
+                            <li class="nature-travel">Fairmount Park</li>
+
+                        </ol>
+
+                    </div>
+        
+
+                    <div id="mapbox" style="width:100%; height: 500px;"></div>
+
+                </div>
+
+                </div>
+
+            </div>
+            <!-- .container -->
+
+        </div>
+        <!-- .map content-container -->
+
         <div id="plan" class="plan content-container">
 
             <div class="plan-title">
 
                 <div class="container text-center">
 
-                    <h1>The Pipeline</h1>
+                    <h1>In The Pipeline</h1>
 
                 </div>
                 <!-- .container -->
@@ -503,43 +581,6 @@
         </div>
         <!-- .plan content-container -->
 
-        <div id="map" class="map content-container">
-
-            <div class="container large-width intro-text">
-
-                <div class="map-nav content-block">
-
-                    <div class="map-nav-title"><h3>Map</h3></div>
-
-                    <div id="menu" class="map-nav-menu"></div>
-
-                </div>
-
-                <div class="map-content content-block">
-
-                    <div id="map-content-list" class="map-content-list">
-
-                        <ul>
-
-                            <li>Coming Soon...</li>
-
-                        </ul>
-
-                    </div>
-        
-
-                    <div id="mapbox" style="width:100%; height: 500px;"></div>
-
-                </div>
-
-                </div>
-
-            </div>
-            <!-- .container -->
-
-        </div>
-        <!-- .map content-container -->
-
         <div id="contact" class="site-footer">
 
             <div id="pre-footer" class="pre-footer">
@@ -559,8 +600,7 @@
                     <div class="content-block text-center">
                         <a href="https://www.google.com/maps/place/Otto+Brewerytown/@39.9796097,-75.187561,17z/data=!4m13!1m7!3m6!1s0x89c6c7bc4c299a31:0x62a82f64b460d413!2s1501+N+31st+St,+Philadelphia,+PA+19121!3b1!8m2!3d39.9796097!4d-75.1853723!3m4!1s0x89c6c73b9a3205c5:0x7763434fe6c0d841!8m2!3d39.9796097!4d-75.1853723" target="_blank">
                             <img src="images/ui/otto-logo.svg" alt="Otto Brewerytown Logo">
-                            <h6>1501 N 31<span>st</span> street</h6>
-                            <h6>Philadelphia, PA</h6>
+                            <h6>1501 N 31<span>st</span> street Philadelphia, PA</h6>
                         </a>
                     </div>
 

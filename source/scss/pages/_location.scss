@@ -16,6 +16,7 @@
             }
             img {
                 transform: translateY(-3rem);
+                z-index: 0;
 
                 @include grid-media($grid-medium) {
                     @include grid-column(6, $grid);
@@ -82,9 +83,11 @@
     &-slider{
         display: flex;
         align-items: center;
+        position: relative;
         justify-content: space-between;
         width: 100%;
         overflow: hidden;
+        z-index: 10;
 
         &-cell {
             height: 450px;
