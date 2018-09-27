@@ -26,6 +26,207 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/images\/assets\/floorplan\/floorplan-otto-201.jpg": {
+		"ft": 16384,
+		"iS": 99079,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-201.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-202.jpg": {
+		"ft": 16384,
+		"iS": 111259,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-202.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-203.jpg": {
+		"ft": 16384,
+		"iS": 105428,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-203.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-204.jpg": {
+		"ft": 16384,
+		"iS": 84411,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-204.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-205.jpg": {
+		"ft": 16384,
+		"iS": 94188,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-205.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-206.png": {
+		"ft": 32768,
+		"iS": 74170,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-206.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-301.jpg": {
+		"ft": 16384,
+		"iS": 98366,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-301.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-302.jpg": {
+		"ft": 16384,
+		"iS": 93327,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-302.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-303.jpg": {
+		"ft": 16384,
+		"iS": 86415,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-303.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-304.jpg": {
+		"ft": 16384,
+		"iS": 89846,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-304.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-305.jpg": {
+		"ft": 16384,
+		"iS": 96806,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-305.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-401.jpg": {
+		"ft": 16384,
+		"iS": 98058,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-401.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-402.jpg": {
+		"ft": 16384,
+		"iS": 91709,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-402.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-403.jpg": {
+		"ft": 16384,
+		"iS": 82727,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-403.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-404.jpg": {
+		"ft": 16384,
+		"iS": 88154,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-404.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-405.jpg": {
+		"ft": 16384,
+		"iS": 98003,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-405.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-ph01.jpg": {
+		"ft": 16384,
+		"iS": 118744,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-ph02.jpg": {
+		"ft": 16384,
+		"iS": 85140,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-ph03.jpg": {
+		"ft": 16384,
+		"iS": 87563,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph03.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/assets\/floorplan\/floorplan-otto-ph04.jpg": {
+		"ft": 16384,
+		"iS": 197206,
+		"oA": 0,
+		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph04.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/images\/assets\/otto-amenity-bed.jpg": {
 		"ft": 16384,
 		"iS": 426423,
@@ -48,7 +249,7 @@
 		},
 	"\/images\/assets\/otto-brewerytown-philadelphia-skyline.jpg": {
 		"ft": 16384,
-		"iS": 536479,
+		"iS": 301822,
 		"oA": 0,
 		"oAP": "\/images\/assets\/otto-brewerytown-philadelphia-skyline.jpg",
 		"oF": 0,
@@ -64,46 +265,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/images\/assets\/otto-floorplan-penthouse.jpg": {
-		"ft": 16384,
-		"iS": 164250,
-		"oA": 0,
-		"oAP": "\/images\/assets\/otto-floorplan-penthouse.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/assets\/otto-floorplan-studio.jpg": {
-		"ft": 16384,
-		"iS": 104492,
-		"oA": 0,
-		"oAP": "\/images\/assets\/otto-floorplan-studio.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/assets\/otto-floorplan-the-boden.jpg": {
-		"ft": 16384,
-		"iS": 148621,
-		"oA": 0,
-		"oAP": "\/images\/assets\/otto-floorplan-the-boden.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/assets\/otto-floorplan-the-mitte.jpg": {
-		"ft": 16384,
-		"iS": 194762,
-		"oA": 0,
-		"oAP": "\/images\/assets\/otto-floorplan-the-mitte.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
 		"q": 100
 		},
 	"\/images\/assets\/otto-hero-community.jpg": {

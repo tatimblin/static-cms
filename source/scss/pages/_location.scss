@@ -8,10 +8,13 @@
 
             h2 {
                 position: relative;
+                text-align: center;
+                line-height: $line-height-md;
                 z-index: 10;
 
                 @include grid-media($grid-small) {
                     margin-bottom: 6rem;
+                    text-align: left;
                 }
             }
             img {

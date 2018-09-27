@@ -70,6 +70,7 @@
         }
 
         &-floorplan {
+            @include grid-column(12, $grid);
             position: relative;
             min-height: 300px;
 
@@ -78,22 +79,86 @@
             }
             @include grid-media($grid-small) {
                 min-height: 550px;
+                padding-top: $spacing;
             }
-            @include grid-media($grid-medium) {
-                min-height: none;
-            }
-
-            img {
-                @include grid-column(12, $grid);
-
-                position: absolute;
-                margin-top: $spacing;
-            }
-            @include grid-column(12, $grid);
             @include grid-media($grid-medium) {
                 @include grid-column(6, $grid);
-                img {
+                min-height: none;
+                padding-top: unset;
+            }
+
+            &-image {
+                @include grid-column(12, $grid);
+                position: absolute;
+                margin-top: $spacing;
+                cursor: zoom-in;
+                transform-origin: 50% 50%;
+                transition: all 600ms $ease;
+
+                @include grid-media($grid-medium) {
                     margin-top: $spacing;
+                    transform-origin: 100% 50%;
+                }
+                @include grid-media($grid-xlarge) {
+                    transform-origin: 75% 50%;
+                }
+
+                &.expand {
+                    cursor: zoom-out;
+                    transform: scale(1.5);
+                    z-index: 1000;
+
+                    @include grid-media($grid-medium) {
+                        transform: scale(2);
+                    }
+                }
+            }
+            &-unit {
+                position: absolute;
+                display: flex;
+                width: 100%;
+                bottom: -$spacing;
+                margin: 0;
+                padding: $spacing/2 $spacing;
+                text-align: center;
+                background-color: $white;
+                border-radius: 1px;
+
+                @include grid-media($grid-small) {
+                    width: 70%;
+                    left: 15%;
+                    bottom: unset;
+                    top: 0;
+                }
+
+                @include grid-media ($grid-medium) {
+                    top: unset;
+                    bottom: 0;
+                }
+
+                @include grid-media ($grid-xlarge) {
+                    width: 50%;
+                    left: 25%;
+                    bottom: $spacing;
+                }
+
+                &-ctrl {
+                    position: relative;
+                    width: 20px; height: 20px;
+                    top: 0;
+
+                    &:last-child img {
+                        transform: rotate(180deg);
+                    }
+
+                    img {
+                        width: 100%; height: 20px;
+                    }
+                }
+                h6 {
+                    width: 100%;
+                    margin: 0;
+                    padding: 0 $spacing/2;
                 }
             }
         }
@@ -103,9 +168,77 @@
                 @include grid-column(6, $grid);
             }
 
+
+
+            .link-item {
+                background: $white;
+                
+                transition: all 300ms 150ms $ease;
+                border: 1px solid $white;
+                @include responsive-font-size(type-scale(size1));
+                color: $brand-gold;
+
+                @include grid-media($grid-medium) {
+
+                }
+
+                button{
+                    color: $brand-gold;
+                    h6{
+                        margin: 0;
+                        padding: 0 0 0 $spacing;
+                        line-height: 1.66em;
+                    }
+                    h6:before{
+                        content: '+';
+                        border: 1px solid $brand-gold;
+                        position: absolute;
+                        height: 1.66em; width: 1.66em;
+                        line-height: 1.5em;
+                        left: 0;
+                        transition: all 300ms $ease;
+
+
+                    }
+                }
+                ul{
+                    display: none;
+                    margin-left: 1em;
+                    padding: 0 $spacing 0 $spacing;
+                    list-style: none;
+                    text-transform: none;
+                    overflow: hidden;
+                    transition: all 300ms 150ms $ease;
+                    
+                }
+                
+            }
+
+            .expand{
+                border: 1px solid $brand-gold;
+                button{
+                    h6:before{
+                        border: 1px solid #ffffff00;
+                        transform: rotate(135deg);
+                        left: $spacing/2;
+                    }
+                }
+                ul {
+                    display: block;
+                }
+
+            }
+
            &-desc {
                 display: block;
-                min-height: 160px;
+                min-height: 150px;
+
+                @include grid-media($grid-medium) {
+                    min-height: 100px;
+                }
+            }
+            h2, h6 {
+                margin-bottom: $spacing/2;
             }
             a {
                 color: $brand-gold;

@@ -9,6 +9,10 @@
 html {
     box-sizing: border-box;
     font-size: 100%;
+
+    @include grid-media ($grid-medium) {
+        scroll-behavior: smooth;
+    }
 }
 
 body {

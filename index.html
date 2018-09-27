@@ -29,8 +29,6 @@
 
     <a href="#page-content" class="visually-hidden">Skip to Content</a>
 
-    <div class="smooth-scroll">
-
     <div id="page-content" class="page-content">
 
         <div class="site-header">
@@ -52,23 +50,23 @@
                     </div>
                 </div>
 
-                <div class="nav-item nav-logo">
+                <div class="nav-item nav-logo" @click="closeNav()">
                     <a href="#"><img src="images/ui/otto-logo.svg" alt="Otto Home"></a>
                 </div>
 
-                <div class="nav-item link-item">
+                <div class="nav-item link-item" @click="closeNav()">
                     <a href="#floorplan">Floorplans</a>
                 </div>
 
-                <div class="nav-item link-item">
+                <div class="nav-item link-item" @click="closeNav()">
                     <a href="#story">Story</a>
                 </div>
 
-                <div class="nav-item link-item">
+                <div class="nav-item link-item" @click="closeNav()">
                     <a href="#neighborhood">Neighborhood</a>
                 </div>
 
-                <div class="nav-item link-item">
+                <div class="nav-item link-item" @click="closeNav()">
                     <a href="#contact">Contact</a>
                 </div>
 
@@ -77,6 +75,10 @@
                 </div>
 
             </nav>
+
+            <div class="mobile-logo">
+                <img src="images/ui/otto-logo.svg" alt="Otto Brewerytown Philadelphia Logo">
+            </div>
             
             <div id="hero-content" class="hero-content container large-width">
 
@@ -129,8 +131,10 @@
                                     <p>OTTO is just blocks from Fairmount Park and a short drive, bike, or trolley ride to Center City, Philadelphia. This is more than a home—it’s an chance to buy into the future of Brewerytown.</p>
                             </div>
                         </div>
-                        <div class="btn text-center">
-                            <a href="#">Schedule a Tour</a>
+                        <div class="text-center">
+                            <div class="btn btn-dark">
+                                <a href="#">Schedule a Tour</a>
+                            </div>
                         </div>
 
                     </div>
@@ -237,7 +241,7 @@
                                         <li>Parking Add-on</li>
                                         <li>Pet Friendly</li>
                                     </ul>
-                                    <div class="btn">
+                                    <div class="btn btn-white">
                                         <a href="">Schedule a Tour</a>
                                     </div>
                                 </div>
@@ -278,21 +282,45 @@
                     </div>
                     <div class="fp-app-content">
                         <div class="fp-app-content-copy">
+
                             <transition name="text-change" mode="out-in">
-                            <h2 :key="index">{{ units[index].title }}</h2>
+                                <h2 :key="index">{{ categories[index].title }}</h2>
                             </transition>
+                            
                             <transition name="slide-change" mode="out-in">
-                            <p :key="index" class="fp-app-content-copy-desc">{{ units[index].desc }}</p>
+                                <p :key="index" class="fp-app-content-copy-desc">{{ categories[index].desc }}</p>
                             </transition>
-                            <br>
+
                             <p>Starting at:</p>
                             <h3>{{ animatedNumber }}</h3>
-                            <a class="link-item" href="">+ Options And Finishes</a>
+                            <div :class="{expand : isOpen}" class="link-item" @click="toggleFeatures()">
+                                
+                                <button><h6>Unit Features</h6></button>
+                                
+                                <div class="link-item-list_wrap">
+                                <ul class="link-item-list">
+                                    <li class="link-item-list-item" v-for="feature in categories[index].units[subIndex].features">
+                                        {{ feature }}
+                                    </li>
+                                </ul>
+                                </div>
+
+                            </div>
                         </div>
                         <div class="fp-app-content-floorplan">
                             <transition name="slide-change" mode="in-out">
-                            <img :key="index" :src="units[index].floorplan" alt="Floorplan at Otto Brewerytown">
+                            <img :class="{expand : isExpand}" class="fp-app-content-floorplan-image" :key="`${index}.${subIndex}`" :src="`images/assets/floorplan/floorplan-otto-${categories[index].units[subIndex].floorplan}.jpg`" alt="Floorplan at Otto Brewerytown" @click="toggleImgExpand()">
                             </transition>
+
+                            <div class="fp-app-content-floorplan-unit">
+                                <div class="fp-app-content-floorplan-unit-ctrl" @click="changeSlide('prev')">
+                                    <img src="images/ui/otto-arrow-dark.svg" alt="show previous unit">
+                                </div>
+                                <h6>{{ categories[index].units[subIndex].name }}</h6>
+                                <div class="fp-app-content-floorplan-unit-ctrl" @click="changeSlide('next')">
+                                    <img src="images/ui/otto-arrow-dark.svg" alt="show next unit">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -346,7 +374,7 @@
                         <p>OTTO is a flagship project of Equinox, a fully integrated real estate development, property management, general contracting, and property maintenance company. Equinox is committed to creating positive change in our built environment and contributing to the communities where we live and work.</p>
                         <img class="story-entry-logo" src="images/ui/equinox-logo.svg" alt="Equinox MC Logo">
                         
-                        <div class="btn">
+                        <div class="btn btn-gold">
                             <a href="">Schedule a Tour</a>
                         </div>
 
@@ -465,7 +493,7 @@
         </div>
         <!-- .location content-container -->
 
-        <div id="map" class="map content-container">
+        <div id="map" class="map texture content-container">
 
             <div class="container large-width intro-text">
 
@@ -505,9 +533,18 @@
                             <li class="food-drink">Pizza Dads</li>
                             <li class="food-drink">The Monkey & The Elephant</li>
                             <li class="food-drink">Crime and Punishment</li>
+                            <li class="food-drink">Brewerytown Taproom</li>
+                            <li class="food-drink">ALDI Grocery</li>
+                            <li class="food-drink">Wine & Spirits</li>
 
                             <li class="nature-travel">Kelly Drive</li>
                             <li class="nature-travel">Fairmount Park</li>
+                            <li class="nature-travel">30th & Jefferson Park</li>
+                            <li class="nature-travel">Philadelphia Zoo</li>
+                            <li class="nature-travel">I-76</li>
+                            <li class="nature-travel">Girard & 29th Sreet Trolley</li>
+                            <li class="nature-travel">Bus Stations</li>
+                            <li class="nature-travel">Indego Bike Station</li>
 
                         </ol>
 
@@ -528,7 +565,7 @@
 
         <div id="plan" class="plan content-container">
 
-            <div class="plan-title">
+            <div class="plan-title texture">
 
                 <div class="container text-center">
 
@@ -539,7 +576,7 @@
 
             </div>
 
-            <div class="plan-main texture">
+            <div class="plan-main">
 
                 <div class="container large-width intro-text">
     
@@ -607,14 +644,16 @@
                     <div class="content-block">
                         <h6>The Next Step</h6>
                         <p>Interested in owning a home at OTTO? Reach out for more information or to schedule a tour and we’ll be in touch.</p>
-                        <div class="btn"><a href="">info@otto.com</a></div>
+                        <div class="btn btn-none">
+                            <a href="mailto:info@otto.com">info@otto.com</a>
+                        </div>
                     </div>
 
                     <div class="content-block">
-                        <div class="btn">
+                        <div class="btn btn-none">
                             <a href="#">Home Buyer Resources</a>
                         </div>
-                        <div class="btn">
+                        <div class="btn btn-none">
                             <a href="#">Sign up for the waitlist</a>
                         </div>
                         <div class="footer-social">
@@ -667,9 +706,6 @@
 
     </div>
     <!-- .page-content -->
-
-    </div>
-    <!-- .smooth-scroll -->
 
     <script src="js/vue.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>

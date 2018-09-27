@@ -33,10 +33,12 @@ h6 {
 
 h1 {
     @include responsive-font-size(type-scale(size8));
+    hyphens: auto;
 }
 
 h2 {
     @include responsive-font-size(type-scale(size6));
+    hyphens: auto;
 }
 
 h3 {

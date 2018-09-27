@@ -8,123 +8,84 @@
 
  .btn {
     position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
 
-    a {
-        position: relative;
-        display: block;
-        width: 100%;
-        font-family: $font-btn;
-        @include responsive-font-size(type-scale(size-1));
-        color: $text-color;
-        text-transform: uppercase;
-        letter-spacing: 0.12em;
-        transform: translate(30px);
-        transition: all 500ms 100ms $ease;
-
-        &:before {
-            content: '→';
-            position: absolute;
-            color: inherit;
-            transform: translate(-30px);
-            transition: all 300ms 100ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
-        }
-        &:hover {
-            transform: translate(0px);
-
-            &:before {
-                opacity: 0;
-                transform: translate(0px);
-            }
-        }
+    &:hover:after {
+        transform: scale(1, 1);
     }
 
-}
-
-
-
-.btn {
+    &:before {
+        content: '→';
+        position: relative;
+        padding: 0 $spacing/2;
+        z-index: 10;
+    }
     &:after {
         content: '';
         position: absolute;
-        width: 75px; height: 1px;
-        bottom: -5px;
-        background-color: $white;
-    }
-}
-
-.story{
-    .btn{
-        &:after {
-            background-color: $brand-charcoal;
-        } 
-    }
-}
-
-
-
-.text-center{
-    .btn{
-        a{
-            transform: translate(0px);
-
-            &:before {
-                transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
-            }
-        }
-        &:after {
-            content: '';
-            position: absolute;
-            width: 0px; height: 1px;
-            background-color: $brand-charcoal;
-            left: 50%;
-            margin-left: -37.5px;
-            transition: .3s all $ease;
-        }
-        &:hover{
-            &:after {
-                content: '';
-                position: absolute;
-                width: 75px; height: 1px;
-                background-color: $brand-charcoal;
-                left: 50%;
-                margin-left: -37.5px;
-                transition: .3s all $ease .5s;
-            }
-        }
-
+        width: 100%; height: 100%;
+        top: 0; left: 0;
+        transform-origin: 0 0;
+        transform: scale(0, 1);
+        transition: all 300ms $ease;
     }
 
-}
+    a {
+        position: relative;
+        padding: 0 $spacing/2 0 0;
+        color: inherit;
+        @include responsive-font-size(type-scale(size-2));
+        font-family: $font-body;
+        text-transform: uppercase;
+        z-index: 10;
+    }
+    &.btn-gold {
+        background-color: $brand-gold;
+        border: 1px solid $brand-gold;
+        color: $white;
 
-.btn.text-center{
-
-        a{
-            transform: translate(0px);
-            &:before {
-                transition: all 400ms cubic-bezier(0.6, 0.04, 0.98, 0.335);
-            }
+        &:hover {
+            color: $brand-gold;
         }
+
         &:after {
-            content: '';
-            position: absolute;
-            width: 0px; height: 1px;
             background-color: $brand-charcoal;
-            left: 50%;
-            margin-left: -37.5px;
-            transition: .3s all $ease;
         }
-        &:hover{
-            &:after {
-                content: '';
-                position: absolute;
-                width: 75px; height: 1px;
-                background-color: $brand-charcoal;
-                left: 50%;
-                margin-left: -37.5px;
-                transition: .3s all $ease .5s;
-            }
+    }
+    &.btn-white {
+        background-color: $light-gray;
+        border: 1px solid $light-gray;
+        color: $brand-charcoal;
+
+        &:hover {
+            color: $light-gray;
         }
 
+        &:after {
+            background-color: $brand-charcoal;
+        }
+    }
+    &.btn-dark {
+        background-color: $brand-charcoal;
+        border: 1px solid $brand-charcoal;
+        color: $brand-eggshell;
 
+        &:hover {
+            color: $brand-charcoal;
+        }
+
+        &:after {
+            background-color: $light-gray;
+        }
+    }
+    &.btn-none {
+        padding: 0 0 $spacing/2 0;
+
+        &:before {
+            padding: 0;
+        }
+    }
 }
 

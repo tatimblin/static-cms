@@ -1,4 +1,6 @@
 .map {
+    background-color: $light-gray;
+    
     &-nav {
         display: flex;
         flex-direction: column;
@@ -67,12 +69,17 @@
                     padding: 0 0 $spacing/2 0;
                     counter-increment: inst;
                     letter-spacing: 0.02em;
+                    list-style-position: outside;
+                    transition: all 300ms $ease;
 
                     &:before {
                         @include responsive-font-size(type-scale(size-3));
 
                         content: counter(inst) '.';
                         padding-right: 6px;
+                    }
+                    &.hide {
+                        opacity: .2;
                     }
                 }
             }
