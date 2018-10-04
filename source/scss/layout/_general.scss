@@ -19,7 +19,11 @@
 
         @include grid-media($grid-small) {
             flex-direction: row;
-            justify-content: center;
+            justify-content: space-between;
+        }
+
+        > div {
+            width: calc(50% - #{$spacing});
         }
     }
 }

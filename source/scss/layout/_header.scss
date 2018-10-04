@@ -5,6 +5,16 @@
  *
  *****************************************************************************/
 
+ .site-header {
+     padding: $spacing/2 0;
+     background-color: $brand-gold;
+
+     h6 {
+         margin: 0;
+         text-align: center;
+         color: $white;
+     }
+ }
 
  .hero {
     background-color: $brand-charcoal;
@@ -113,6 +123,10 @@
             &:not(.nav-hamburger):not(.nav-solid) {
                 transform: translateY(-100vh);
                 transition: transform 300ms $ease;
+
+                @include grid-media($grid-medium) {
+                    transform: translateY(0vh);
+                }
             }
         }
     }
@@ -155,7 +169,7 @@
 }
 
 .mobile-logo {
-    margin-top: 36px + $spacing;
+    margin-top: 20px;
     padding: $spacing*2 0;
     text-align: center;
 
