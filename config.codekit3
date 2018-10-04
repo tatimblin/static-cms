@@ -81,15 +81,15 @@
 		"opt": 0,
 		"q": 100
 		},
-	"/images/assets/floorplan/floorplan-otto-206.png": {
-		"ft": 32768,
-		"iS": 74170,
+	"/images/assets/floorplan/floorplan-otto-206.jpg": {
+		"ft": 16384,
+		"iS": 97404,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/images/assets/floorplan/floorplan-otto-206.png",
+		"oAP": "/images/assets/floorplan/floorplan-otto-206.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/images/assets/floorplan/floorplan-otto-301.jpg": {

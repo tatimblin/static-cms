@@ -99,10 +99,10 @@
 
                 @include grid-media($grid-medium) {
                     margin-top: $spacing;
-                    transform-origin: 100% 50%;
+                    transform-origin: 100% 100%;
                 }
                 @include grid-media($grid-xlarge) {
-                    transform-origin: 75% 50%;
+                    transform-origin: 85% 100%;
                 }
 
                 &.expand {
@@ -148,6 +148,7 @@
                     position: relative;
                     width: 20px; height: 20px;
                     top: 0;
+                    cursor: pointer;
 
                     &:last-child img {
                         transform: rotate(180deg);
