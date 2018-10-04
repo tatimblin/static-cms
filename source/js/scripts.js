@@ -567,19 +567,19 @@ function scrollLoop() {
 
 
 // Intro Images
-ScrollReveal().reveal('.intro-copy-stamp', { container: '.smooth-scroll', delay: 400, distance: '10px', scale: 0.92 })
-ScrollReveal().reveal('.intro-collage-img img', { container: '.smooth-scroll', delay: 250, interval: 20, distance: '10px', scale: 0.96 })
+ScrollReveal().reveal('.intro-copy-stamp', { delay: 400, distance: '10px', scale: 0.92 })
+ScrollReveal().reveal('.intro-collage-img img', { delay: 250, interval: 20, distance: '10px', scale: 0.96 })
 
 // Amenity List
-ScrollReveal().reveal('.amenities-main-list li', { container: '.smooth-scroll', delay: 150, interval: 40, distance: '10px'})
+ScrollReveal().reveal('.amenities-main-list li', { delay: 150, interval: 40, distance: '10px'})
 
 // Floorplan
-ScrollReveal().reveal('.fp-app-content-floorplan img', { container: '.smooth-scroll', delay: 150, distance: '10px', scale: 0.96 })
+ScrollReveal().reveal('.fp-app-content-floorplan img', { delay: 150, distance: '10px', scale: 0.96 })
 
 // Story images
-ScrollReveal().reveal('.story-entry img', { container: '.smooth-scroll', delay: 150, interval: 10, distance: '10px', scale: 0.96 })
-ScrollReveal().reveal('.story-entry-logo', { container: '.smooth-scroll', delay: 150, scale: 0.96 })
-ScrollReveal().reveal('.story-img', { container: '.smooth-scroll', delay: 150, distance: '10px', scale: 0.96 })
+ScrollReveal().reveal('.story-entry img', { delay: 150, interval: 10, distance: '10px', scale: 0.96 })
+ScrollReveal().reveal('.story-entry-logo', { delay: 150, scale: 0.96 })
+ScrollReveal().reveal('.story-img', { delay: 150, distance: '10px', scale: 0.96 })
 
 // Brewerytown Drawn Map
-ScrollReveal().reveal('.location-main img', { container: '.smooth-scroll', delay: 200, distance: '10px', scale: 0.96 })
+ScrollReveal().reveal('.location-main img', { delay: 200, distance: '10px', scale: 0.96 })
