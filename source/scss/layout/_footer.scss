@@ -81,6 +81,10 @@
                     color: $white;
                     letter-spacing: 0.15em;
                     text-transform: uppercase;
+
+                    @include on-event {
+                        color: darken($white, 33%);
+                    }
                 }
             }
             svg {
