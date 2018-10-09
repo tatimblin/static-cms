@@ -393,9 +393,27 @@ var locationSlider = new Vue({
     el: '#location-slider',
     data: {
         index: 0,
-        slides: [  
-            'images/assets/otto-brewerytown-storefront.jpg',
-            'images/assets/otto-brewerytown-philadelphia-skyline.jpg',
+        slides: [
+            {
+                img: 'images/assets/otto-brewerytown-storefront.jpg',
+                cred: 'Fairmount Bicycles'
+            },
+            {
+                img: 'images/assets/otto-brewerytown-philadelphia-skyline.jpg',
+                cred: 'Kenny Wen'
+            },
+            {
+                img: 'images/assets/otto-brewery-schuylkil.jpg',
+                cred: 'David Aloisio'
+            },
+            {
+                img: 'images/assets/otto-brewery-hill.jpg',
+                cred: 'Kristen Catoe'
+            },
+            {
+                img: 'images/assets/otto-brewery-ariel.jpg',
+                cred: 'Greg Fridman'
+            }
         ]
     },
     computed: {

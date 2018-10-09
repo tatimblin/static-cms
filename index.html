@@ -418,12 +418,14 @@
                 </div>
                 <!-- .container -->
 
-                <div class="container large-width">
+                <div class="container large-width" id="location-slider">
 
-                    <div class="location-slider" id="location-slider">
+                    <small>photo. {{slides[index].cred}}</small>
+
+                    <div class="location-slider">
 
                         <transition name="slide-brew" mode="out-in">
-                            <div :key="index" class="location-slider-cell" :style="`background-image:url('${slides[index]}');`"></div>
+                            <div :key="index" class="location-slider-cell" :style="`background-image:url('${slides[index].img}');`"></div>
                         </transition>
 
                         <div class="location-slider-controls">
@@ -450,7 +452,7 @@
                         </div>
 
                         <transition name="slide-brew" mode="out-in">
-                            <div :key="index" class="location-slider-cell" :style="`background-image:url('${slides[upNext]}');`"></div>
+                            <div :key="index" class="location-slider-cell" :style="`background-image:url('${slides[upNext].img}');`"></div>
                         </transition>
 
                     </div>

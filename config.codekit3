@@ -268,6 +268,39 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/assets/otto-brewery-ariel.jpg": {
+		"ft": 16384,
+		"iS": 1589623,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/assets/otto-brewery-ariel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/assets/otto-brewery-hill.jpg": {
+		"ft": 16384,
+		"iS": 375772,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/assets/otto-brewery-hill.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/assets/otto-brewery-schuylkil.jpg": {
+		"ft": 16384,
+		"iS": 146075,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/assets/otto-brewery-schuylkil.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/assets/otto-brewerytown-philadelphia-skyline.jpg": {
 		"ft": 16384,
 		"iS": 301822,

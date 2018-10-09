@@ -32,6 +32,9 @@ preloadImages(
         // Brewerytown Slider
         'images/assets/otto-brewerytown-storefront.jpg',
         'images/assets/otto-brewerytown-philadelphia-skyline.jpg',
+        'images/assets/otto-brewery-schuylkil.jpg',
+        'images/assets/otto-brewery-hill.jpg',
+        'images/assets/otto-brewery-ariel.jpg',
         // Plan Slider
         'images/assets/otto-plan-fairmount-park.jpg',
         'images/assets/otto-plan-glenwood-avenue.jpg',
