@@ -64,12 +64,12 @@ var FloorplanApp = new Vue({
             {
                 title: 'The Studio',
                 desc: 'For those who want to own a piece of Brewerytown, but don’t necessarily need all that extra space.',
-                price: '100000',
+                price: '219000',
                 floorplan: 'images/assets/otto-floorplan-studio.jpg',
                 units: [
                     {
                         name: 'Unit 202',
-                        price: '100000',
+                        price: '219000',
                         floorplan: '202',
                         features: [
                             'Second Floor',
@@ -79,7 +79,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 203',
-                        price: '100000',
+                        price: '219000',
                         floorplan: '203',
                         features: [
                             'Second Floor',
@@ -89,7 +89,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 205',
-                        price: '100000',
+                        price: '219000',
                         floorplan: '205',
                         features: [
                             'Second Floor',
@@ -102,12 +102,12 @@ var FloorplanApp = new Vue({
             {
                 title: 'Boden',
                 desc: '1-bedroom condos that are ideally priced to start building your life from the ground up.',
-                price: '200000',
+                price: '299000',
                 floorplan: 'images/assets/otto-floorplan-the-boden.jpg',
                 units: [
                     {
                         name: 'Unit 302',
-                        price: '100000',
+                        price: '299000',
                         floorplan: '302',
                         features: [
                             'Second Floor',
@@ -117,7 +117,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 304',
-                        price: '100000',
+                        price: '299000',
                         floorplan: '304',
                         features: [
                             'Second Floor',
@@ -127,7 +127,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 402',
-                        price: '100000',
+                        price: '299000',
                         floorplan: '402',
                         features: [
                             'Second Floor',
@@ -137,7 +137,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 404',
-                        price: '100000',
+                        price: '299000',
                         floorplan: '404',
                         features: [
                             'Second Floor',
@@ -150,12 +150,12 @@ var FloorplanApp = new Vue({
             {
                 title: 'The Mitte',
                 desc: '2-bedroom condos that offer a little extra space for out-of-town visitors or a growing family.',
-                price: '350000',
+                price: '339000',
                 floorplan: 'images/assets/otto-floorplan-the-mitte.jpg',
                 units: [
                     {
                         name: 'Unit 201',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '201',
                         features: [
                             'Second Floor',
@@ -165,7 +165,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 204',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '204',
                         features: [
                             'Second Floor',
@@ -175,7 +175,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 206',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '206',
                         features: [
                             'Second Floor',
@@ -185,7 +185,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 301',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '301',
                         features: [
                             'Second Floor',
@@ -195,7 +195,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 303',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '303',
                         features: [
                             'Second Floor',
@@ -205,7 +205,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 305',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '305',
                         features: [
                             'Second Floor',
@@ -215,7 +215,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 401',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '401',
                         features: [
                             'Second Floor',
@@ -225,7 +225,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 403',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '403',
                         features: [
                             'Second Floor',
@@ -235,7 +235,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Unit 405',
-                        price: '100000',
+                        price: '339000',
                         floorplan: '405',
                         features: [
                             'Second Floor',
@@ -248,12 +248,12 @@ var FloorplanApp = new Vue({
             {
                 title: 'The Oben',
                 desc: 'If you’re looking for a more spacious layout, The Oben is for you. Our penthouse condos feature two or three bedroom floorplans and plenty of room to do your thing.',
-                price: '600000',
+                price: '000000',
                 floorplan: 'images/assets/otto-floorplan-penthouse.jpg',
                 units: [
                     {
                         name: 'Penthouse 1',
-                        price: '100000',
+                        price: '000000',
                         floorplan: 'ph01',
                         features: [
                             '3 Bedroom',
@@ -263,7 +263,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Penthouse 2',
-                        price: '100000',
+                        price: '000000',
                         floorplan: 'ph02',
                         features: [
                             '2 Bedroom',
@@ -273,7 +273,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Penthouse 3',
-                        price: '100000',
+                        price: '000000',
                         floorplan: 'ph03',
                         features: [
                             '2 Bedroom',
@@ -283,7 +283,7 @@ var FloorplanApp = new Vue({
                     },
                     {
                         name: 'Penthouse 4',
-                        price: '100000',
+                        price: '000000',
                         floorplan: 'ph04',
                         features: [
                             '2 Bedroom',
