@@ -84,7 +84,7 @@
 
                     <div class="hero-content-slider-cell">
                         <transition name="slide-change" mode="out-in">
-                            <img :key="index" :src="slides[index].img" alt="The Brewerytown Neighborhood">
+                            <img :key="index" :src="slides[index].img" alt="The Brewerytown Neighborhood" v-cloak>
                         </transition>
                     </div>
 
@@ -99,7 +99,7 @@
 
                     <transition name="text-change" mode="out-in">
 
-                        <h1 :key="index">{{ slides[index].callout }}</h1>
+                        <h1 :key="index" v-cloak>{{ slides[index].callout }}</h1>
 
                     </transition>
 
@@ -276,7 +276,7 @@
                         <div v-bind:class="{ active: index===1 }" class="fp-app-sidebar-item" @click="countPrice(1)"><h5>1-Bedroom</h5></div>
                         <div v-bind:class="{ active: index===2 }" class="fp-app-sidebar-item" @click="countPrice(2)"><h5>2-Bedroom</h5></div>
                         <div v-bind:class="{ active: index===3 }" class="fp-app-sidebar-item" @click="countPrice(3)"><h5>Penthouse</h5></div>
-                        <a class="link-item" href="images/OTTO_Phase_I_FloorPlans.pdf">Download all floorplans</a>
+                        <a class="link-item" href="images/OTTO_Phase_I_FloorPlans.pdf" target="_blank">Download all floorplans</a>
                     </div>
                     <div class="fp-app-content">
                         <div class="fp-app-content-copy">
