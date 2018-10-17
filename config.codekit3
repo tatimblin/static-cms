@@ -488,6 +488,17 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/favicon.png": {
+		"ft": 32768,
+		"iS": 1229,
+		"oA": 0,
+		"oAP": "/images/favicon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/images/OTTO_Phase_I_FloorPlans.pdf": {
 		"cB": 0,
 		"ft": 8192,
