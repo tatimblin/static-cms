@@ -1,5 +1,5 @@
 {
-"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and\/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https:\/\/codekitapp.com\/",
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
 "buildSteps": [
 	{
 		"name": "Process All Remaining Files and Folders",
@@ -7,956 +7,956 @@
 		"uuidString": "C2D3A365-1A8B-4BB1-A89D-78415E3D0C95"
 		}
 	],
-"creatorBuild": "26680",
+"creatorBuild": "28901",
 "files": {
-	"\/.gitignore": {
+	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/.gitignore",
+		"oAP": "/.gitignore",
 		"oF": 0
 		},
-	"\/css\/styles.css": {
+	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styles-min.css",
+		"oAP": "/css/styles-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-201.jpg": {
+	"/images/assets/floorplan/floorplan-otto-201.jpg": {
 		"ft": 16384,
 		"iS": 99079,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-201.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-201.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-202.jpg": {
+	"/images/assets/floorplan/floorplan-otto-202.jpg": {
 		"ft": 16384,
 		"iS": 111259,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-202.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-202.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-203.jpg": {
+	"/images/assets/floorplan/floorplan-otto-203.jpg": {
 		"ft": 16384,
 		"iS": 105428,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-203.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-203.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-204.jpg": {
+	"/images/assets/floorplan/floorplan-otto-204.jpg": {
 		"ft": 16384,
 		"iS": 84411,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-204.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-204.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-205.jpg": {
+	"/images/assets/floorplan/floorplan-otto-205.jpg": {
 		"ft": 16384,
 		"iS": 94188,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-205.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-205.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-206.jpg": {
+	"/images/assets/floorplan/floorplan-otto-206.jpg": {
 		"ft": 16384,
 		"iS": 97404,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-206.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-206.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-301.jpg": {
+	"/images/assets/floorplan/floorplan-otto-301.jpg": {
 		"ft": 16384,
 		"iS": 98366,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-301.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-301.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-302.jpg": {
+	"/images/assets/floorplan/floorplan-otto-302.jpg": {
 		"ft": 16384,
 		"iS": 93327,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-302.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-302.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-303.jpg": {
+	"/images/assets/floorplan/floorplan-otto-303.jpg": {
 		"ft": 16384,
 		"iS": 86415,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-303.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-303.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-304.jpg": {
+	"/images/assets/floorplan/floorplan-otto-304.jpg": {
 		"ft": 16384,
 		"iS": 89846,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-304.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-304.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-305.jpg": {
+	"/images/assets/floorplan/floorplan-otto-305.jpg": {
 		"ft": 16384,
 		"iS": 96806,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-305.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-305.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-401.jpg": {
+	"/images/assets/floorplan/floorplan-otto-401.jpg": {
 		"ft": 16384,
 		"iS": 98058,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-401.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-401.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-402.jpg": {
+	"/images/assets/floorplan/floorplan-otto-402.jpg": {
 		"ft": 16384,
 		"iS": 91709,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-402.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-402.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-403.jpg": {
+	"/images/assets/floorplan/floorplan-otto-403.jpg": {
 		"ft": 16384,
 		"iS": 82727,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-403.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-403.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-404.jpg": {
+	"/images/assets/floorplan/floorplan-otto-404.jpg": {
 		"ft": 16384,
 		"iS": 88154,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-404.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-404.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-405.jpg": {
+	"/images/assets/floorplan/floorplan-otto-405.jpg": {
 		"ft": 16384,
 		"iS": 98003,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-405.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-405.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-ph01.jpg": {
+	"/images/assets/floorplan/floorplan-otto-ph01.jpg": {
 		"ft": 16384,
 		"iS": 118744,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph01.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-ph01.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-ph02.jpg": {
+	"/images/assets/floorplan/floorplan-otto-ph02.jpg": {
 		"ft": 16384,
 		"iS": 85140,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph02.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-ph02.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-ph03.jpg": {
+	"/images/assets/floorplan/floorplan-otto-ph03.jpg": {
 		"ft": 16384,
 		"iS": 87563,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph03.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-ph03.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/floorplan\/floorplan-otto-ph04.jpg": {
+	"/images/assets/floorplan/floorplan-otto-ph04.jpg": {
 		"ft": 16384,
 		"iS": 197206,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/floorplan\/floorplan-otto-ph04.jpg",
+		"oAP": "/images/assets/floorplan/floorplan-otto-ph04.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
 		},
-	"\/images\/assets\/otto-amenity-bed.jpg": {
+	"/images/assets/otto-amenity-bed.jpg": {
 		"ft": 16384,
 		"iS": 426423,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-amenity-bed.jpg",
+		"oAP": "/images/assets/otto-amenity-bed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-amenity-kitchen.jpg": {
+	"/images/assets/otto-amenity-kitchen.jpg": {
 		"ft": 16384,
 		"iS": 313216,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-amenity-kitchen.jpg",
+		"oAP": "/images/assets/otto-amenity-kitchen.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-brewery-ariel.jpg": {
+	"/images/assets/otto-brewery-ariel.jpg": {
 		"ft": 16384,
 		"iS": 1589623,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-brewery-ariel.jpg",
+		"oAP": "/images/assets/otto-brewery-ariel.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-brewery-hill.jpg": {
+	"/images/assets/otto-brewery-hill.jpg": {
 		"ft": 16384,
 		"iS": 375772,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-brewery-hill.jpg",
+		"oAP": "/images/assets/otto-brewery-hill.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-brewery-schuylkil.jpg": {
+	"/images/assets/otto-brewery-schuylkil.jpg": {
 		"ft": 16384,
 		"iS": 146075,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-brewery-schuylkil.jpg",
+		"oAP": "/images/assets/otto-brewery-schuylkil.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-brewerytown-philadelphia-skyline.jpg": {
+	"/images/assets/otto-brewerytown-philadelphia-skyline.jpg": {
 		"ft": 16384,
 		"iS": 301822,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-brewerytown-philadelphia-skyline.jpg",
+		"oAP": "/images/assets/otto-brewerytown-philadelphia-skyline.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-brewerytown-storefront.jpg": {
+	"/images/assets/otto-brewerytown-storefront.jpg": {
 		"ft": 16384,
 		"iS": 213453,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-brewerytown-storefront.jpg",
+		"oAP": "/images/assets/otto-brewerytown-storefront.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-hero-community.jpg": {
+	"/images/assets/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 453761,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-hero-community.jpg",
+		"oAP": "/images/assets/otto-hero-community.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-hero-commute.jpg": {
+	"/images/assets/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 625737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-hero-commute.jpg",
+		"oAP": "/images/assets/otto-hero-commute.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-hero-nature.jpg": {
+	"/images/assets/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 728109,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-hero-nature.jpg",
+		"oAP": "/images/assets/otto-hero-nature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-intro-dog.jpg": {
+	"/images/assets/otto-intro-dog.jpg": {
 		"ft": 16384,
 		"iS": 78315,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-intro-dog.jpg",
+		"oAP": "/images/assets/otto-intro-dog.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-intro-exterior.jpg": {
+	"/images/assets/otto-intro-exterior.jpg": {
 		"ft": 16384,
 		"iS": 454250,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-intro-exterior.jpg",
+		"oAP": "/images/assets/otto-intro-exterior.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-intro-interior.jpg": {
+	"/images/assets/otto-intro-interior.jpg": {
 		"ft": 16384,
 		"iS": 520947,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-intro-interior.jpg",
+		"oAP": "/images/assets/otto-intro-interior.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-intro-record.jpg": {
+	"/images/assets/otto-intro-record.jpg": {
 		"ft": 16384,
 		"iS": 859402,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-intro-record.jpg",
+		"oAP": "/images/assets/otto-intro-record.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-intro-style.jpg": {
+	"/images/assets/otto-intro-style.jpg": {
 		"ft": 16384,
 		"iS": 531024,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-intro-style.jpg",
+		"oAP": "/images/assets/otto-intro-style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-plan-fairmount-park.jpg": {
+	"/images/assets/otto-plan-fairmount-park.jpg": {
 		"ft": 16384,
 		"iS": 738575,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-plan-fairmount-park.jpg",
+		"oAP": "/images/assets/otto-plan-fairmount-park.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-plan-glenwood-avenue.jpg": {
+	"/images/assets/otto-plan-glenwood-avenue.jpg": {
 		"ft": 16384,
 		"iS": 333725,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-plan-glenwood-avenue.jpg",
+		"oAP": "/images/assets/otto-plan-glenwood-avenue.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-plan-septa.jpg": {
+	"/images/assets/otto-plan-septa.jpg": {
 		"ft": 16384,
 		"iS": 186124,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-plan-septa.jpg",
+		"oAP": "/images/assets/otto-plan-septa.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-story-ext.jpg": {
+	"/images/assets/otto-story-ext.jpg": {
 		"ft": 16384,
 		"iS": 707184,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-story-ext.jpg",
+		"oAP": "/images/assets/otto-story-ext.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/assets\/otto-story-hist-ext.png": {
+	"/images/assets/otto-story-hist-ext.png": {
 		"ft": 32768,
 		"iS": 605164,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-story-hist-ext.png",
+		"oAP": "/images/assets/otto-story-hist-ext.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/assets\/otto-story-hist-int.png": {
+	"/images/assets/otto-story-hist-int.png": {
 		"ft": 32768,
 		"iS": 1324226,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-story-hist-int.png",
+		"oAP": "/images/assets/otto-story-hist-int.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/assets\/otto-story-wolf.jpg": {
+	"/images/assets/otto-story-wolf.jpg": {
 		"ft": 16384,
 		"iS": 623773,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/assets\/otto-story-wolf.jpg",
+		"oAP": "/images/assets/otto-story-wolf.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/favicon.png": {
+	"/images/favicon.png": {
 		"ft": 32768,
 		"iS": 1229,
 		"oA": 0,
-		"oAP": "\/images\/favicon.png",
+		"oAP": "/images/favicon.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"\/images\/OTTO_Phase_I_FloorPlans.pdf": {
+	"/images/OTTO_Phase_I_FloorPlans.pdf": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/images\/OTTO_Phase_I_FloorPlans.pdf",
+		"oAP": "/images/OTTO_Phase_I_FloorPlans.pdf",
 		"oF": 0
 		},
-	"\/images\/share.jpg": {
+	"/images/share.jpg": {
 		"ft": 16384,
 		"iS": 117550,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/images\/share.jpg",
+		"oAP": "/images/share.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/images\/ui\/equinox-logo.svg": {
+	"/images/ui/equinox-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/equinox-logo.svg",
+		"oAP": "/images/ui/equinox-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-arrow-dark.svg": {
+	"/images/ui/otto-arrow-dark.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-arrow-dark.svg",
+		"oAP": "/images/ui/otto-arrow-dark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-arrow.svg": {
+	"/images/ui/otto-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-arrow.svg",
+		"oAP": "/images/ui/otto-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-logo.svg": {
+	"/images/ui/otto-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-logo.svg",
+		"oAP": "/images/ui/otto-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-map.svg": {
+	"/images/ui/otto-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-map.svg",
+		"oAP": "/images/ui/otto-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-mark.svg": {
+	"/images/ui/otto-mark.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-mark.svg",
+		"oAP": "/images/ui/otto-mark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-pattern.svg": {
+	"/images/ui/otto-pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-pattern.svg",
+		"oAP": "/images/ui/otto-pattern.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-sig.svg": {
+	"/images/ui/otto-sig.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-sig.svg",
+		"oAP": "/images/ui/otto-sig.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/otto-stamp.svg": {
+	"/images/ui/otto-stamp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/images\/ui\/otto-stamp.svg",
+		"oAP": "/images/ui/otto-stamp.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/ui\/texture.png": {
+	"/images/ui/texture.png": {
 		"ft": 32768,
 		"iS": 9118,
 		"oA": 0,
-		"oAP": "\/images\/ui\/texture.png",
+		"oAP": "/images/ui/texture.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/index.html": {
+	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/index.html",
+		"oAP": "/index.html",
 		"oF": 0
 		},
-	"\/js\/lib\/modernizr.js": {
+	"/js/lib/modernizr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/modernizr.js",
+		"oAP": "/js/modernizr.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/js\/plugins.js": {
+	"/js/plugins.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/plugins.js",
+		"oAP": "/js/plugins.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/js\/preload.js": {
+	"/js/preload.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/preload.js",
+		"oAP": "/js/preload.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/js\/scripts.js": {
+	"/js/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts.js",
+		"oAP": "/js/scripts.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/js\/vue.min.js": {
+	"/js/vue.min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/vue.min.js",
+		"oAP": "/js/vue.min.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/source\/images\/assets\/otto-amenity-bed.jpg": {
+	"/source/images/assets/otto-amenity-bed.jpg": {
 		"ft": 16384,
-		"iS": 460558,
+		"iS": 3187497,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-amenity-bed.jpg",
+		"oAP": "/source/images/assets/otto-amenity-bed.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-hero-community.jpg": {
+	"/source/images/assets/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 472044,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-hero-community.jpg",
+		"oAP": "/source/images/assets/otto-hero-community.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-hero-commute.jpg": {
+	"/source/images/assets/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 651607,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-hero-commute.jpg",
+		"oAP": "/source/images/assets/otto-hero-commute.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-hero-nature.jpg": {
+	"/source/images/assets/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 783459,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-hero-nature.jpg",
+		"oAP": "/source/images/assets/otto-hero-nature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-intro-dog.jpg": {
+	"/source/images/assets/otto-intro-dog.jpg": {
 		"ft": 16384,
 		"iS": 115678,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-intro-dog.jpg",
+		"oAP": "/source/images/assets/otto-intro-dog.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-intro-exterior.jpg": {
+	"/source/images/assets/otto-intro-exterior.jpg": {
 		"ft": 16384,
-		"iS": 485277,
+		"iS": 5784743,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-intro-exterior.jpg",
+		"oAP": "/source/images/assets/otto-intro-exterior.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-intro-interior.jpg": {
+	"/source/images/assets/otto-intro-interior.jpg": {
 		"ft": 16384,
-		"iS": 551174,
+		"iS": 1615118,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-intro-interior.jpg",
+		"oAP": "/source/images/assets/otto-intro-interior.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-intro-record.jpg": {
+	"/source/images/assets/otto-intro-record.jpg": {
 		"ft": 16384,
 		"iS": 859402,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-intro-record.jpg",
+		"oAP": "/source/images/assets/otto-intro-record.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/assets\/otto-intro-style.jpg": {
+	"/source/images/assets/otto-intro-style.jpg": {
 		"ft": 16384,
-		"iS": 569724,
+		"iS": 2332228,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/assets\/otto-intro-style.jpg",
+		"oAP": "/source/images/assets/otto-intro-style.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/otto-hero-community.jpg": {
+	"/source/images/otto-hero-community.jpg": {
 		"ft": 16384,
 		"iS": 453761,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/otto-hero-community.jpg",
+		"oAP": "/source/images/otto-hero-community.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/otto-hero-commute.jpg": {
+	"/source/images/otto-hero-commute.jpg": {
 		"ft": 16384,
 		"iS": 625737,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/otto-hero-commute.jpg",
+		"oAP": "/source/images/otto-hero-commute.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/otto-hero-nature.jpg": {
+	"/source/images/otto-hero-nature.jpg": {
 		"ft": 16384,
 		"iS": 728109,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/otto-hero-nature.jpg",
+		"oAP": "/source/images/otto-hero-nature.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/share.jpg": {
+	"/source/images/share.jpg": {
 		"ft": 16384,
 		"iS": 117943,
 		"jF": 0,
 		"oA": 0,
-		"oAP": "\/source\/images\/share.jpg",
+		"oAP": "/source/images/share.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
 		},
-	"\/source\/images\/ui\/equinox-logo.svg": {
+	"/source/images/ui/equinox-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/equinox-logo.svg",
+		"oAP": "/source/images/ui/equinox-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-arrow.svg": {
+	"/source/images/ui/otto-arrow.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-arrow.svg",
+		"oAP": "/source/images/ui/otto-arrow.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-logo.svg": {
+	"/source/images/ui/otto-logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-logo.svg",
+		"oAP": "/source/images/ui/otto-logo.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-map.svg": {
+	"/source/images/ui/otto-map.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-map.svg",
+		"oAP": "/source/images/ui/otto-map.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-mark.svg": {
+	"/source/images/ui/otto-mark.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-mark.svg",
+		"oAP": "/source/images/ui/otto-mark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-pattern.svg": {
+	"/source/images/ui/otto-pattern.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-pattern.svg",
+		"oAP": "/source/images/ui/otto-pattern.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-sig.svg": {
+	"/source/images/ui/otto-sig.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-sig.svg",
+		"oAP": "/source/images/ui/otto-sig.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/otto-stamp.svg": {
+	"/source/images/ui/otto-stamp.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/source\/images\/ui\/otto-stamp.svg",
+		"oAP": "/source/images/ui/otto-stamp.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/images\/ui\/texture.png": {
+	"/source/images/ui/texture.png": {
 		"ft": 32768,
 		"iS": 10949,
 		"oA": 0,
-		"oAP": "\/source\/images\/ui\/texture.png",
+		"oAP": "/source/images/ui/texture.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/js\/lib\/modernizr.js": {
+	"/source/js/lib/modernizr.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/source\/js\/modernizr.js",
+		"oAP": "/source/js/modernizr.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/source\/js\/plugins.js": {
+	"/source/js/plugins.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/plugins.js",
+		"oAP": "/js/plugins.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/source\/js\/preload.js": {
+	"/source/js/preload.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/preload.js",
+		"oAP": "/js/preload.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/source\/js\/scripts.js": {
+	"/source/js/scripts.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
-		"oAP": "\/js\/scripts.js",
+		"oAP": "/js/scripts.js",
 		"oF": 0,
 		"sC": 0,
 		"tS": 1
 		},
-	"\/source\/scss\/_README.txt": {
+	"/source/scss/_README.txt": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
-		"oAP": "\/source\/scss\/_README.txt",
+		"oAP": "/source/scss/_README.txt",
 		"oF": 0
 		},
-	"\/source\/scss\/base\/_base.scss": {
+	"/source/scss/base/_base.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -964,12 +964,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/base\/_fonts.scss": {
+	"/source/scss/base/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -977,12 +977,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/base\/_helpers.scss": {
+	"/source/scss/base/_helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -990,12 +990,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/base\/_typography.scss": {
+	"/source/scss/base/_typography.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1003,12 +1003,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/components\/_button.scss": {
+	"/source/scss/components/_button.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1016,12 +1016,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/components\/_content-block.scss": {
+	"/source/scss/components/_content-block.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1029,12 +1029,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/components\/_image-breakout.scss": {
+	"/source/scss/components/_image-breakout.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1042,12 +1042,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/layout\/_footer.scss": {
+	"/source/scss/layout/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1055,12 +1055,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/layout\/_general.scss": {
+	"/source/scss/layout/_general.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1068,12 +1068,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/layout\/_grid.scss": {
+	"/source/scss/layout/_grid.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1081,12 +1081,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/layout\/_header.scss": {
+	"/source/scss/layout/_header.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1094,12 +1094,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/main.scss": {
+	"/source/scss/main.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1107,12 +1107,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/styles.css",
+		"oAP": "/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_404.scss": {
+	"/source/scss/pages/_404.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1120,12 +1120,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_amenities.scss": {
+	"/source/scss/pages/_amenities.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1133,12 +1133,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_floorplan.scss": {
+	"/source/scss/pages/_floorplan.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1146,12 +1146,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_home.scss": {
+	"/source/scss/pages/_home.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1159,12 +1159,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_intro.scss": {
+	"/source/scss/pages/_intro.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1172,12 +1172,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_location.scss": {
+	"/source/scss/pages/_location.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1185,12 +1185,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_map.scss": {
+	"/source/scss/pages/_map.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1198,12 +1198,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_plan.scss": {
+	"/source/scss/pages/_plan.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1211,12 +1211,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/pages\/_story.scss": {
+	"/source/scss/pages/_story.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1224,12 +1224,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/utilities\/_functions.scss": {
+	"/source/scss/utilities/_functions.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1237,12 +1237,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/utilities\/_mixins.scss": {
+	"/source/scss/utilities/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1250,12 +1250,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/utilities\/_variables.scss": {
+	"/source/scss/utilities/_variables.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1263,12 +1263,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/_breakpoint.scss": {
+	"/source/scss/vendors/_breakpoint.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1276,12 +1276,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/_flickity.scss": {
+	"/source/scss/vendors/_flickity.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1289,12 +1289,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/_normalize.scss": {
+	"/source/scss/vendors/_normalize.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1302,12 +1302,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/_rfs.scss": {
+	"/source/scss/vendors/_rfs.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1315,12 +1315,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/css\/styles.css",
+		"oAP": "/source/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_context.scss": {
+	"/source/scss/vendors/breakpoint/_context.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1328,12 +1328,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_helpers.scss": {
+	"/source/scss/vendors/breakpoint/_helpers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1341,12 +1341,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_legacy-settings.scss": {
+	"/source/scss/vendors/breakpoint/_legacy-settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1354,12 +1354,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_no-query.scss": {
+	"/source/scss/vendors/breakpoint/_no-query.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1367,12 +1367,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_parsers.scss": {
+	"/source/scss/vendors/breakpoint/_parsers.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1380,12 +1380,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_respond-to.scss": {
+	"/source/scss/vendors/breakpoint/_respond-to.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1393,12 +1393,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/_settings.scss": {
+	"/source/scss/vendors/breakpoint/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1406,12 +1406,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/css\/styles.css",
+		"oAP": "/source/scss/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/_double.scss": {
+	"/source/scss/vendors/breakpoint/parsers/_double.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1419,12 +1419,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/css\/styles.css",
+		"oAP": "/source/scss/vendors/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/_query.scss": {
+	"/source/scss/vendors/breakpoint/parsers/_query.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1432,12 +1432,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/css\/styles.css",
+		"oAP": "/source/scss/vendors/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/_resolution.scss": {
+	"/source/scss/vendors/breakpoint/parsers/_resolution.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1445,12 +1445,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/css\/styles.css",
+		"oAP": "/source/scss/vendors/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/_single.scss": {
+	"/source/scss/vendors/breakpoint/parsers/_single.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1458,12 +1458,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/css\/styles.css",
+		"oAP": "/source/scss/vendors/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/_triple.scss": {
+	"/source/scss/vendors/breakpoint/parsers/_triple.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1471,12 +1471,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/css\/styles.css",
+		"oAP": "/source/scss/vendors/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/double\/_default-pair.scss": {
+	"/source/scss/vendors/breakpoint/parsers/double/_default-pair.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1484,12 +1484,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/double\/_default.scss": {
+	"/source/scss/vendors/breakpoint/parsers/double/_default.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1497,12 +1497,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/double\/_double-string.scss": {
+	"/source/scss/vendors/breakpoint/parsers/double/_double-string.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1510,12 +1510,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/resolution\/_resolution.scss": {
+	"/source/scss/vendors/breakpoint/parsers/resolution/_resolution.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1523,12 +1523,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/single\/_default.scss": {
+	"/source/scss/vendors/breakpoint/parsers/single/_default.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1536,12 +1536,12 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/source\/scss\/vendors\/breakpoint\/parsers\/triple\/_default.scss": {
+	"/source/scss/vendors/breakpoint/parsers/triple/_default.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -1549,58 +1549,58 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/scss\/vendors\/breakpoint\/css\/styles.css",
+		"oAP": "/source/scss/vendors/breakpoint/css/styles.css",
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
 		},
-	"\/styles\/index.html": {
+	"/styles/index.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/styles\/index.html",
+		"oAP": "/styles/index.html",
 		"oF": 0
 		},
-	"\/webfonts\/galanogrotesquedemo-bold-webfont.woff": {
+	"/webfonts/galanogrotesquedemo-bold-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/galanogrotesquedemo-bold-webfont.woff",
+		"oAP": "/webfonts/galanogrotesquedemo-bold-webfont.woff",
 		"oF": 0
 		},
-	"\/webfonts\/galanogrotesquedemo-bold-webfont.woff2": {
+	"/webfonts/galanogrotesquedemo-bold-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/galanogrotesquedemo-bold-webfont.woff2",
+		"oAP": "/webfonts/galanogrotesquedemo-bold-webfont.woff2",
 		"oF": 0
 		},
-	"\/webfonts\/pressgothic-webfont.woff": {
+	"/webfonts/pressgothic-webfont.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/pressgothic-webfont.woff",
+		"oAP": "/webfonts/pressgothic-webfont.woff",
 		"oF": 0
 		},
-	"\/webfonts\/pressgothic-webfont.woff2": {
+	"/webfonts/pressgothic-webfont.woff2": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/pressgothic-webfont.woff2",
+		"oAP": "/webfonts/pressgothic-webfont.woff2",
 		"oF": 0
 		},
-	"\/webfonts\/univers-lt-black.woff": {
+	"/webfonts/univers-lt-black.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/univers-lt-black.woff",
+		"oAP": "/webfonts/univers-lt-black.woff",
 		"oF": 0
 		},
-	"\/webfonts\/univers-lt.woff": {
+	"/webfonts/univers-lt.woff": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/webfonts\/univers-lt.woff",
+		"oAP": "/webfonts/univers-lt.woff",
 		"oF": 0
 		}
 	},
@@ -1620,141 +1620,94 @@
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
-	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
 	"autoprefixerEnableIEGrid": 0,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
-	"babelConfigFileHandlingType": 0,
+	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
 	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
 		"async-generator-functions": {
 			"active": 0
 			},
 		"async-to-generator": {
 			"active": 0
 			},
-		"async-to-module-method": {
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
 			"active": 0
 			},
 		"class-properties": {
 			"active": 0
 			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
 		"decorators": {
 			"active": 0
 			},
-		"decorators-legacy": {
+		"destructuring": {
 			"active": 0
 			},
 		"do-expressions": {
 			"active": 0
 			},
-		"es2015-arrow-functions": {
+		"dotall-regex": {
 			"active": 0
 			},
-		"es2015-block-scoped-functions": {
-			"active": 0
-			},
-		"es2015-block-scoping": {
-			"active": 0
-			},
-		"es2015-classes": {
-			"active": 0
-			},
-		"es2015-computed-properties": {
-			"active": 0
-			},
-		"es2015-constants": {
-			"active": 0
-			},
-		"es2015-destructuring": {
-			"active": 0
-			},
-		"es2015-duplicate-keys": {
-			"active": 0
-			},
-		"es2015-for-of": {
-			"active": 0
-			},
-		"es2015-function-name": {
-			"active": 0
-			},
-		"es2015-literals": {
-			"active": 0
-			},
-		"es2015-modules-amd": {
-			"active": 0
-			},
-		"es2015-modules-commonjs": {
-			"active": 0
-			},
-		"es2015-modules-systemjs": {
-			"active": 0
-			},
-		"es2015-modules-umd": {
-			"active": 0
-			},
-		"es2015-object-super": {
-			"active": 0
-			},
-		"es2015-parameters": {
-			"active": 0
-			},
-		"es2015-shorthand-properties": {
-			"active": 0
-			},
-		"es2015-spread": {
-			"active": 0
-			},
-		"es2015-sticky-regex": {
-			"active": 0
-			},
-		"es2015-template-literals": {
-			"active": 0
-			},
-		"es2015-typeof-symbol": {
-			"active": 0
-			},
-		"es2015-unicode-regex": {
-			"active": 0
-			},
-		"es3-member-expression-literals": {
-			"active": 0
-			},
-		"es3-property-literals": {
-			"active": 0
-			},
-		"es5-property-mutators": {
-			"active": 0
-			},
-		"eval": {
+		"duplicate-keys": {
 			"active": 0
 			},
 		"exponentiation-operator": {
 			"active": 0
 			},
-		"export-extensions": {
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
 			"active": 0
 			},
 		"external-helpers": {
 			"active": 0
 			},
-		"flow-comments": {
+		"flow-strip-types": {
 			"active": 0
 			},
-		"flow-strip-types": {
+		"for-of": {
 			"active": 0
 			},
 		"function-bind": {
 			"active": 0
 			},
-		"inline-environment-variables": {
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
 			"active": 0
 			},
 		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
 			"active": 0
 			},
 		"member-expression-literals": {
@@ -1766,7 +1719,28 @@
 		"minify-booleans": {
 			"active": 0
 			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
 		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
 			"active": 0
 			},
 		"object-assign": {
@@ -1778,7 +1752,25 @@
 		"object-set-prototype-of-to-assign": {
 			"active": 0
 			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
 		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
 			"active": 0
 			},
 		"proto-to-assign": {
@@ -1814,53 +1806,46 @@
 		"remove-debugger": {
 			"active": 0
 			},
+		"reserved-words": {
+			"active": 0
+			},
 		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
 			"active": 0
 			},
 		"simplify-comparison-operators": {
 			"active": 0
 			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
 		"strict-mode": {
 			"active": 0
 			},
-		"syntax-async-generators": {
+		"template-literals": {
 			"active": 0
 			},
-		"syntax-class-properties": {
+		"throw-expressions": {
 			"active": 0
 			},
-		"syntax-decorators": {
-			"active": 0
-			},
-		"syntax-do-expressions": {
-			"active": 0
-			},
-		"syntax-export-extensions": {
-			"active": 0
-			},
-		"syntax-flow": {
-			"active": 0
-			},
-		"syntax-function-bind": {
-			"active": 0
-			},
-		"syntax-function-sent": {
-			"active": 0
-			},
-		"syntax-jsx": {
-			"active": 0
-			},
-		"syntax-object-rest-spread": {
-			"active": 0
-			},
-		"undeclared-variables-check": {
+		"typeof-symbol": {
 			"active": 0
 			},
 		"undefined-to-void": {
 			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
 			}
 		},
-	"babelPresetType": 193,
 	"babelRetainLines": 0,
 	"bowerAbbreviatedPath": "bower_components",
 	"bowerAutoCreateInfoFile": 1,
@@ -1869,6 +1854,7 @@
 	"bowerSaveDevDependencies": 0,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
 	"buildFolderActive": 0,
 	"buildFolderName": "build",
 	"cleanBuild": 1,
@@ -2226,6 +2212,10 @@
 			"active": 0,
 			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
 		"max-depth": {
 			"active": 0,
 			"optionString": "{'max': 4}"
@@ -2237,6 +2227,10 @@
 		"max-lines": {
 			"active": 0,
 			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
 			},
 		"max-nested-callbacks": {
 			"active": 0,
@@ -2282,6 +2276,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-await-in-loop": {
 			"active": 0,
 			"optionString": ""
@@ -2300,10 +2298,6 @@
 			},
 		"no-case-declarations": {
 			"active": 1,
-			"optionString": ""
-			},
-		"no-catch-shadow": {
-			"active": 0,
 			"optionString": ""
 			},
 		"no-class-assign": {
@@ -2502,9 +2496,13 @@
 			"active": 0,
 			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
 			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-mixed-operators": {
 			"active": 0,
-			"optionString": "{'groups': [['+', '-', '*', '\/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
 			},
 		"no-mixed-requires": {
 			"active": 0,
@@ -2858,6 +2856,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-promise-reject-errors": {
 			"active": 0,
 			"optionString": "{'allowEmptyReject': false}"
@@ -2886,6 +2888,10 @@
 			"active": 0,
 			"optionString": "'always'"
 			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
 		"require-await": {
 			"active": 0,
 			"optionString": ""
@@ -2893,6 +2899,10 @@
 		"require-jsdoc": {
 			"active": 0,
 			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-yield": {
 			"active": 1,
@@ -2948,7 +2958,7 @@
 			},
 		"spaced-comment": {
 			"active": 0,
-			"optionString": "'always', {'line': {'markers': ['\/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
 			},
 		"strict": {
 			"active": 0,
@@ -3008,7 +3018,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3403,7 +3413,6 @@
 		"escapeHTMLCharacters": 0,
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
-		"outputStyle": 0,
 		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
@@ -3422,7 +3431,7 @@
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "..\/..\/js",
+		"autoOutputPathRelativePath": "../../js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 2,
@@ -3454,19 +3463,19 @@
 		"allowInsecureImports": 0,
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "less",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
 		"createSourceMap": 1,
-		"disableJavascript": 0,
+		"enableJavascript": 0,
 		"ieCompatibility": 1,
+		"mathStyle": 0,
 		"outputStyle": 0,
-		"relativeURLS": 0,
+		"rewriteURLStyle": 0,
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"strictImports": 0,
-		"strictMath": 0,
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
@@ -3501,7 +3510,7 @@
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.png",
-		"autoOutputPathRelativePath": "..\/..\/images",
+		"autoOutputPathRelativePath": "../../images",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
@@ -3522,7 +3531,7 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "styles.css",
-		"autoOutputPathRelativePath": "..\/..\/css",
+		"autoOutputPathRelativePath": "../../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 2,
@@ -3551,7 +3560,7 @@
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "..\/css",
+		"autoOutputPathRelativePath": "../css",
 		"autoOutputPathReplace1": "stylus",
 		"autoOutputPathReplace2": "css",
 		"autoOutputPathStyle": 0,
@@ -3575,36 +3584,70 @@
 	"languageDefaultsTS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "\/js",
+		"autoOutputPathRelativePath": "/js",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"createDeclarationFile": 0,
 		"createSourceMap": 0,
-		"jsxMode": 0,
 		"minifyOutput": 0,
 		"moduleResolutionType": 0,
 		"moduleType": 2,
-		"noImplicitAny": 0,
-		"preserveConstEnums": 0,
 		"removeComments": 0,
-		"suppressImplicitAnyIndexErrors": 0,
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
-		"ascii-only": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"bare-returns": {
+		"bare_returns": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3612,11 +3655,11 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"bracketize": {
+		"braces": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"cascade": {
+		"collapse_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3640,6 +3683,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"drop_console": {
 			"active": 0,
 			"flagValue": -1
@@ -3656,7 +3703,15 @@
 			"active": 1,
 			"flagValue": -1
 			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"hoist_funs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3664,20 +3719,32 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"if_return": {
+		"html5_comments": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-level": {
+		"ie8": {
 			"active": 0,
-			"flagValue": 4
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
 			},
 		"indent-start": {
 			"active": 0,
 			"flagValue": 0
 			},
-		"inline-script": {
+		"indent_level": {
 			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"join_vars": {
@@ -3692,6 +3759,14 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"loops": {
 			"active": 1,
 			"flagValue": -1
@@ -3700,12 +3775,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"max-line-len": {
+		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
 			},
 		"negate_iife": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"properties": {
@@ -3716,11 +3799,19 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"quote-keys": {
+		"quote_keys": {
 			"active": 0,
 			"flagValue": -1
 			},
-		"screw-ie8": {
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -3732,23 +3823,51 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"sort": {
-			"active": 0,
-			"flagValue": -1
-			},
-		"space-colon": {
+		"shebang": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"support-ie8": {
-			"active": 0,
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
 			"flagValue": -1
 			},
 		"toplevel": {
 			"active": 0,
 			"flagValue": -1
 			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
 		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -3760,9 +3879,17 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"width": {
 			"active": 1,
 			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
 			}
 		},
 	"uglifyReservedNamesString": "$",
