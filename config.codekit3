@@ -246,9 +246,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-amenity-bed.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-amenity-kitchen.jpg": {
 		"ft": 16384,
@@ -257,9 +257,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-amenity-kitchen.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-brewery-ariel.jpg": {
 		"ft": 16384,
@@ -268,9 +268,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-brewery-ariel.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-brewery-hill.jpg": {
 		"ft": 16384,
@@ -279,9 +279,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-brewery-hill.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-brewery-schuylkil.jpg": {
 		"ft": 16384,
@@ -290,9 +290,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-brewery-schuylkil.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-brewerytown-philadelphia-skyline.jpg": {
 		"ft": 16384,
@@ -301,9 +301,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-brewerytown-philadelphia-skyline.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-brewerytown-storefront.jpg": {
 		"ft": 16384,
@@ -312,9 +312,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-brewerytown-storefront.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-hero-community.jpg": {
 		"ft": 16384,
@@ -323,9 +323,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-hero-community.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-hero-commute.jpg": {
 		"ft": 16384,
@@ -334,9 +334,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-hero-commute.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-hero-nature.jpg": {
 		"ft": 16384,
@@ -345,9 +345,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-hero-nature.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-intro-dog.jpg": {
 		"ft": 16384,
@@ -356,9 +356,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-intro-dog.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-intro-exterior.jpg": {
 		"ft": 16384,
@@ -367,9 +367,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-intro-exterior.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-intro-interior.jpg": {
 		"ft": 16384,
@@ -378,9 +378,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-intro-interior.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-intro-record.jpg": {
 		"ft": 16384,
@@ -389,9 +389,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-intro-record.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-intro-style.jpg": {
 		"ft": 16384,
@@ -400,9 +400,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-intro-style.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-plan-glenwood-avenue.jpg": {
 		"ft": 16384,
@@ -411,9 +411,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-plan-glenwood-avenue.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-plan-septa.jpg": {
 		"ft": 16384,
@@ -422,9 +422,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-plan-septa.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-story-ext.jpg": {
 		"ft": 16384,
@@ -433,9 +433,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-story-ext.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 80
 		},
 	"/images/assets/otto-story-hist-ext.png": {
 		"ft": 32768,
@@ -443,10 +443,10 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-story-hist-ext.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"/images/assets/otto-story-hist-int.png": {
 		"ft": 32768,
@@ -454,10 +454,10 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-story-hist-int.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
-		"q": 100
+		"q": 80
 		},
 	"/images/assets/otto-story-wolf.jpg": {
 		"ft": 16384,
@@ -466,9 +466,9 @@
 		"oA": 0,
 		"oAP": "/images/assets/otto-story-wolf.jpg",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
+		"oIPL": 1,
+		"opt": 1,
+		"q": 81
 		},
 	"/images/favicon.png": {
 		"ft": 32768,
@@ -496,7 +496,7 @@
 		"oAP": "/images/share.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/ui/equinox-logo.svg": {
