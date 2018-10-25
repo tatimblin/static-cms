@@ -39,26 +39,6 @@ preloadImages(
         'images/assets/otto-plan-fairmount-park.jpg',
         'images/assets/otto-plan-glenwood-avenue.jpg',
         'images/assets/otto-plan-septa.jpg',
-        // Floorplan
-        'images/assets/floorplan/floorplan-otto-201.jpg',
-        'images/assets/floorplan/floorplan-otto-202.jpg',
-        'images/assets/floorplan/floorplan-otto-203.jpg',
-        'images/assets/floorplan/floorplan-otto-204.jpg',
-        'images/assets/floorplan/floorplan-otto-205.jpg',
-        'images/assets/floorplan/floorplan-otto-301.jpg',
-        'images/assets/floorplan/floorplan-otto-302.jpg',
-        'images/assets/floorplan/floorplan-otto-303.jpg',
-        'images/assets/floorplan/floorplan-otto-304.jpg',
-        'images/assets/floorplan/floorplan-otto-305.jpg',
-        'images/assets/floorplan/floorplan-otto-401.jpg',
-        'images/assets/floorplan/floorplan-otto-402.jpg',
-        'images/assets/floorplan/floorplan-otto-403.jpg',
-        'images/assets/floorplan/floorplan-otto-404.jpg',
-        'images/assets/floorplan/floorplan-otto-405.jpg',
-        'images/assets/floorplan/floorplan-otto-ph01.jpg',
-        'images/assets/floorplan/floorplan-otto-ph02.jpg',
-        'images/assets/floorplan/floorplan-otto-ph03.jpg',
-        'images/assets/floorplan/floorplan-otto-ph04.jpg',
     ]).then(function(imgs) {
     console.log('images loaded');
 }, function(errImg) {
