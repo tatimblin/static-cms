@@ -9,6 +9,27 @@
 	],
 "creatorBuild": "28901",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
+	"/admin/config.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/admin/config.yml",
+		"oF": 0
+		},
+	"/admin/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/admin/index.html",
+		"oF": 0
+		},
 	"/css/styles.css": {
 		"aP": 1,
 		"bl": 0,
@@ -404,6 +425,17 @@
 		"opt": 1,
 		"q": 80
 		},
+	"/images/assets/otto-plan-fairmount-park.jpg": {
+		"ft": 16384,
+		"iS": 364485,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/assets/otto-plan-fairmount-park.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/assets/otto-plan-glenwood-avenue.jpg": {
 		"ft": 16384,
 		"iS": 333725,
@@ -599,6 +631,13 @@
 		"opt": 1,
 		"oT": 1,
 		"q": 100
+		},
+	"/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/index.html",
+		"oF": 0
 		},
 	"/js/lib/modernizr.js": {
 		"ft": 64,

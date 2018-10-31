@@ -1,0 +1,24 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
+public_folder: "/images/uploads" # The src attribute for uploaded media will begin with /images/uploads
+collections:
+  - name: "floorplan" # Used in routes, e.g., /admin/collections/blog
+    label: "Floorplan" # Used in the UI
+    folder: "content/floorplan/posts" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    format: 'json'
+    widget: object
+    fields: 
+      - {label: Title, name: title, widget: string, default: "Floorplan"}
+      - {label: Description, name: desc, widget: text, default: "Own a piece of Brewerytown."}
+      - label: Unit
+        name: unit
+        widget: object
+        fields:
+          - {label: Name, name: name, widget: string, default: "Unit 101"}
+          - {label: Price, name: price, widget: string, default: "100000"}
+          - {label: Floorplan, name: floorplan, widget: image: "images/assets/floorplan/floorplan-otto201.jpg"}
+          - {label: Features, name: features, widget: list}
