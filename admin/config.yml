@@ -20,5 +20,5 @@ collections:
         fields:
           - {label: Name, name: name, widget: string, default: "Unit 101"}
           - {label: Price, name: price, widget: string, default: "100000"}
-          - {label: Floorplan, name: floorplan, widget: image: "images/assets/floorplan/floorplan-otto201.jpg"}
+          - {label: Floorplan, name: floorplan, widget: image, default: "images/assets/floorplan/floorplan-otto201.jpg"}
           - {label: Features, name: features, widget: list}
