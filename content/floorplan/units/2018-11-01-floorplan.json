@@ -1,0 +1,11 @@
+{
+  "title": "Floorplan",
+  "desc": "Own a piece of Brewerytown.",
+  "unit": {
+    "name": "Unit 202",
+    "price": "1000",
+    "features": [
+      "Walls"
+    ]
+  }
+}
