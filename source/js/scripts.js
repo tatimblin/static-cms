@@ -53,7 +53,13 @@ var heroSlider = new Vue({
 
 var FloorplanApp = new Vue({
     el: '#fp-app',
-    data: {
+    data() {
+        const context = require.context('~/content/floorplan/units/', false, /\.json$/);
+        const units = context.keys().map(key => ({
+            ...context(key)
+        }));
+        return {
+        units,
         number: 0,
         tweenedNumber: 100000,
         index: 0,
@@ -295,6 +301,7 @@ var FloorplanApp = new Vue({
                 ]
             }
         ]
+        }
     },
     computed: {
         animatedNumber: function() {
