@@ -56,7 +56,7 @@ var FloorplanApp = new Vue({
     data() {
         const context = require.context('~/content/floorplan/units/', false, /\.json$/);
         const units = context.keys().map(key => ({
-            ...context(key)
+            ...context(key) 
         }));
         return {
         units,
